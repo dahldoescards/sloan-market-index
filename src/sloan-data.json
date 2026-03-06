@@ -637,7 +637,7 @@
     },
     {
       "date": "2025-04-12",
-      "indexValue": 11.0,
+      "indexValue": 11,
       "volume": 2
     },
     {
@@ -737,7 +737,7 @@
     },
     {
       "date": "2025-05-02",
-      "indexValue": 12.0,
+      "indexValue": 12,
       "volume": 1
     },
     {
@@ -987,7 +987,7 @@
     },
     {
       "date": "2025-06-21",
-      "indexValue": 13.0,
+      "indexValue": 13,
       "volume": 1
     },
     {
@@ -1227,7 +1227,7 @@
     },
     {
       "date": "2025-08-08",
-      "indexValue": 23.0,
+      "indexValue": 23,
       "volume": 0
     },
     {
@@ -2229,7 +2229,7 @@
   "gradedIndexData": [
     {
       "date": "2025-02-05",
-      "indexValue": 50.0,
+      "indexValue": 50,
       "volume": 1
     },
     {
@@ -2839,7 +2839,7 @@
     },
     {
       "date": "2025-06-07",
-      "indexValue": 80.0,
+      "indexValue": 80,
       "volume": 0
     },
     {
@@ -3429,7 +3429,7 @@
     },
     {
       "date": "2025-10-03",
-      "indexValue": 217.0,
+      "indexValue": 217,
       "volume": 0
     },
     {
@@ -3959,7 +3959,7 @@
     },
     {
       "date": "2026-01-17",
-      "indexValue": 207.0,
+      "indexValue": 207,
       "volume": 0
     },
     {
@@ -4190,7 +4190,7 @@
   ],
   "rawKpi": {
     "currentBaseAvg": 44.27,
-    "delta30d": 6.0,
+    "delta30d": 6,
     "volume30d": 32,
     "totalSales": 983,
     "totalRevenue": 58101.03
@@ -4203,12 +4203,12 @@
   },
   "multipliers": {
     "Printing Plates 1/1": {
-      "median": 325.0,
+      "median": 325,
       "multiplier": 21.68,
       "count": 2
     },
     "Red Sapphire /5": {
-      "median": 625.0,
+      "median": 625,
       "multiplier": 41.69,
       "count": 4
     },
@@ -4218,17 +4218,17 @@
       "count": 2
     },
     "Red /5": {
-      "median": 250.0,
+      "median": 250,
       "multiplier": 16.68,
       "count": 3
     },
     "Orange Sapphire /25": {
-      "median": 350.0,
+      "median": 350,
       "multiplier": 23.35,
       "count": 7
     },
     "Black X-Fractor /10": {
-      "median": 450.0,
+      "median": 450,
       "multiplier": 30.02,
       "count": 3
     },
@@ -4238,7 +4238,7 @@
       "count": 4
     },
     "Orange Wave /25": {
-      "median": 310.0,
+      "median": 310,
       "multiplier": 20.68,
       "count": 6
     },
@@ -4248,12 +4248,12 @@
       "count": 6
     },
     "Gold Sapphire /50": {
-      "median": 270.0,
+      "median": 270,
       "multiplier": 18.01,
       "count": 10
     },
     "Shimmer Gold /50": {
-      "median": 130.0,
+      "median": 130,
       "multiplier": 8.67,
       "count": 15
     },
@@ -4263,17 +4263,17 @@
       "count": 8
     },
     "Gold /50": {
-      "median": 120.0,
+      "median": 120,
       "multiplier": 8.01,
       "count": 5
     },
     "Sparkles /71": {
-      "median": 100.0,
+      "median": 100,
       "multiplier": 6.67,
       "count": 9
     },
     "Yellow /75": {
-      "median": 70.0,
+      "median": 70,
       "multiplier": 4.67,
       "count": 14
     },
@@ -4293,12 +4293,12 @@
       "count": 24
     },
     "Sapphire /199": {
-      "median": 43.0,
+      "median": 43,
       "multiplier": 2.87,
       "count": 49
     },
     "HTA Choice /150": {
-      "median": 36.0,
+      "median": 36,
       "multiplier": 2.4,
       "count": 19
     },
@@ -4318,51 +4318,51 @@
       "count": 43
     },
     "Purple /250": {
-      "median": 45.0,
-      "multiplier": 3.0,
+      "median": 45,
+      "multiplier": 3,
       "count": 74
     },
     "Refractor /499": {
-      "median": 32.0,
+      "median": 32,
       "multiplier": 2.13,
       "count": 83
     },
     "Base": {
       "median": 14.99,
-      "multiplier": 1.0,
+      "multiplier": 1,
       "count": 490
     }
   },
   "gradeMultipliers": {
-    "All Graded": {
-      "currentTwma": 627.22,
-      "multiplier": 14.17,
-      "count": 164
+    "PSA 9": {
+      "currentTwma": 106.23,
+      "multiplier": 1.81,
+      "count": 24
     },
     "PSA 10": {
-      "currentTwma": 755.76,
-      "multiplier": 17.07,
-      "count": 82
+      "currentTwma": 222.34,
+      "multiplier": 5.56,
+      "count": 23
     },
-    "PSA 9": {
-      "currentTwma": 193.12,
-      "multiplier": 4.36,
-      "count": 64
+    "PSA 8": {
+      "currentTwma": 54.02,
+      "multiplier": 1.47,
+      "count": 3
     },
-    "BGS 9.5": {
-      "currentTwma": 2150.0,
-      "multiplier": 48.57,
+    "SGC 9.5": {
+      "currentTwma": 46,
+      "multiplier": 0.48,
       "count": 1
     },
     "SGC 10": {
-      "currentTwma": 128.32,
-      "multiplier": 2.9,
-      "count": 4
+      "currentTwma": 26.45,
+      "multiplier": 1.23,
+      "count": 1
     },
-    "SGC 9.5": {
-      "currentTwma": 42.2,
-      "multiplier": 0.95,
-      "count": 3
+    "All Graded": {
+      "currentTwma": 151.88,
+      "multiplier": 3.41,
+      "count": 52
     }
   }
 }
