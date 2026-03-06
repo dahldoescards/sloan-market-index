@@ -3,7 +3,7 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Printing Plate Magenta Auto /1 (RC)",
-        "sale_price": 300.0,
+        "sale_price": 300,
         "sale_date": "2025-08-27",
         "item_id": "357012451942"
       }
@@ -13,7 +13,7 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Draft Chrome 1ST RYAN SLOAN RED BUBBLEGUM AUTO 1/5 Mariners CPA-RS",
-        "sale_price": 250.0,
+        "sale_price": 250,
         "sale_date": "2025-03-03",
         "item_id": "316169929107"
       }
@@ -23,7 +23,7 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Prospect AUTO Orange Wave /25 #CPA-RS",
-        "sale_price": 278.0,
+        "sale_price": 278,
         "sale_date": "2025-07-03",
         "item_id": "205448099817"
       }
@@ -33,7 +33,7 @@
     "PSA 9": [
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Auto #CPA-RS RYAN SLOAN Orange /25 PSA 9",
-        "sale_price": 420.0,
+        "sale_price": 420,
         "sale_date": "2025-11-29",
         "item_id": "127522940233"
       }
@@ -53,7 +53,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Prospect Auto Orange Refractor /25 #CPA-RS",
-        "sale_price": 220.0,
+        "sale_price": 220,
         "sale_date": "2025-02-24",
         "item_id": "146406034042"
       }
@@ -61,7 +61,7 @@
     "PSA 10": [
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Auto #CPA-RS RYAN SLOAN Orange /25 PSA 10",
-        "sale_price": 1200.0,
+        "sale_price": 1200,
         "sale_date": "2025-07-27",
         "item_id": "357360396356"
       }
@@ -71,7 +71,7 @@
     "Raw": [
       {
         "listing_title": "Ryan Sloan /50 - 2024 Bowman Draft - Chrome Prospect AUTO #CPA-RS Gold Shimmer",
-        "sale_price": 225.0,
+        "sale_price": 225,
         "sale_date": "2026-01-02",
         "item_id": "177736943915"
       },
@@ -93,31 +93,31 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Chrome Draft Sapphire - Ryan Sloan Gold Auto /50  #CPA-RS",
-        "sale_price": 350.0,
+        "sale_price": 350,
         "sale_date": "2026-01-20",
         "item_id": "187640610192"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Sapphire - Ryan Sloan Gold Auto /50  #CPA-RS (50/50)",
-        "sale_price": 416.0,
+        "sale_price": 416,
         "sale_date": "2025-12-30",
         "item_id": "167926325431"
       },
       {
         "listing_title": "2024 Bowman Draft Gold Sapphire Ryan Sloan Auto #CPA-RS   /50",
-        "sale_price": 240.0,
+        "sale_price": 240,
         "sale_date": "2025-07-27",
         "item_id": "286301713472"
       },
       {
         "listing_title": "2024 Bowman Draft Gold Sapphire Ryan Sloan Auto #CPA-RS   /50",
-        "sale_price": 375.0,
+        "sale_price": 375,
         "sale_date": "2025-07-25",
         "item_id": "177292868686"
       },
       {
         "listing_title": "2024 Bowman Draft Sapphire Ryan Sloan 1st Auto Gold CPA-RS 50/50 BOOKEND!",
-        "sale_price": 170.0,
+        "sale_price": 170,
         "sale_date": "2025-07-03",
         "item_id": "376123832707"
       },
@@ -131,7 +131,7 @@
     "PSA 10": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPARS 1st Prospect Gold Auto /50 RC PSA 10",
-        "sale_price": 437.0,
+        "sale_price": 437,
         "sale_date": "2025-11-03",
         "item_id": "116848609108"
       }
@@ -139,13 +139,13 @@
     "PSA 9": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Gold Sapphire Auto /50 PSA 9 #CPA-RS Mariners",
-        "sale_price": 300.0,
+        "sale_price": 300,
         "sale_date": "2025-08-31",
         "item_id": "406118945826"
       },
       {
         "listing_title": "2024 Bowman Draft RYAN SLOAN CPA-RS Gold Refractor Auto #/50 PSA 9",
-        "sale_price": 280.0,
+        "sale_price": 280,
         "sale_date": "2025-07-19",
         "item_id": "405926509807"
       }
@@ -167,7 +167,7 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft 1st Chrome Auto /71 Sparkle Refractor #CPA-RS SH2",
-        "sale_price": 74.0,
+        "sale_price": 74,
         "sale_date": "2025-04-04",
         "item_id": "286445239056"
       }
@@ -176,12 +176,6 @@
   "Yellow /75": {
     "Raw": [
       {
-        "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st Yellow Auto /75 & Refractor /499 #CPA-RS",
-        "sale_price": 225.0,
-        "sale_date": "2025-09-19",
-        "item_id": "177418327573"
-      },
-      {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Yellow Refractor Auto /75 #CPA-RS",
         "sale_price": 106.69,
         "sale_date": "2025-07-30",
@@ -189,7 +183,7 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Yellow #/75 Auto",
-        "sale_price": 70.0,
+        "sale_price": 70,
         "sale_date": "2025-04-07",
         "item_id": "135654319309"
       },
@@ -201,19 +195,19 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Yellow Auto Ryan Sloan /75 Seattle Mariners CPA-RS",
-        "sale_price": 98.0,
+        "sale_price": 98,
         "sale_date": "2024-12-17",
         "item_id": "356380878687"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Yellow Auto Ryan Sloan /75 Seattle Mariners CPA-RS!!",
-        "sale_price": 95.0,
+        "sale_price": 95,
         "sale_date": "2024-12-13",
         "item_id": "387719108606"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Yellow Auto Ryan Sloan #64/75 Seattle Mariners CPA-RS!!",
-        "sale_price": 68.0,
+        "sale_price": 68,
         "sale_date": "2024-12-11",
         "item_id": "375845648070"
       }
@@ -221,7 +215,7 @@
     "PSA 9": [
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan Yellow Auto /75 PSA 9 MARINERS",
-        "sale_price": 70.0,
+        "sale_price": 70,
         "sale_date": "2025-04-05",
         "item_id": "316599974940"
       }
@@ -237,7 +231,7 @@
       },
       {
         "listing_title": "2024 BOWMAN DRAFT CHROME PROSPECT AUTO GREEN LAVA #CPARS RYAN SLOAN 52/99 PSA 9",
-        "sale_price": 57.0,
+        "sale_price": 57,
         "sale_date": "2025-07-18",
         "item_id": "306390317419"
       }
@@ -245,7 +239,7 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Green Wave 1st Auto /99 CPA-RS",
-        "sale_price": 60.0,
+        "sale_price": 60,
         "sale_date": "2025-07-09",
         "item_id": "317070698950"
       }
@@ -261,7 +255,7 @@
     "PSA 10": [
       {
         "listing_title": "Ryan Sloan Auto PSA 10 2024 Bowman Chrome Draft 1st 88/99 Green Lava #CPA-RS",
-        "sale_price": 120.0,
+        "sale_price": 120,
         "sale_date": "2025-04-22",
         "item_id": "177026533584"
       }
@@ -277,7 +271,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Sapphire Ryan Sloan #CPA-RS 1st Bowman Green Auto /99",
-        "sale_price": 43.0,
+        "sale_price": 43,
         "sale_date": "2025-02-23",
         "item_id": "387954640957"
       }
@@ -287,7 +281,7 @@
     "PSA 10": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan HTA Choice Auto /150 PSA 10 GEM MINT #CPA-RS 🔥📈",
-        "sale_price": 345.0,
+        "sale_price": 345,
         "sale_date": "2026-02-19",
         "item_id": "317893488019"
       }
@@ -295,19 +289,19 @@
     "Raw": [
       {
         "listing_title": "Ryan Sloan /150 - 2024 Bowman Draft - Chrome Prospect AUTO #CPA-RS Choice Refr",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2026-01-17",
         "item_id": "177786075379"
       },
       {
         "listing_title": "2024 Bowman Draft - Chrome Prospect Auto Ryan Sloan #CPA-RS Choice /150",
-        "sale_price": 35.0,
+        "sale_price": 35,
         "sale_date": "2025-04-15",
         "item_id": "388268492283"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome 1st HTA Choice Refractor Auto 089/150 CPA-RS",
-        "sale_price": 38.0,
+        "sale_price": 38,
         "sale_date": "2024-12-24",
         "item_id": "335741886401"
       }
@@ -317,13 +311,13 @@
     "PSA 10": [
       {
         "listing_title": "2024 BOWMAN DRAFT CHROME PRSPCT AUTO BLUE WAVE #CPARS RYAN SLOAN 42/150 PSA 10",
-        "sale_price": 450.0,
+        "sale_price": 450,
         "sale_date": "2026-02-28",
         "item_id": "298066961754"
       },
       {
         "listing_title": "RYAN SLOAN 2024 BOWMAN CHROME BLUE WAVE AUTO #CPARS /150 PSA 10",
-        "sale_price": 315.0,
+        "sale_price": 315,
         "sale_date": "2025-09-19",
         "item_id": "357638097617"
       }
@@ -331,13 +325,13 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan 1st Chrome Blue Wave Auto #/150 RG80",
-        "sale_price": 45.0,
+        "sale_price": 45,
         "sale_date": "2025-04-05",
         "item_id": "167386959375"
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan 1st Chrome Prospect Auto Blue Wave /150",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2025-02-03",
         "item_id": "126918684635"
       },
@@ -353,13 +347,13 @@
     "PSA 9": [
       {
         "listing_title": "2024 Bowman Draft Chrome Auto Ryan Sloan #CPA-RS Blue Refractor /150 PSA 9",
-        "sale_price": 215.0,
+        "sale_price": 215,
         "sale_date": "2026-02-17",
         "item_id": "127689969430"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Auto Ryan Sloan #CPA-RS Blue Refractor /150 PSA 9",
-        "sale_price": 240.0,
+        "sale_price": 240,
         "sale_date": "2026-02-11",
         "item_id": "127666594751"
       }
@@ -367,13 +361,13 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st True Blue Auto /150 #CPA-RS Mariners RC",
-        "sale_price": 135.0,
+        "sale_price": 135,
         "sale_date": "2025-09-15",
         "item_id": "205726464961"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st True Blue Auto /150 #CPA-RS Mariners RC",
-        "sale_price": 140.0,
+        "sale_price": 140,
         "sale_date": "2025-08-08",
         "item_id": "406117241412"
       }
@@ -391,37 +385,37 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Aqua Lava Refractor 144/199 Auto 1st Bowman",
-        "sale_price": 225.0,
+        "sale_price": 225,
         "sale_date": "2026-03-02",
         "item_id": "177913662826"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan Aqua Lave /199 Prospects  Auto #CPARS",
-        "sale_price": 135.0,
+        "sale_price": 135,
         "sale_date": "2026-02-22",
         "item_id": "147167165775"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Aqua Lava Refractor 144/199 Auto 1st Bowman",
-        "sale_price": 220.0,
+        "sale_price": 220,
         "sale_date": "2026-02-16",
         "item_id": "327003871884"
       },
       {
         "listing_title": "RYAN SLOAN 2024 BOWMAN CHROME 1ST AQUA REFRACTOR RC AUTO /199 #CPA-RS",
-        "sale_price": 80.0,
+        "sale_price": 80,
         "sale_date": "2025-12-03",
         "item_id": "157519269017"
       },
       {
         "listing_title": "RYAN SLOAN 2024 BOWMAN CHROME 1ST AQUA REFRACTOR RC AUTO /199 #CPA-RS",
-        "sale_price": 65.0,
+        "sale_price": 65,
         "sale_date": "2025-12-02",
         "item_id": "236447366577"
       },
       {
         "listing_title": "RYAN SLOAN 2024 BOWMAN CHROME 1ST AQUA REFRACTOR RC AUTO 049/199 #CPA-RS",
-        "sale_price": 72.0,
+        "sale_price": 72,
         "sale_date": "2025-11-07",
         "item_id": "236425230095"
       },
@@ -439,19 +433,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft - Ryan Sloan #CPA-RS Aqua Lava Refractor /199 Auto",
-        "sale_price": 110.0,
+        "sale_price": 110,
         "sale_date": "2025-08-28",
         "item_id": "205621473441"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st Aqua Lava Auto /199 #CPA-RS Mariners RC",
-        "sale_price": 105.0,
+        "sale_price": 105,
         "sale_date": "2025-08-22",
         "item_id": "406117259252"
       },
       {
         "listing_title": "2024 Bowman Chrome 1st Draft #CPA-RS Ryan Sloan Prospect Auto Aqua Lava /199",
-        "sale_price": 46.0,
+        "sale_price": 46,
         "sale_date": "2025-06-28",
         "item_id": "167616779258"
       }
@@ -467,7 +461,7 @@
     "PSA 10": [
       {
         "listing_title": "Ryan Sloan 2024 Topps Bowman Draft Chome MLB Auto Aqua Lava /199 PSA 10 #CPA-RS",
-        "sale_price": 105.0,
+        "sale_price": 105,
         "sale_date": "2025-07-12",
         "item_id": "297455062569"
       }
@@ -475,7 +469,7 @@
     "PSA 9": [
       {
         "listing_title": "2024 Bowman Draft #CPARS Ryan Sloan RC 1st Chrome Aqua Lava Auto #38/199 PSA 9",
-        "sale_price": 55.0,
+        "sale_price": 55,
         "sale_date": "2025-05-19",
         "item_id": "135700641606"
       }
@@ -491,7 +485,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Bowman Chrome Prospect Purple Auto /250 #CPA-RS",
-        "sale_price": 185.0,
+        "sale_price": 185,
         "sale_date": "2026-03-03",
         "item_id": "177913800412"
       },
@@ -509,25 +503,25 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Auto Ryan Sloan #CPA-RS Purple Refractor /250",
-        "sale_price": 350.0,
+        "sale_price": 350,
         "sale_date": "2026-02-15",
         "item_id": "198110140751"
       },
       {
         "listing_title": "2024 Bowman Draft - Ryan Sloan 1st Purple Auto /250 Mariners #CPA-RS",
-        "sale_price": 130.0,
+        "sale_price": 130,
         "sale_date": "2026-02-15",
         "item_id": "168131519646"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan Purple Refractor 1st Auto /250 #CPA-RS",
-        "sale_price": 100.0,
+        "sale_price": 100,
         "sale_date": "2026-01-06",
         "item_id": "389449671076"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan Purple Refractor 1st Auto /250 #CPA-RS",
-        "sale_price": 135.0,
+        "sale_price": 135,
         "sale_date": "2025-12-30",
         "item_id": "157463256804"
       },
@@ -539,13 +533,13 @@
       },
       {
         "listing_title": "2024 Bowman RYAN SLOAN Purple Chrome Prospect Auto /250 Auto Mariners AU CPA-RS",
-        "sale_price": 58.0,
+        "sale_price": 58,
         "sale_date": "2025-10-02",
         "item_id": "389002315698"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Ryan Sloan Auto Purple Refractor #CPA-RS /250",
-        "sale_price": 80.0,
+        "sale_price": 80,
         "sale_date": "2025-09-03",
         "item_id": "277356140694"
       },
@@ -569,55 +563,55 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Purple Auto /250",
-        "sale_price": 45.0,
+        "sale_price": 45,
         "sale_date": "2025-08-17",
         "item_id": "136331152323"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st Purple Auto /250 #CPA-RS Mariners RC",
-        "sale_price": 85.0,
+        "sale_price": 85,
         "sale_date": "2025-08-16",
         "item_id": "406136533649"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Purple Auto /250",
-        "sale_price": 58.0,
+        "sale_price": 58,
         "sale_date": "2025-08-15",
         "item_id": "267362340366"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan True Purple Auto /250 Chrome 1st Mariners CPA-RS",
-        "sale_price": 75.0,
+        "sale_price": 75,
         "sale_date": "2025-08-11",
         "item_id": "177324209203"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Purple Auto #045/250 RG1",
-        "sale_price": 36.0,
+        "sale_price": 36,
         "sale_date": "2025-07-16",
         "item_id": "167637790777"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan True Purple Auto /250 Chrome 1st Mariners CPA-RS",
-        "sale_price": 45.0,
+        "sale_price": 45,
         "sale_date": "2025-07-10",
         "item_id": "116442321503"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome 1st Auto Purple Refractor 182/250 CPA-RS 🔥🔥🔥",
-        "sale_price": 31.0,
+        "sale_price": 31,
         "sale_date": "2025-05-11",
         "item_id": "396594285370"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan True Purple Auto /250 Chrome 1st Mariners CPA-RS",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2025-04-17",
         "item_id": "356791474836"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Purple Auto #175/250 RG1",
-        "sale_price": 45.0,
+        "sale_price": 45,
         "sale_date": "2025-04-11",
         "item_id": "167158557069"
       },
@@ -629,19 +623,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan /250 1st Auto Chrome Purple #CPA-RS (AU, RC)",
-        "sale_price": 26.0,
+        "sale_price": 26,
         "sale_date": "2025-01-31",
         "item_id": "316158030012"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Prospect Auto Purple Refractor /250 #CPA-RS",
-        "sale_price": 45.0,
+        "sale_price": 45,
         "sale_date": "2025-01-17",
         "item_id": "226516063304"
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan Chrome Prospect Auto Purple Refractor #/250",
-        "sale_price": 33.0,
+        "sale_price": 33,
         "sale_date": "2024-12-19",
         "item_id": "387739115939"
       }
@@ -649,7 +643,7 @@
     "PSA 9": [
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan Purple Refractor 1st Auto /250 PSA 9 #CPA-RS",
-        "sale_price": 125.0,
+        "sale_price": 125,
         "sale_date": "2026-01-22",
         "item_id": "168066151146"
       }
@@ -657,7 +651,7 @@
     "SGC 9.5": [
       {
         "listing_title": "2024 Bowman Draft -Chrome Prospect Ryan Sloan Auto Purple /250 #CPA-RS SGC 9.5",
-        "sale_price": 46.0,
+        "sale_price": 46,
         "sale_date": "2025-04-13",
         "item_id": "256881293827"
       }
@@ -667,13 +661,13 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Chrome Refractor Ryan Sloan Auto 256/499 #CPA-RS",
-        "sale_price": 91.0,
+        "sale_price": 91,
         "sale_date": "2026-02-15",
         "item_id": "317885746782"
       },
       {
         "listing_title": "Ryan Sloan AUTO /499 Refractor 2024 Bowman Draft Chrome 1st #CPA-RS Prospect ",
-        "sale_price": 59.0,
+        "sale_price": 59,
         "sale_date": "2025-08-13",
         "item_id": "157068318582"
       },
@@ -685,13 +679,13 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Prospect Auto 1st Refractor /499 #CPA-RS Mariners",
-        "sale_price": 52.0,
+        "sale_price": 52,
         "sale_date": "2025-08-02",
         "item_id": "187446560126"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Prospect Auto 1st Refractor /499 #CPA-RS Mariners",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2025-07-31",
         "item_id": "396724321904"
       },
@@ -703,31 +697,31 @@
       },
       {
         "listing_title": "2024 Bowman Draft - Ryan Sloan 1st Refractor Auto /499 #CPA-RS Seattle Mariners",
-        "sale_price": 45.0,
+        "sale_price": 45,
         "sale_date": "2025-07-11",
         "item_id": "297450747269"
       },
       {
         "listing_title": "2024 Bowman Draft - Chrome Prospect Auto Ryan Sloan #CPA-RS Refractor /499",
-        "sale_price": 32.0,
+        "sale_price": 32,
         "sale_date": "2025-07-01",
         "item_id": "357207979004"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Prospect Auto 1st Refractor /499 #CPA-RS Mariners",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-06-25",
         "item_id": "167569220730"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Prospect Auto 1st Refractor 84/499 #CPA-RS Mariner",
-        "sale_price": 49.0,
+        "sale_price": 49,
         "sale_date": "2025-05-30",
         "item_id": "205470319476"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan #CPA-RS Refractor 1st Auto /499 Mariners",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-05-23",
         "item_id": "335976649057"
       },
@@ -745,25 +739,25 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan #CPA-RS Refractor 1st Auto /499 Mariners",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-04-27",
         "item_id": "226724086010"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Refractor 139/499 Ryan Sloan #CPA-RS Auto",
-        "sale_price": 29.0,
+        "sale_price": 29,
         "sale_date": "2025-04-21",
         "item_id": "335901006101"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan #CPA-RS Refractor 1st Auto /499 Mariners",
-        "sale_price": 27.0,
+        "sale_price": 27,
         "sale_date": "2025-04-20",
         "item_id": "326531409544"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Prospect Auto 1st Refractor /499 #CPA-RS Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-04-14",
         "item_id": "226696771343"
       },
@@ -775,25 +769,25 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan #CPA-RS Refractor 1st Auto /499 Mariners",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-04-05",
         "item_id": "316608372114"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st Ryan Sloan Refractor Auto /499 #CPA-RS Mariners",
-        "sale_price": 32.0,
+        "sale_price": 32,
         "sale_date": "2025-04-05",
         "item_id": "205346518497"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Refractor Auto /499 Mariners",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-03-23",
         "item_id": "176944696484"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st Refractor Auto, Ryan Sloan, 71/499 #CPA-RS",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-03-18",
         "item_id": "126962039958"
       },
@@ -805,7 +799,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Refractor Auto /499 Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-03-10",
         "item_id": "387998205156"
       },
@@ -817,31 +811,31 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan #CPA-RS Refractor 1st Auto /499 Mariners",
-        "sale_price": 26.0,
+        "sale_price": 26,
         "sale_date": "2025-02-25",
         "item_id": "146404856418"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st Refractor Auto, Ryan Sloan, 470/499 #CPA-RS",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-02-21",
         "item_id": "306121975650"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Refractor Auto /499 Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-02-14",
         "item_id": "235958906543"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan #CPA-RS Refractor 1st Auto /499 Mariners",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-01-28",
         "item_id": "186911282042"
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan Bowman 1st Refractor Auto #/499",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-01-25",
         "item_id": "396144267658"
       },
@@ -853,13 +847,13 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Prospect Auto 1st Refractor /499 #CPA-RS Mariners",
-        "sale_price": 35.0,
+        "sale_price": 35,
         "sale_date": "2025-01-17",
         "item_id": "316048466177"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Refractor /499 Auto",
-        "sale_price": 26.0,
+        "sale_price": 26,
         "sale_date": "2025-01-16",
         "item_id": "276815648614"
       },
@@ -883,7 +877,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st Refractor Auto, Ryan Sloan, 71/499 #CPA-RS",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2024-12-26",
         "item_id": "235863121991"
       },
@@ -897,7 +891,7 @@
     "PSA 10": [
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Auto Ryan Sloan #CPA-RS Refractor /499 PSA 10",
-        "sale_price": 250.0,
+        "sale_price": 250,
         "sale_date": "2026-02-10",
         "item_id": "236620213521"
       }
@@ -907,31 +901,31 @@
     "Raw": [
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st  auto #CPA-RS Mariners",
-        "sale_price": 85.0,
+        "sale_price": 85,
         "sale_date": "2026-03-04",
         "item_id": "358269462427"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome 1st RC Auto #CPA-RS Rookie Autograph",
-        "sale_price": 90.0,
+        "sale_price": 90,
         "sale_date": "2026-03-02",
         "item_id": "358271768612"
       },
       {
         "listing_title": "2024 Bowman Draft - Ryan Sloan 1st Chrome AUTO  #CPA-RS ",
-        "sale_price": 61.0,
+        "sale_price": 61,
         "sale_date": "2026-03-01",
         "item_id": "206087900984"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Base Auto",
-        "sale_price": 50.0,
+        "sale_price": 50,
         "sale_date": "2026-02-23",
         "item_id": "227225639372"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Bowman Auto #CPA-RS",
-        "sale_price": 71.0,
+        "sale_price": 71,
         "sale_date": "2026-02-22",
         "item_id": "127686329821"
       },
@@ -943,7 +937,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st chrome auto #CPA-RS Mariners",
-        "sale_price": 68.0,
+        "sale_price": 68,
         "sale_date": "2026-02-16",
         "item_id": "168116350432"
       },
@@ -967,7 +961,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft RYAN SLOAN 1st Chrome Prospect Autographs #CPA-RS Auto (AU)",
-        "sale_price": 60.0,
+        "sale_price": 60,
         "sale_date": "2026-02-15",
         "item_id": "198109868915"
       },
@@ -985,31 +979,31 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Ryan Sloan 1st Auto #CPA-RS Rookie Mariners",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2026-02-13",
         "item_id": "197725872066"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st Prospect #CPA-RS Mariners",
-        "sale_price": 41.0,
+        "sale_price": 41,
         "sale_date": "2026-02-11",
         "item_id": "147141854259"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Chrome Auto #CPA-RS Mariners",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2026-02-09",
         "item_id": "127667507858"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Auto CPA-RS",
-        "sale_price": 41.0,
+        "sale_price": 41,
         "sale_date": "2026-02-08",
         "item_id": "297997106111"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st Prospect #CPA-RS Mariners",
-        "sale_price": 37.0,
+        "sale_price": 37,
         "sale_date": "2026-02-07",
         "item_id": "376925245646"
       },
@@ -1033,7 +1027,7 @@
       },
       {
         "listing_title": "2025 Bowman Draft #CPA-RS Ryan Sloan 1st Prospect Chrome Auto BJST",
-        "sale_price": 39.0,
+        "sale_price": 39,
         "sale_date": "2026-02-01",
         "item_id": "397541664170"
       },
@@ -1045,19 +1039,19 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 (1st) Bowman Draft Chrome Prospect Auto #CPA-RS Seattle Mariners",
-        "sale_price": 43.0,
+        "sale_price": 43,
         "sale_date": "2026-01-26",
         "item_id": "177808839933"
       },
       {
         "listing_title": "2024 Ryan Sloan Bowman Chrome 1st Auto Mariners Prospect CPA-RS",
-        "sale_price": 39.0,
+        "sale_price": 39,
         "sale_date": "2026-01-20",
         "item_id": "227175829612"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan Auto 1st Bowman Mariners CPA-RS",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2026-01-19",
         "item_id": "267551058145"
       },
@@ -1069,19 +1063,19 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome Prospect 1st Auto #CPA-RS Mariners",
-        "sale_price": 38.0,
+        "sale_price": 38,
         "sale_date": "2026-01-09",
         "item_id": "168066186157"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Ryan Sloan Auto #CPA-RS GS1",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2026-01-08",
         "item_id": "177723222481"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2026-01-07",
         "item_id": "389404850037"
       },
@@ -1093,37 +1087,37 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Ryan Sloan Auto #CPA-RS Mariners RC Rookie",
-        "sale_price": 35.0,
+        "sale_price": 35,
         "sale_date": "2026-01-06",
         "item_id": "187904007800"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 35.0,
+        "sale_price": 35,
         "sale_date": "2026-01-02",
         "item_id": "358077042107"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 32.0,
+        "sale_price": 32,
         "sale_date": "2026-01-02",
         "item_id": "127585855657"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan, RC Auto, #CPA-RS, Top 100 Prospect",
-        "sale_price": 28.0,
+        "sale_price": 28,
         "sale_date": "2025-12-30",
         "item_id": "157580418130"
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS 1st Chrome Prospect Auto Ryan Sloan",
-        "sale_price": 38.0,
+        "sale_price": 38,
         "sale_date": "2025-12-25",
         "item_id": "376743432563"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 27.0,
+        "sale_price": 27,
         "sale_date": "2025-12-23",
         "item_id": "376787065614"
       },
@@ -1141,37 +1135,37 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 29.0,
+        "sale_price": 29,
         "sale_date": "2025-12-20",
         "item_id": "127564412986"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 29.0,
+        "sale_price": 29,
         "sale_date": "2025-12-20",
         "item_id": "376779763116"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 29.0,
+        "sale_price": 29,
         "sale_date": "2025-12-20",
         "item_id": "376779763130"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-12-20",
         "item_id": "376779763152"
       },
       {
         "listing_title": "2024 Bowman Draft RYAN SLOAN 1st Chrome Prospect Autographs #CPA-RS Auto (AU)",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-12-16",
         "item_id": "177620364636"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 28.0,
+        "sale_price": 28,
         "sale_date": "2025-12-16",
         "item_id": "376771109206"
       },
@@ -1183,13 +1177,13 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-12-14",
         "item_id": "127553114503"
       },
       {
         "listing_title": "2024 Bowman Draft RYAN SLOAN 1st Chrome Auto #CPA-RS Mariners",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-12-02",
         "item_id": "376743608514"
       },
@@ -1213,37 +1207,37 @@
       },
       {
         "listing_title": "2024 Bowman - Chrome Prospect Autograph Ryan Sloan #CPA-RS (AU, 1st, First Auto)",
-        "sale_price": 38.0,
+        "sale_price": 38,
         "sale_date": "2025-11-20",
         "item_id": "277512033733"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Auto Ryan Sloan #CPA-RS",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-11-13",
         "item_id": "257190834635"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st Prospect #CPA-RS Mariners",
-        "sale_price": 35.0,
+        "sale_price": 35,
         "sale_date": "2025-11-05",
         "item_id": "127461977113"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 27.0,
+        "sale_price": 27,
         "sale_date": "2025-11-04",
         "item_id": "127461318408"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto Rookie 1st RC",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-10-26",
         "item_id": "167875419647"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto Rookie 1st RC",
-        "sale_price": 26.0,
+        "sale_price": 26,
         "sale_date": "2025-10-20",
         "item_id": "157388320209"
       },
@@ -1255,7 +1249,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Chrome Auto #CPA-RS Seattle Mariners",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2025-10-19",
         "item_id": "406304091922"
       },
@@ -1273,7 +1267,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-10-07",
         "item_id": "376592544858"
       },
@@ -1285,19 +1279,19 @@
       },
       {
         "listing_title": "2024 Bowman Chrome 1st Auto Ryan Sloan Rookie #CPA-RS Mariners",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2025-10-03",
         "item_id": "297652632388"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Auto Ryan Sloan #CPA-RS Auto",
-        "sale_price": 39.0,
+        "sale_price": 39,
         "sale_date": "2025-10-02",
         "item_id": "197590548031"
       },
       {
         "listing_title": "2024 Bowman Chrome 1st Auto Ryan Sloan Rookie #CPA-RS Mariners",
-        "sale_price": 26.0,
+        "sale_price": 26,
         "sale_date": "2025-10-01",
         "item_id": "397106809261"
       },
@@ -1309,15 +1303,9 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 26.0,
+        "sale_price": 26,
         "sale_date": "2025-09-24",
         "item_id": "376561802290"
-      },
-      {
-        "listing_title": "2024 Bowman Draft Ryan Sloan 1st Chrome Auto #CPA-RS Seattle Mariners + Sapphire",
-        "sale_price": 48.0,
-        "sale_date": "2025-09-23",
-        "item_id": "365836406497"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
@@ -1339,31 +1327,31 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Base Auto 1st Rookie RC",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-09-18",
         "item_id": "177414004795"
       },
       {
         "listing_title": "RYAN SLOAN 2024 1st BOWMAN CHROME AUTO #CPA-RS 1ST CHROME SEATTLE MARINERS",
-        "sale_price": 22.0,
+        "sale_price": 22,
         "sale_date": "2025-09-17",
         "item_id": "336181635199"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto Rookie 1st Prospect RC",
-        "sale_price": 28.0,
+        "sale_price": 28,
         "sale_date": "2025-09-15",
         "item_id": "157306629710"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 27.0,
+        "sale_price": 27,
         "sale_date": "2025-09-10",
         "item_id": "376529334647"
       },
       {
         "listing_title": "RYAN SLOAN BOWMAN CHROME AUTO AUTOGRAPH #CPA-RS 1ST CHROME SEATTLE MARINERS",
-        "sale_price": 33.0,
+        "sale_price": 33,
         "sale_date": "2025-09-07",
         "item_id": "336134735602"
       },
@@ -1387,43 +1375,43 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft #CPA-RS Ryan Sloan Auto",
-        "sale_price": 37.0,
+        "sale_price": 37,
         "sale_date": "2025-08-24",
         "item_id": "388865774448"
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS 1st Chrome Prospect Auto Ryan Sloan",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-08-23",
         "item_id": "257076483912"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan 1st Chrome Auto #CPA-RS",
-        "sale_price": 32.0,
+        "sale_price": 32,
         "sale_date": "2025-08-19",
         "item_id": "127317189491"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st Auto Ryan Sloan #CPA-RS Auto",
-        "sale_price": 38.0,
+        "sale_price": 38,
         "sale_date": "2025-08-19",
         "item_id": "406132797396"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st #CPA-RS Mariners",
-        "sale_price": 37.0,
+        "sale_price": 37,
         "sale_date": "2025-08-17",
         "item_id": "376474729551"
       },
       {
         "listing_title": "2024 Bowman Chrome 1st Bowman Prospect Auto Ryan Sloan CPA-RS – Mariners Rookie",
-        "sale_price": 35.0,
+        "sale_price": 35,
         "sale_date": "2025-08-15",
         "item_id": "116735392876"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st Prospect Auto #CPA-RS Mariners RC",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-08-12",
         "item_id": "406117279028"
       },
@@ -1441,7 +1429,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto #CPA-RS 1st Prospect Seattle Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-08-11",
         "item_id": "326725936838"
       },
@@ -1471,7 +1459,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect 1st Auto Ryan Sloan #CPA-RS Mariners",
-        "sale_price": 30.0,
+        "sale_price": 30,
         "sale_date": "2025-08-04",
         "item_id": "406094713430"
       },
@@ -1483,7 +1471,7 @@
       },
       {
         "listing_title": "2024 Bowman 1st Chrome Ryan Sloan AUTO CPA-RS Mariners",
-        "sale_price": 24.0,
+        "sale_price": 24,
         "sale_date": "2025-08-01",
         "item_id": "136217089422"
       },
@@ -1501,13 +1489,13 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome #CPA-RS 1st Prospect Auto",
-        "sale_price": 22.0,
+        "sale_price": 22,
         "sale_date": "2025-07-28",
         "item_id": "396887665549"
       },
       {
         "listing_title": "2024 Bowman Chrome Ryan Sloan 1st Prospect Auto CPA-RS Mariners",
-        "sale_price": 23.0,
+        "sale_price": 23,
         "sale_date": "2025-07-26",
         "item_id": "388760478062"
       },
@@ -1519,13 +1507,13 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Ryan Sloan Auto #CPA-RS",
-        "sale_price": 22.0,
+        "sale_price": 22,
         "sale_date": "2025-07-24",
         "item_id": "336087258320"
       },
       {
         "listing_title": "2024 Bowman 1st Chrome Ryan Sloan AUTO CPA-RS Mariners",
-        "sale_price": 27.0,
+        "sale_price": 27,
         "sale_date": "2025-07-24",
         "item_id": "146711152705"
       },
@@ -1537,13 +1525,13 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 1st Bowman Chrome Auto Seattle Mariners #CPA-RS SN2",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2025-07-20",
         "item_id": "226844256867"
       },
       {
         "listing_title": "Ryan Sloan 2024 1st Bowman Chrome Auto Seattle Mariners #CPA-RS SN1",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2025-07-20",
         "item_id": "226844256877"
       },
@@ -1555,7 +1543,7 @@
       },
       {
         "listing_title": "2024 1st Bowman Draft Chrome Ryan Sloan Auto Autograph RC Marinera CPA-RS",
-        "sale_price": 18.0,
+        "sale_price": 18,
         "sale_date": "2025-07-18",
         "item_id": "226873676367"
       },
@@ -1567,13 +1555,13 @@
       },
       {
         "listing_title": "2024 Bowman Draft CPA-RS Ryan Sloan, Seattle Mariners 1st Bowman AUTO",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-07-02",
         "item_id": "267243474481"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan AUTO Seattle Mariners CPA-RS",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-07-01",
         "item_id": "146305726410"
       },
@@ -1585,19 +1573,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st #CPA-RS Ryan Sloan Prospect Autographs Auto ",
-        "sale_price": 17.0,
+        "sale_price": 17,
         "sale_date": "2025-06-27",
         "item_id": "388445197041"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st Prospect #CPA-RS QTY",
-        "sale_price": 16.0,
+        "sale_price": 16,
         "sale_date": "2025-06-27",
         "item_id": "205579121185"
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan Seattle Mariners Chrome Prospect Auto",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-06-26",
         "item_id": "177174519351"
       },
@@ -1609,7 +1597,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st Prospect #CPA-RS QTY",
-        "sale_price": 17.0,
+        "sale_price": 17,
         "sale_date": "2025-06-25",
         "item_id": "388241604861"
       },
@@ -1627,7 +1615,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan Seattle Mariners Chrome Prospect Auto",
-        "sale_price": 18.0,
+        "sale_price": 18,
         "sale_date": "2025-06-15",
         "item_id": "256972100039"
       },
@@ -1657,7 +1645,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan AUTO Seattle Mariners CPA-RS",
-        "sale_price": 19.0,
+        "sale_price": 19,
         "sale_date": "2025-06-02",
         "item_id": "396683387533"
       },
@@ -1675,7 +1663,7 @@
       },
       {
         "listing_title": "2024 BOWMAN DRAFT -  RYAN SLOAN AUTO #CPARS",
-        "sale_price": 56.0,
+        "sale_price": 56,
         "sale_date": "2025-05-23",
         "item_id": "286567087291"
       },
@@ -1687,7 +1675,7 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan #CPA-RS 1st Auto Seattle Mariners",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-05-21",
         "item_id": "205499013161"
       },
@@ -1705,7 +1693,7 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome 1st Auto Seattle Mariners CPA-RS",
-        "sale_price": 13.0,
+        "sale_price": 13,
         "sale_date": "2025-05-18",
         "item_id": "396619508932"
       },
@@ -1723,13 +1711,13 @@
       },
       {
         "listing_title": "2024 Bowman Draft - Ryan Sloan (#CPA-RS) 1st Chrome Prospect Auto",
-        "sale_price": 16.0,
+        "sale_price": 16,
         "sale_date": "2025-05-13",
         "item_id": "365598198553"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome Prospect Auto #CPA-RS Seattle Mariners",
-        "sale_price": 17.0,
+        "sale_price": 17,
         "sale_date": "2025-05-13",
         "item_id": "405831472766"
       },
@@ -1765,13 +1753,13 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Auto Ryan Sloan Seattle Mariners CPA-RS",
-        "sale_price": 14.0,
+        "sale_price": 14,
         "sale_date": "2025-05-04",
         "item_id": "297276944968"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS  Ryan Sloan 1st Prospect Auto Seattle Mariners",
-        "sale_price": 13.0,
+        "sale_price": 13,
         "sale_date": "2025-05-02",
         "item_id": "365575959196"
       },
@@ -1801,13 +1789,13 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan 1st Prospect Auto CPA-RS Mariners",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2025-04-25",
         "item_id": "197253597635"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS  Ryan Sloan 1st Prospect Auto",
-        "sale_price": 13.0,
+        "sale_price": 13,
         "sale_date": "2025-04-22",
         "item_id": "286511296501"
       },
@@ -1819,25 +1807,25 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st #CPA-RS Ryan Sloan Prospect Autographs Auto ",
-        "sale_price": 11.0,
+        "sale_price": 11,
         "sale_date": "2025-04-21",
         "item_id": "326519847849"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Draft 1st Prospect RC Auto CPA-RS Mariners",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2025-04-20",
         "item_id": "156888901265"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome Prospect Auto #CPA-RS Seattle Mariners",
-        "sale_price": 16.0,
+        "sale_price": 16,
         "sale_date": "2025-04-18",
         "item_id": "405732099532"
       },
       {
         "listing_title": "2024 Bowman Draft Baseball Ryan Sloan Auto #CPA-RS Mariners",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2025-04-17",
         "item_id": "146503181065"
       },
@@ -1849,13 +1837,13 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st #CPA-RS Ryan Sloan Prospect Autographs Auto A133",
-        "sale_price": 22.0,
+        "sale_price": 22,
         "sale_date": "2025-04-17",
         "item_id": "356779163905"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Prospect Auto Ryan Sloan #CPA-RS",
-        "sale_price": 11.0,
+        "sale_price": 11,
         "sale_date": "2025-04-16",
         "item_id": "256880273129"
       },
@@ -1885,19 +1873,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st Prospect #CPA-RS",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-04-12",
         "item_id": "127039132362"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan AUTO Seattle Mariners CPA-RS",
-        "sale_price": 8.0,
+        "sale_price": 8,
         "sale_date": "2025-04-12",
         "item_id": "306222822900"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan 1st Prospect Auto CPA-RS Mariners",
-        "sale_price": 13.0,
+        "sale_price": 13,
         "sale_date": "2025-04-11",
         "item_id": "388219924526"
       },
@@ -1909,13 +1897,13 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Base 1st Chrome Prospects Auto Mariners",
-        "sale_price": 9.0,
+        "sale_price": 9,
         "sale_date": "2025-04-10",
         "item_id": "405745611858"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome #CPA-RS 1st Prospect Auto",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-04-10",
         "item_id": "335903946419"
       },
@@ -1933,7 +1921,7 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome Prospect Auto #CPA-RS Seattle Mariners",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-04-04",
         "item_id": "405595233472"
       },
@@ -1945,13 +1933,13 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan 1st Prospect Auto CPA-RS Mariners",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-04-04",
         "item_id": "388201392966"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan 1st Prospect Auto CPA-RS Mariners",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2025-04-04",
         "item_id": "388190304444"
       },
@@ -1969,7 +1957,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Auto 1st Prospect #CPA-RS",
-        "sale_price": 5.0,
+        "sale_price": 5,
         "sale_date": "2025-04-02",
         "item_id": "376107686201"
       },
@@ -1987,7 +1975,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan 1st Prospect Auto CPA-RS Mariners",
-        "sale_price": 14.0,
+        "sale_price": 14,
         "sale_date": "2025-03-30",
         "item_id": "226661429244"
       },
@@ -1999,25 +1987,25 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan AUTO Seattle Mariners CPA-RS",
-        "sale_price": 11.0,
+        "sale_price": 11,
         "sale_date": "2025-03-29",
         "item_id": "306195620934"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome Autograph Auto Card #CPA-RS",
-        "sale_price": 16.0,
+        "sale_price": 16,
         "sale_date": "2025-03-27",
         "item_id": "297094322857"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome  RYAN SLOAN  1st Prospect Auto  #CPA-RS",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2025-03-25",
         "item_id": "396284199617"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto Chrome Prospect #CPA-RS RC Mariners",
-        "sale_price": 14.0,
+        "sale_price": 14,
         "sale_date": "2025-03-24",
         "item_id": "187070034603"
       },
@@ -2029,7 +2017,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome Ryan Sloan 1st Prospect Auto #CPA-RS Mariners Autograph",
-        "sale_price": 13.0,
+        "sale_price": 13,
         "sale_date": "2025-03-20",
         "item_id": "316290915278"
       },
@@ -2053,7 +2041,7 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome 1st Auto #CPA-RS Mariners Autograph",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-03-12",
         "item_id": "335854675582"
       },
@@ -2065,7 +2053,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft CPA-RS Ryan Sloan Seattle Mariners 1st Bowman AUTO",
-        "sale_price": 16.0,
+        "sale_price": 16,
         "sale_date": "2025-03-07",
         "item_id": "365400098396"
       },
@@ -2083,7 +2071,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome  RYAN SLOAN  1st Prospect Auto  #CPA-RS",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-03-04",
         "item_id": "405578069621"
       },
@@ -2095,19 +2083,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Bowman Auto Seattle Mariners",
-        "sale_price": 14.0,
+        "sale_price": 14,
         "sale_date": "2025-02-27",
         "item_id": "335813212642"
       },
       {
         "listing_title": "RYAN SLOAN 1ST BOWMAN CHROME AUTO #CPA-RS 2024 BOWMAN DRAFT CHROME MARINERS",
-        "sale_price": 13.0,
+        "sale_price": 13,
         "sale_date": "2025-02-26",
         "item_id": "126962038266"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Bowman Auto Seattle Mariners",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2025-02-24",
         "item_id": "286339147193"
       },
@@ -2131,7 +2119,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome  RYAN SLOAN  1st Prospect Auto  #CPA-RS",
-        "sale_price": 18.0,
+        "sale_price": 18,
         "sale_date": "2025-02-20",
         "item_id": "176861201707"
       },
@@ -2179,7 +2167,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Chrome Auto Mariners",
-        "sale_price": 17.0,
+        "sale_price": 17,
         "sale_date": "2025-02-10",
         "item_id": "335734829192"
       },
@@ -2197,19 +2185,19 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Prospect Auto 1st",
-        "sale_price": 32.0,
+        "sale_price": 32,
         "sale_date": "2025-02-06",
         "item_id": "156663552289"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto Chrome Prospect #CPA-RS RC Mariners",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-02-04",
         "item_id": "196975610831"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto Chrome Prospect #CPA-RS RC Mariners",
-        "sale_price": 13.0,
+        "sale_price": 13,
         "sale_date": "2025-02-03",
         "item_id": "126890087992"
       },
@@ -2239,13 +2227,13 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Ryan Sloan 1st Autograph Auto #CPA-RS C13",
-        "sale_price": 9.0,
+        "sale_price": 9,
         "sale_date": "2025-02-02",
         "item_id": "135519608108"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto Chrome Prospect #CPA-RS (AU, RC)",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-02-02",
         "item_id": "365374773479"
       },
@@ -2263,19 +2251,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome 1st Ryan Sloan Auto Seattle Mariners #CPA-RS",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-01-29",
         "item_id": "296958411552"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome 1st Auto #CPA-RS Seattle Mariners",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2025-01-28",
         "item_id": "226556472172"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS RYAN SLOAN Chrome Prospect Auto (AU) Mariners",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2025-01-26",
         "item_id": "387775652059"
       },
@@ -2323,7 +2311,7 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st Prospect Auto Autograph #CPA-RS Mariners",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-01-21",
         "item_id": "375927963697"
       },
@@ -2347,13 +2335,13 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Chrome 1st Auto #CPA-RS Seattle Mariners",
-        "sale_price": 11.0,
+        "sale_price": 11,
         "sale_date": "2025-01-19",
         "item_id": "205233765830"
       },
       {
         "listing_title": "2024 Bowman Draft Chrome CPA-RS Ryan Sloan 1stBowman Auto",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-01-16",
         "item_id": "176785316298"
       },
@@ -2371,7 +2359,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto Chrome Prospect #CPA-RS RC Mariners",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2025-01-14",
         "item_id": "256783296858"
       },
@@ -2401,7 +2389,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome CPA-RS Ryan Sloan 1stBowman Auto",
-        "sale_price": 7.0,
+        "sale_price": 7,
         "sale_date": "2025-01-08",
         "item_id": "365317942952"
       },
@@ -2419,19 +2407,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft CPA-RS Ryan Sloan Seattle Mariners 1st Bowman AUTO",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-01-02",
         "item_id": "396011015024"
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Auto Ryan Sloan Seattle Mariners CPA-RS",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2025-01-01",
         "item_id": "396074908269"
       },
       {
         "listing_title": "RYAN SLOAN 1ST BOWMAN CHROME AUTO #CPA-RS 2024 BOWMAN DRAFT CHROME MARINERS",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2025-01-01",
         "item_id": "126862024097"
       },
@@ -2449,19 +2437,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft Chrome  RYAN SLOAN  1st Prospect Auto  #CPA-RS  MARINERS",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2024-12-31",
         "item_id": "176765114814"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1St Auto #CPA-RS BSG",
-        "sale_price": 11.0,
+        "sale_price": 11,
         "sale_date": "2024-12-30",
         "item_id": "167202904707"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Prospect Auto 1st #CPA-RS",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2024-12-29",
         "item_id": "375884886353"
       },
@@ -2473,19 +2461,19 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome 1st Auto  #CPA-RS Mariners Autograph",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2024-12-29",
         "item_id": "335742040950"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto Chrome Prospect #CPA-RS RC Mariners",
-        "sale_price": 12.0,
+        "sale_price": 12,
         "sale_date": "2024-12-29",
         "item_id": "167216588711"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS 1st Bowman Base Chrome Auto - Mariners ",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2024-12-28",
         "item_id": "135470451266"
       },
@@ -2509,19 +2497,19 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome 1st Prospect Base Auto #CPA-RS Mariners",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2024-12-26",
         "item_id": "335745449297"
       },
       {
         "listing_title": "2024 TOPPS BOWMAN CHROME BASEBALL RYAN SLOAN 1ST BOWMAN AUTO #CPA-RS PF",
-        "sale_price": 10.0,
+        "sale_price": 10,
         "sale_date": "2024-12-25",
         "item_id": "405430923407"
       },
       {
         "listing_title": "2024 Bowman Chrome Ryan Sloan 1st Prospect Auto Autograph #CPA-RS Mariners",
-        "sale_price": 14.0,
+        "sale_price": 14,
         "sale_date": "2024-12-23",
         "item_id": "316071475130"
       },
@@ -2557,7 +2545,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan #CPA-RS Chrome Auto Mariners",
-        "sale_price": 15.0,
+        "sale_price": 15,
         "sale_date": "2024-12-20",
         "item_id": "176745405317"
       },
@@ -2575,7 +2563,7 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Autographs #CPA-RS Ryan Sloan 1st Bowman Auto",
-        "sale_price": 16.0,
+        "sale_price": 16,
         "sale_date": "2024-12-17",
         "item_id": "356380393656"
       },
@@ -2599,7 +2587,7 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Autographs #CPA-RS Ryan Sloan 1st Bowman Auto",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2024-12-14",
         "item_id": "126827868180"
       },
@@ -2659,7 +2647,7 @@
       },
       {
         "listing_title": "2024 Bowman Draft #CPA-RS Ryan Sloan 1st Auto Chrome",
-        "sale_price": 25.0,
+        "sale_price": 25,
         "sale_date": "2024-12-08",
         "item_id": "135429549584"
       },
@@ -2677,7 +2665,7 @@
       },
       {
         "listing_title": "2024 Bowman Chrome Draft Auto Ryan Sloan Seattle Mariners CPA-RS",
-        "sale_price": 51.0,
+        "sale_price": 51,
         "sale_date": "2024-12-04",
         "item_id": "356330423537"
       }
@@ -2691,31 +2679,31 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan Chrome Prospect Auto PSA 9 MINT #CPA-RS 🔥",
-        "sale_price": 80.0,
+        "sale_price": 80,
         "sale_date": "2026-02-17",
         "item_id": "317893469270"
       },
       {
         "listing_title": "2024 BOWMAN DRAFT CHROME PROSPECT AUTO #CPARS RYAN SLOAN PSA 9",
-        "sale_price": 81.0,
+        "sale_price": 81,
         "sale_date": "2026-02-15",
         "item_id": "298011250846"
       },
       {
         "listing_title": "2024 BOWMAN DRAFT CHROME PRSPCT AUTOS #CPARS RYAN SLOAN PSA 9 AUTO 10",
-        "sale_price": 68.0,
+        "sale_price": 68,
         "sale_date": "2026-01-23",
         "item_id": "306671680758"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Prospect Auto 1st PSA 9 Mariners",
-        "sale_price": 50.0,
+        "sale_price": 50,
         "sale_date": "2026-01-19",
         "item_id": "267550848975"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Prospect Auto 1st PSA 9 Mariners",
-        "sale_price": 40.0,
+        "sale_price": 40,
         "sale_date": "2025-10-30",
         "item_id": "116802879255"
       },
@@ -2727,19 +2715,19 @@
       },
       {
         "listing_title": "2024 BOWMAN DRAFT CHROME PROSPECT AUTO #CPARS RYAN SLOAN PSA 9",
-        "sale_price": 20.0,
+        "sale_price": 20,
         "sale_date": "2025-07-16",
         "item_id": "306387152792"
       },
       {
         "listing_title": "EL.81 Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto 1st Prospect PSA 9",
-        "sale_price": 17.0,
+        "sale_price": 17,
         "sale_date": "2025-07-16",
         "item_id": "157172598782"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Prospect Auto 1st PSA 9 Mariners",
-        "sale_price": 28.0,
+        "sale_price": 28,
         "sale_date": "2025-07-03",
         "item_id": "127115125644"
       },
@@ -2771,7 +2759,7 @@
     "PSA 8": [
       {
         "listing_title": "2024 Bowman Chrome 1st Bowman Prospect Auto Ryan Sloan CPA-RS Mariners PSA8",
-        "sale_price": 72.0,
+        "sale_price": 72,
         "sale_date": "2026-02-16",
         "item_id": "389486938643"
       }
@@ -2785,7 +2773,7 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft Chrome Prospect Auto #CPA-RS PSA 10 Gem Mint",
-        "sale_price": 150.0,
+        "sale_price": 150,
         "sale_date": "2026-01-29",
         "item_id": "326814998803"
       },
@@ -2797,7 +2785,7 @@
       },
       {
         "listing_title": "114371830 - Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto 1st Prospect PSA 10",
-        "sale_price": 145.0,
+        "sale_price": 145,
         "sale_date": "2026-01-22",
         "item_id": "267550821674"
       },
@@ -2809,31 +2797,31 @@
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto 1st 💎 PSA 10 💎 Mariners",
-        "sale_price": 150.0,
+        "sale_price": 150,
         "sale_date": "2025-12-27",
         "item_id": "336323161726"
       },
       {
         "listing_title": "114371830 - Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto 1st Prospect PSA 10",
-        "sale_price": 144.0,
+        "sale_price": 144,
         "sale_date": "2025-12-20",
         "item_id": "147007718799"
       },
       {
         "listing_title": "114371830 - Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto 1st Prospect PSA 10",
-        "sale_price": 185.0,
+        "sale_price": 185,
         "sale_date": "2025-10-08",
         "item_id": "205676100228"
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto (RC) CPARS Mariners PSA 10 🔥🔥",
-        "sale_price": 101.0,
+        "sale_price": 101,
         "sale_date": "2025-10-05",
         "item_id": "317324602455"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft #CPA-RS Chrome Auto 1st Prospect PSA 10",
-        "sale_price": 145.0,
+        "sale_price": 145,
         "sale_date": "2025-09-18",
         "item_id": "205676099369"
       },
@@ -2845,19 +2833,19 @@
       },
       {
         "listing_title": "2024 Bowman Draft Ryan Sloan 1st Auto RC #CPARS MARINERS PSA 10 🔥",
-        "sale_price": 70.0,
+        "sale_price": 70,
         "sale_date": "2025-06-26",
         "item_id": "317020461740"
       },
       {
         "listing_title": "2024 Bowman Draft - Ryan Sloan 1st Chrome Auto PSA 10 #CPA-RS",
-        "sale_price": 65.0,
+        "sale_price": 65,
         "sale_date": "2025-06-10",
         "item_id": "336001572035"
       },
       {
         "listing_title": "Ryan Sloan 2024 Bowman Draft 1st Chrome Prospect Autograph Auto #CPARS PSA 10",
-        "sale_price": 43.0,
+        "sale_price": 43,
         "sale_date": "2025-02-23",
         "item_id": "256820456080"
       }
