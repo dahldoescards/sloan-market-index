@@ -4212,7 +4212,7 @@
       "multiplier": 41.69,
       "count": 4
     },
-    "X-Fractors Red /5": {
+    "X-Fractor Red /5": {
       "median": 1637.49,
       "multiplier": 109.24,
       "count": 2
@@ -4227,7 +4227,7 @@
       "multiplier": 23.35,
       "count": 7
     },
-    "X-Fractors Black /10": {
+    "X-Fractor Black /10": {
       "median": 450.0,
       "multiplier": 30.02,
       "count": 3
@@ -4322,7 +4322,7 @@
       "multiplier": 3.0,
       "count": 74
     },
-    "Refractors /499": {
+    "Refractor /499": {
       "median": 32.0,
       "multiplier": 2.13,
       "count": 83

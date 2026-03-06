@@ -81,25 +81,25 @@ const variationSeries = variationRaw as Record<string, { date: string; price: nu
 const granularData = granularDataRaw as GranularData;
 
 const variationOrder = [
-  "Padparadscha Sapphire 1/1", "Superfractors 1/1", "Printing Plates 1/1",
-  "Red Sapphire /5", "X-Fractors Red /5", "Red Lava /5", "Red /5",
-  "Orange Sapphire /25", "X-Fractors Black /10", "Black /10",
+  "Padparadscha Sapphire 1/1", "Superfractor 1/1", "Printing Plates 1/1",
+  "Red Sapphire /5", "X-Fractor Red /5", "Red Lava /5", "Red /5",
+  "Orange Sapphire /25", "X-Fractor Black /10", "Black /10",
   "Orange Wave /25", "Orange /25",
   "Gold Sapphire /50", "Shimmer Gold /50", "Gold Wave /50", "Gold /50",
   "Sparkles /71", "Yellow /75",
   "Green Sapphire /99", "Green Lava /99", "Green /99",
   "Sapphire /199",
   "HTA Choice /150", "Blue Wave /150", "Blue /150",
-  "Aqua Lava /199", "Purple /250", "Refractors /499", "Base",
+  "Aqua Lava /199", "Purple /250", "Refractor /499", "Base",
 ];
 
 const VARIATION_COLORS: Record<string, string> = {
   "Padparadscha Sapphire 1/1": "#f472b6",
-  "X-Fractors Red /5": "#ef4444",
+  "X-Fractor Red /5": "#ef4444",
   "Red Sapphire /5": "#dc2626",
   "Red /5": "#dc2626",
   "Printing Plates 1/1": "#a3a3a3",
-  "X-Fractors Black /10": "#525252",
+  "X-Fractor Black /10": "#525252",
   "Black /10": "#737373",
   "Orange Sapphire /25": "#f97316",
   "Orange Wave /25": "#f97316",
@@ -119,17 +119,17 @@ const VARIATION_COLORS: Record<string, string> = {
   "Blue /150": "#2563eb",
   "Aqua Lava /199": "#14b8a6",
   "Purple /250": "#a855f7",
-  "Refractors /499": "#6366f1",
+  "Refractor /499": "#6366f1",
   "Base": "#10b981",
 };
 
 const VARIATION_TEXT_CLASSES: Record<string, string> = {
   "Padparadscha Sapphire 1/1": "text-pink-400",
-  "X-Fractors Red /5": "text-red-500",
+  "X-Fractor Red /5": "text-red-500",
   "Red Sapphire /5": "text-red-600",
   "Red /5": "text-red-600",
   "Printing Plates 1/1": "text-slate-400",
-  "X-Fractors Black /10": "text-slate-400",
+  "X-Fractor Black /10": "text-slate-400",
   "Black /10": "text-slate-400",
   "Orange Sapphire /25": "text-orange-500",
   "Orange Wave /25": "text-orange-500",
@@ -149,7 +149,7 @@ const VARIATION_TEXT_CLASSES: Record<string, string> = {
   "Blue /150": "text-blue-600",
   "Aqua Lava /199": "text-teal-500",
   "Purple /250": "text-purple-500",
-  "Refractors /499": "text-indigo-400",
+  "Refractor /499": "text-indigo-400",
   "Base": "text-slate-300",
 };
 
