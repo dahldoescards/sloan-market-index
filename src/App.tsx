@@ -287,12 +287,12 @@ export default function App() {
         {/* ── Dashboard Header ── */}
         <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center w-full gap-8 mb-10">
           <div className="flex flex-col gap-2 relative">
-            <div className="flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-widest text-[9px] md:text-[10px]">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_12px_rgba(16,185,129,1)]" />
-              Institutional Market Data
+            <div className="flex items-center gap-3 text-emerald-500 font-bold uppercase tracking-widest text-[9px] md:text-[10px]">
+              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_12px_rgba(16,185,129,0.8)]" />
+              Real-Time Market Tracking
             </div>
             <h1 className="text-3xl md:text-5xl font-black text-white flex flex-wrap items-center gap-x-3 gap-y-1">
-              Ryan Sloan <span className="text-slate-600">Index</span>
+              Ryan Sloan <span className="text-slate-700">Analytics</span>
             </h1>
             <p className="text-slate-400 text-[13px] md:text-sm font-medium max-w-2xl leading-relaxed mt-1">
               Real-time portfolio positioning metrics across <span className="text-slate-200 tabular-nums font-bold">{baseData.rawKpi.totalSales + baseData.gradedKpi.totalSales} records</span> and verified data points. First Bowman CPA.
@@ -355,7 +355,7 @@ export default function App() {
             {breakoutScore >= 70 ? (
               <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/20 blur-[40px] rounded-full mix-blend-screen pointer-events-none" />
             ) : null}
-            <div className="relative z-10 text-[10px] font-bold text-amber-500/90 uppercase tracking-widest truncate shadow-amber-900/50">Breakout Potential</div>
+            <div className="relative z-10 text-[10px] font-bold text-amber-500/90 uppercase tracking-widest truncate shadow-amber-900/50">Market Momentum</div>
             <div className="relative z-10 text-4xl font-black text-white tabular-nums tracking-tight">
               {breakoutScore}
               <span className="text-lg text-slate-500/80 font-bold ml-1">/100</span>
@@ -592,9 +592,9 @@ const SalesLedger = memo(function SalesLedger() {
         <div className="flex flex-col gap-1 w-full xl:w-auto">
           <div className="flex items-center gap-2 text-emerald-400">
             <LayoutGrid size={18} className="md:w-5 md:h-5" />
-            <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">Asset Ledger</span>
+            <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">Transaction Ledger</span>
           </div>
-          <h2 className="text-xl md:text-2xl font-black text-white uppercase leading-tight">Verified Transaction History</h2>
+          <h2 className="text-xl md:text-2xl font-black text-white uppercase leading-tight">Verified Price History</h2>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 items-center w-full xl:w-auto">
