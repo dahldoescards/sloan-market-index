@@ -4189,10 +4189,10 @@
     }
   ],
   "rawKpi": {
-    "currentBaseAvg": 55.24,
+    "currentBaseAvg": 45.72,
     "delta30d": 6,
     "volume30d": 21,
-    "totalSales": 0,
+    "totalSales": 1316,
     "totalRevenue": 58101.03
   },
   "gradedKpi": {
@@ -4201,6 +4201,195 @@
     "totalSales": 52,
     "totalRevenue": 7898
   },
-  "multipliers": {},
-  "gradeMultipliers": {}
+  "multipliers": {
+    "Base": {
+      "median": 64.29,
+      "multiplier": 1,
+      "count": 580,
+      "limit": 1000000
+    },
+    "Printing Plates 1/1": {
+      "median": 300,
+      "multiplier": 6.56,
+      "count": 2,
+      "limit": 1
+    },
+    "X-Fractor Red /5": {
+      "median": 1099,
+      "multiplier": 24.04,
+      "count": 7,
+      "limit": 5
+    },
+    "Red Lava /5": {
+      "median": 2150,
+      "multiplier": 47.03,
+      "count": 1,
+      "limit": 5
+    },
+    "Red Sapphire /5": {
+      "median": 550,
+      "multiplier": 12.03,
+      "count": 4,
+      "limit": 5
+    },
+    "Red /5": {
+      "median": 210,
+      "multiplier": 4.59,
+      "count": 3,
+      "limit": 5
+    },
+    "X-Fractor Black /10": {
+      "median": 1500,
+      "multiplier": 32.81,
+      "count": 9,
+      "limit": 10
+    },
+    "Black /10": {
+      "median": 325.98,
+      "multiplier": 7.13,
+      "count": 4,
+      "limit": 10
+    },
+    "Orange Wave /25": {
+      "median": 570,
+      "multiplier": 12.47,
+      "count": 11,
+      "limit": 25
+    },
+    "Orange Sapphire /25": {
+      "median": 805.67,
+      "multiplier": 17.62,
+      "count": 9,
+      "limit": 25
+    },
+    "Orange /25": {
+      "median": 1410.5,
+      "multiplier": 30.85,
+      "count": 12,
+      "limit": 25
+    },
+    "Shimmer Gold /50": {
+      "median": 225,
+      "multiplier": 4.92,
+      "count": 17,
+      "limit": 50
+    },
+    "Gold Wave /50": {
+      "median": 441.67,
+      "multiplier": 9.66,
+      "count": 14,
+      "limit": 50
+    },
+    "Gold Sapphire /50": {
+      "median": 300,
+      "multiplier": 6.56,
+      "count": 14,
+      "limit": 50
+    },
+    "Gold /50": {
+      "median": 1100,
+      "multiplier": 24.06,
+      "count": 10,
+      "limit": 50
+    },
+    "Sparkle /71": {
+      "median": 371,
+      "multiplier": 8.11,
+      "count": 19,
+      "limit": 71
+    },
+    "Yellow /75": {
+      "median": 408.33,
+      "multiplier": 8.93,
+      "count": 23,
+      "limit": 75
+    },
+    "Green Lava /99": {
+      "median": 150.5,
+      "multiplier": 3.29,
+      "count": 20,
+      "limit": 99
+    },
+    "Green Sapphire /99": {
+      "median": 181,
+      "multiplier": 3.96,
+      "count": 37,
+      "limit": 99
+    },
+    "Green /99": {
+      "median": 99.99,
+      "multiplier": 2.19,
+      "count": 28,
+      "limit": 99
+    },
+    "Blue Wave /150": {
+      "median": 326.5,
+      "multiplier": 7.14,
+      "count": 67,
+      "limit": 150
+    },
+    "HTA Choice /150": {
+      "median": 321.3,
+      "multiplier": 7.03,
+      "count": 28,
+      "limit": 150
+    },
+    "Blue /150": {
+      "median": 235,
+      "multiplier": 5.14,
+      "count": 41,
+      "limit": 150
+    },
+    "Aqua Lava /199": {
+      "median": 151.67,
+      "multiplier": 3.32,
+      "count": 93,
+      "limit": 199
+    },
+    "Sapphire /199": {
+      "median": 236.2,
+      "multiplier": 5.17,
+      "count": 67,
+      "limit": 199
+    },
+    "Purple /250": {
+      "median": 213.24,
+      "multiplier": 4.66,
+      "count": 90,
+      "limit": 250
+    },
+    "Refractor /499": {
+      "median": 142.99,
+      "multiplier": 3.13,
+      "count": 106,
+      "limit": 499
+    }
+  },
+  "gradeMultipliers": {
+    "PSA 9": {
+      "currentTwma": 123.2,
+      "multiplier": 2.69,
+      "count": 68
+    },
+    "PSA 10": {
+      "currentTwma": 345.51,
+      "multiplier": 7.56,
+      "count": 88
+    },
+    "PSA 8": {
+      "currentTwma": 53.72,
+      "multiplier": 1.18,
+      "count": 8
+    },
+    "SGC 10": {
+      "currentTwma": 167.86,
+      "multiplier": 3.67,
+      "count": 4
+    },
+    "BGS 9.5": {
+      "currentTwma": 2150,
+      "multiplier": 47.03,
+      "count": 1
+    }
+  }
 }
