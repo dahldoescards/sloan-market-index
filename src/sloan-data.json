@@ -4189,7 +4189,7 @@
     }
   ],
   "rawKpi": {
-    "currentBaseAvg": 91.96,
+    "currentBaseAvg": 90.37,
     "delta30d": 6,
     "volume30d": 21,
     "totalSales": 454,
@@ -4202,130 +4202,136 @@
     "totalRevenue": 7898
   },
   "multipliers": {
-    "Printing Plates 1/1": {
-      "median": 300,
-      "multiplier": 3.26,
-      "count": 1,
-      "limit": 1000000
-    },
-    "Red /5": {
-      "median": 250,
-      "multiplier": 2.72,
-      "count": 1,
-      "limit": 1000000
-    },
-    "Orange Sapphire /25": {
-      "median": 529.99,
-      "multiplier": 5.76,
-      "count": 2,
-      "limit": 1000000
-    },
-    "Orange Wave /25": {
-      "median": 278,
-      "multiplier": 3.02,
-      "count": 1,
-      "limit": 1000000
-    },
-    "Orange /25": {
-      "median": 420,
-      "multiplier": 4.57,
-      "count": 3,
-      "limit": 1000000
-    },
-    "Gold Sapphire /50": {
-      "median": 350,
-      "multiplier": 3.81,
-      "count": 7,
-      "limit": 1000000
-    },
-    "Shimmer Gold /50": {
-      "median": 225,
-      "multiplier": 2.45,
-      "count": 3,
-      "limit": 1000000
-    },
-    "Gold /50": {
-      "median": 437,
-      "multiplier": 4.75,
-      "count": 2,
-      "limit": 1000000
-    },
-    "Yellow /75": {
-      "median": 106.69,
-      "multiplier": 1.16,
-      "count": 7,
-      "limit": 1000000
-    },
-    "Green Sapphire /99": {
-      "median": 43,
-      "multiplier": 0.47,
-      "count": 1,
-      "limit": 1000000
-    },
-    "Green Lava /99": {
-      "median": 96.5,
-      "multiplier": 1.05,
-      "count": 4,
-      "limit": 1000000
-    },
-    "Green /99": {
-      "median": 60,
-      "multiplier": 0.65,
-      "count": 2,
-      "limit": 1000000
-    },
-    "Blue Wave /150": {
-      "median": 450,
-      "multiplier": 4.89,
-      "count": 5,
-      "limit": 1000000
-    },
-    "Blue /150": {
-      "median": 227.5,
-      "multiplier": 2.47,
-      "count": 5,
-      "limit": 1000000
-    },
-    "HTA Choice /150": {
-      "median": 345,
-      "multiplier": 3.75,
-      "count": 2,
-      "limit": 1000000
-    },
-    "Aqua Lava /199": {
-      "median": 222.5,
-      "multiplier": 2.42,
-      "count": 8,
-      "limit": 1000000
-    },
-    "Sapphire /199": {
-      "median": 118.5,
-      "multiplier": 1.29,
-      "count": 2,
+    "Base": {
+      "median": 96.03,
+      "multiplier": 1,
+      "count": 350,
       "limit": 1000000
     },
     "Refractor /499": {
       "median": 170.5,
-      "multiplier": 1.85,
+      "multiplier": 1.89,
       "count": 39,
-      "limit": 1000000
+      "limit": 499
     },
-    "Base": {
-      "median": 97.25,
-      "multiplier": 1,
-      "count": 359,
-      "limit": 1000000
+    "Aqua Lava /199": {
+      "median": 193.33,
+      "multiplier": 2.14,
+      "count": 12,
+      "limit": 199
+    },
+    "Sapphire /199": {
+      "median": 118.5,
+      "multiplier": 1.31,
+      "count": 2,
+      "limit": 199
+    },
+    "Blue Wave /150": {
+      "median": 450,
+      "multiplier": 4.98,
+      "count": 7,
+      "limit": 150
+    },
+    "HTA Choice /150": {
+      "median": 345,
+      "multiplier": 3.82,
+      "count": 2,
+      "limit": 150
+    },
+    "Blue /150": {
+      "median": 227.5,
+      "multiplier": 2.52,
+      "count": 5,
+      "limit": 150
+    },
+    "Green Lava /99": {
+      "median": 96.5,
+      "multiplier": 1.07,
+      "count": 4,
+      "limit": 99
+    },
+    "Green Sapphire /99": {
+      "median": 43,
+      "multiplier": 0.48,
+      "count": 1,
+      "limit": 99
+    },
+    "Green /99": {
+      "median": 60,
+      "multiplier": 0.66,
+      "count": 2,
+      "limit": 99
+    },
+    "Yellow /75": {
+      "median": 106.69,
+      "multiplier": 1.18,
+      "count": 7,
+      "limit": 75
+    },
+    "Sparkle /71": {
+      "median": 202.52,
+      "multiplier": 2.24,
+      "count": 3,
+      "limit": 71
+    },
+    "Shimmer Gold /50": {
+      "median": 225,
+      "multiplier": 2.49,
+      "count": 3,
+      "limit": 50
+    },
+    "Gold Sapphire /50": {
+      "median": 350,
+      "multiplier": 3.87,
+      "count": 7,
+      "limit": 50
+    },
+    "Gold /50": {
+      "median": 437,
+      "multiplier": 4.84,
+      "count": 2,
+      "limit": 50
+    },
+    "Orange Wave /25": {
+      "median": 278,
+      "multiplier": 3.08,
+      "count": 1,
+      "limit": 25
+    },
+    "Orange Sapphire /25": {
+      "median": 529.99,
+      "multiplier": 5.86,
+      "count": 2,
+      "limit": 25
+    },
+    "Orange /25": {
+      "median": 420,
+      "multiplier": 4.65,
+      "count": 3,
+      "limit": 25
+    },
+    "Red /5": {
+      "median": 250,
+      "multiplier": 2.77,
+      "count": 1,
+      "limit": 5
+    },
+    "Superfractor 1/1": {
+      "median": 300,
+      "multiplier": 3.32,
+      "count": 1,
+      "limit": 1
     }
   },
   "gradeMultipliers": {
     "PSA 9": {
       "currentTwma": 106.23,
-      "multiplier": 1.16,
+      "multiplier": 1.18,
       "count": 24
     },
     "PSA 10": {
       "currentTwma": 222.34,
-      "multiplier": 2.42,
+      "multiplier": 2.46,
       "count": 23
     },
     "SGC 10": {
