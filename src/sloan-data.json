@@ -4202,90 +4202,107 @@
     "totalRevenue": 7898
   },
   "multipliers": {
-    "Printing Plates 1/1": {
-      "median": 300,
-      "multiplier": 5.51,
-      "count": 1
-    },
-    "Red /5": {
-      "median": 250,
-      "multiplier": 4.6,
-      "count": 1
-    },
-    "Orange Wave /25": {
-      "median": 278,
-      "multiplier": 5.11,
-      "count": 1
-    },
-    "Orange /25": {
-      "median": 420,
-      "multiplier": 7.72,
-      "count": 5
-    },
-    "Shimmer Gold /50": {
-      "median": 225,
-      "multiplier": 4.14,
-      "count": 3
-    },
-    "Gold /50": {
-      "median": 350,
-      "multiplier": 6.43,
-      "count": 9
-    },
-    "Sparkles /71": {
-      "median": 202.52,
-      "multiplier": 3.72,
-      "count": 3
-    },
-    "Yellow /75": {
-      "median": 106.69,
-      "multiplier": 1.96,
-      "count": 7
-    },
-    "Green Lava /99": {
-      "median": 96.5,
-      "multiplier": 1.77,
-      "count": 5
-    },
-    "Green /99": {
-      "median": 59.99,
-      "multiplier": 1.1,
-      "count": 2
-    },
-    "HTA Choice /150": {
-      "median": 345,
-      "multiplier": 6.34,
-      "count": 4
-    },
-    "Blue Wave /150": {
-      "median": 450,
-      "multiplier": 8.27,
-      "count": 5
-    },
-    "Blue /150": {
-      "median": 227.5,
-      "multiplier": 4.18,
-      "count": 5
-    },
-    "Aqua Lava /199": {
-      "median": 193.33,
-      "multiplier": 3.55,
-      "count": 14
-    },
-    "Purple /250": {
-      "median": 213.32,
-      "multiplier": 3.92,
-      "count": 29
+    "Base": {
+      "median": 67.88,
+      "multiplier": 1,
+      "count": 321,
+      "limit": 1000000
     },
     "Refractors /499": {
       "median": 170.5,
       "multiplier": 3.13,
-      "count": 39
+      "count": 39,
+      "limit": 499
     },
-    "Base": {
-      "median": 67.88,
-      "multiplier": 1,
-      "count": 321
+    "Purple /250": {
+      "median": 213.32,
+      "multiplier": 3.92,
+      "count": 29,
+      "limit": 250
+    },
+    "Aqua Lava /199": {
+      "median": 193.33,
+      "multiplier": 3.55,
+      "count": 14,
+      "limit": 199
+    },
+    "HTA Choice /150": {
+      "median": 345,
+      "multiplier": 6.34,
+      "count": 4,
+      "limit": 150
+    },
+    "Blue Wave /150": {
+      "median": 450,
+      "multiplier": 8.27,
+      "count": 5,
+      "limit": 150
+    },
+    "Blue /150": {
+      "median": 227.5,
+      "multiplier": 4.18,
+      "count": 5,
+      "limit": 150
+    },
+    "Green Lava /99": {
+      "median": 96.5,
+      "multiplier": 1.77,
+      "count": 5,
+      "limit": 99
+    },
+    "Green /99": {
+      "median": 59.99,
+      "multiplier": 1.1,
+      "count": 2,
+      "limit": 99
+    },
+    "Yellow /75": {
+      "median": 106.69,
+      "multiplier": 1.96,
+      "count": 7,
+      "limit": 75
+    },
+    "Sparkles /71": {
+      "median": 202.52,
+      "multiplier": 3.72,
+      "count": 3,
+      "limit": 71
+    },
+    "Shimmer Gold /50": {
+      "median": 225,
+      "multiplier": 4.14,
+      "count": 3,
+      "limit": 50
+    },
+    "Gold /50": {
+      "median": 350,
+      "multiplier": 6.43,
+      "count": 9,
+      "limit": 50
+    },
+    "Orange Wave /25": {
+      "median": 278,
+      "multiplier": 5.11,
+      "count": 1,
+      "limit": 25
+    },
+    "Orange /25": {
+      "median": 420,
+      "multiplier": 7.72,
+      "count": 5,
+      "limit": 25
+    },
+    "Red /5": {
+      "median": 250,
+      "multiplier": 4.6,
+      "count": 1,
+      "limit": 5
+    },
+    "Printing Plates 1/1": {
+      "median": 300,
+      "multiplier": 5.51,
+      "count": 1,
+      "limit": 1
     }
   },
   "gradeMultipliers": {
@@ -4313,11 +4330,6 @@
       "currentTwma": 26.45,
       "multiplier": 0.49,
       "count": 1
-    },
-    "All Graded": {
-      "currentTwma": 151.88,
-      "multiplier": 2.79,
-      "count": 52
     }
   }
 }

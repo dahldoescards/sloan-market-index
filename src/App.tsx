@@ -80,27 +80,14 @@ const baseData = sloanRaw as SloanData;
 const variationSeries = variationRaw as Record<string, { date: string; price: number }[]>;
 const granularData = granularDataRaw as GranularData;
 
-const variationOrder = [
-  "Padparadscha Sapphire 1/1", "Superfractor 1/1", "Printing Plate 1/1",
-  "Red Sapphire /5", "Red X-Fractor /5", "Red Lava /5", "Red /5",
-  "Orange Sapphire /25", "Black X-Fractor /10", "Black /10",
-  "Orange Wave /25", "Orange /25",
-  "Gold Sapphire /50", "Shimmer Gold /50", "Gold Wave /50", "Gold /50",
-  "Sparkles /71", "Yellow /75",
-  "Green Sapphire /99", "Green Lava /99", "Green /99",
-  "Sapphire /199",
-  "HTA Choice /150", "Blue Wave /150", "Blue /150",
-  "Aqua Lava /199", "Purple /250", "Refractor /499", "Base",
-];
-
 const VARIATION_COLORS: Record<string, string> = {
   "Padparadscha Sapphire 1/1": "#f472b6",
   "Red X-Fractor /5": "#ef4444",
   "Red Sapphire /5": "#dc2626",
   "Red /5": "#dc2626",
-  "Printing Plates 1/1": "#a3a3a3",
-  "Black X-Fractor /10": "#525252",
-  "Black /10": "#737373",
+  "Printing Plates 1/1": "#737373",
+  "Black X-Fractor /10": "#262626",
+  "Black /10": "#404040",
   "Orange Sapphire /25": "#f97316",
   "Orange Wave /25": "#f97316",
   "Orange /25": "#ea580c",
@@ -253,7 +240,7 @@ const VariationChart = memo(function VariationChart({ name }: { name: string }) 
 
 /* ───────────────────────── Pre-Calculated Statics ───────────────────────── */
 // rendering-hoist-jsx: move static derivations outside component body
-const ACTIVE_VARIATIONS = variationOrder.filter(v => variationSeries[v] && variationSeries[v].length >= 2);
+const ACTIVE_VARIATIONS = Object.keys(baseData.multipliers).filter(v => variationSeries[v] && variationSeries[v].length >= 2);
 
 /* ───────────────────────── Main Application ───────────────────────── */
 
@@ -286,7 +273,6 @@ export default function App() {
   const sortedMults = useMemo(() =>
     Object.entries(baseData.multipliers)
       .map(([name, e]) => ({ name, ...e }))
-      .sort((a, b) => b.multiplier - a.multiplier)
     , []);
 
   return (
@@ -581,7 +567,7 @@ export default function App() {
 const SalesLedger = memo(function SalesLedger() {
   const [ledgerMode, setLedgerMode] = useState<"Raw" | "Graded">("Raw");
   const variations = useMemo(() =>
-    variationOrder.filter(v => granularData[v]),
+    Object.keys(baseData.multipliers).filter(v => granularData[v]),
     []);
 
   return (
