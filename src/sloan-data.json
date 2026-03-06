@@ -12,47 +12,47 @@
     },
     {
       "date": "2025-12-07",
-      "indexValue": 56.84,
-      "volume": 1
+      "indexValue": 86.67,
+      "volume": 0
     },
     {
       "date": "2025-12-08",
-      "indexValue": 46.5,
+      "indexValue": 91.25,
       "volume": 0
     },
     {
       "date": "2025-12-09",
-      "indexValue": 48.8,
-      "volume": 1
+      "indexValue": 94,
+      "volume": 0
     },
     {
       "date": "2025-12-10",
-      "indexValue": 54.34,
+      "indexValue": 92,
       "volume": 1
     },
     {
       "date": "2025-12-11",
-      "indexValue": 54.86,
+      "indexValue": 87.14,
       "volume": 1
     },
     {
       "date": "2025-12-12",
-      "indexValue": 56,
+      "indexValue": 88.29,
       "volume": 0
     },
     {
       "date": "2025-12-13",
-      "indexValue": 49.29,
+      "indexValue": 81.57,
       "volume": 0
     },
     {
       "date": "2025-12-14",
-      "indexValue": 50.78,
+      "indexValue": 70.27,
       "volume": 3
     },
     {
       "date": "2025-12-15",
-      "indexValue": 55.56,
+      "indexValue": 62.27,
       "volume": 1
     },
     {
@@ -77,37 +77,37 @@
     },
     {
       "date": "2025-12-20",
-      "indexValue": 142.53,
-      "volume": 6
+      "indexValue": 143,
+      "volume": 5
     },
     {
       "date": "2025-12-21",
-      "indexValue": 147.4,
+      "indexValue": 147.87,
       "volume": 1
     },
     {
       "date": "2025-12-22",
-      "indexValue": 149.04,
+      "indexValue": 149.51,
       "volume": 2
     },
     {
       "date": "2025-12-23",
-      "indexValue": 99.62,
+      "indexValue": 100.1,
       "volume": 6
     },
     {
       "date": "2025-12-24",
-      "indexValue": 50.21,
+      "indexValue": 50.68,
       "volume": 0
     },
     {
       "date": "2025-12-25",
-      "indexValue": 47.07,
+      "indexValue": 47.54,
       "volume": 1
     },
     {
       "date": "2025-12-26",
-      "indexValue": 43.92,
+      "indexValue": 44.39,
       "volume": 0
     },
     {
@@ -117,42 +117,42 @@
     },
     {
       "date": "2025-12-28",
-      "indexValue": 45.82,
-      "volume": 2
+      "indexValue": 52.71,
+      "volume": 1
     },
     {
       "date": "2025-12-29",
-      "indexValue": 46.71,
+      "indexValue": 60.5,
       "volume": 0
     },
     {
       "date": "2025-12-30",
-      "indexValue": 65.28,
+      "indexValue": 79.07,
       "volume": 4
     },
     {
       "date": "2025-12-31",
-      "indexValue": 83.86,
+      "indexValue": 97.64,
       "volume": 0
     },
     {
       "date": "2026-01-01",
-      "indexValue": 98.43,
+      "indexValue": 112.21,
       "volume": 1
     },
     {
       "date": "2026-01-02",
-      "indexValue": 119.06,
+      "indexValue": 132.84,
       "volume": 5
     },
     {
       "date": "2026-01-03",
-      "indexValue": 139.69,
+      "indexValue": 153.47,
       "volume": 0
     },
     {
       "date": "2026-01-04",
-      "indexValue": 156.21,
+      "indexValue": 163.1,
       "volume": 0
     },
     {
@@ -917,7 +917,7 @@
     "currentBaseAvg": 51.93,
     "delta30d": 6,
     "volume30d": 21,
-    "totalSales": 1268,
+    "totalSales": 1253,
     "totalRevenue": 58101.03
   },
   "gradedKpi": {
@@ -948,7 +948,7 @@
     "Aqua Lava /199": {
       "median": 178.33,
       "multiplier": 3.43,
-      "count": 79,
+      "count": 66,
       "limit": 199
     },
     "Sapphire /199": {
@@ -1050,7 +1050,7 @@
     "X-Fractor Black /10": {
       "median": 1500,
       "multiplier": 28.89,
-      "count": 9,
+      "count": 7,
       "limit": 10
     },
     "Black /10": {
