@@ -156,7 +156,8 @@ const shortDateFormatter = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', m
 const longDateFormatter = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric', year: 'numeric' });
 
 const formatDateUTC = (dateString: string, useLongFormat: boolean = false) => {
-  const dateObj = new Date(dateString.includes('T') ? dateString : dateString + "T12:00:00Z");
+  const isISO = dateString.includes('T');
+  const dateObj = new Date(isISO ? dateString : dateString + "T12:00:00Z");
   return useLongFormat ? longDateFormatter.format(dateObj) : shortDateFormatter.format(dateObj);
 };
 
@@ -275,7 +276,7 @@ export default function App() {
     , []);
 
   return (
-    <div className="relative min-h-screen bg-slate-950 text-slate-200 selection:bg-emerald-500/30 antialiased">
+    <div className="relative min-h-[100dvh] bg-slate-950 text-slate-200 selection:bg-emerald-500/30 antialiased">
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 py-10 md:px-8 md:py-12">
 
         {/* ── Dashboard Header ── */}
@@ -600,11 +601,11 @@ export default function App() {
           </div>
         </div>
 
-        {/* ── Visual Variation Grid ── */}
+        {/* ── Visual Propagation Cluster ── */}
         <div className="mb-12">
           <div className="flex items-center gap-3 text-white mb-6">
-            <TrendingUp size={22} className="text-emerald-400" />
-            <h2 className="text-2xl font-black uppercase">Price Propagation per Tier</h2>
+            <TrendingUp size={22} className="text-emerald-500" />
+            <h2 className="text-2xl font-black uppercase tracking-tight">Tier-Based Value Flow</h2>
           </div>
           <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
             {ACTIVE_VARIATIONS.map(name => (
@@ -613,13 +614,13 @@ export default function App() {
           </div>
         </div>
 
-        {/* ── Sales Ledger (The Truth Table) ── */}
+        {/* ── Transaction Ledger ── */}
         <SalesLedger />
 
         {/* ── Footer ── */}
-        <footer className="pt-20 pb-10 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-500 text-[11px] font-bold uppercase tracking-[0.2em] relative z-10">
-          <div>Data Pipeline v3.5 (Institutional Grade) · <span className="tabular-nums">{baseData.rawKpi.totalSales + baseData.gradedKpi.totalSales}</span> Integrated Comps</div>
-          <div>© 2026 Ryan Sloan Market Index · Internal Analytics</div>
+        <footer className="pt-20 pb-10 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-600 text-[11px] font-bold uppercase tracking-[0.2em] relative z-10">
+          <div>Pipeline v3.6 · <span className="tabular-nums">{baseData.rawKpi.totalSales + baseData.gradedKpi.totalSales}</span> Verified Data Points</div>
+          <div>© 2026 Ryan Sloan Analytics · Market Intelligence</div>
         </footer>
       </div>
     </div>
@@ -763,39 +764,43 @@ const SalesLedger = memo(function SalesLedger() {
 
                 {/* Mobile Card Layout */}
                 <div className="md:hidden flex flex-col divide-y divide-slate-800/60">
-                  {displaySales.slice(0, visibleItemsMap[varName] || 50).map((sale, i) => (
-                    <div key={sale.item_id || `${varName}-${i}_mob`} className="p-5 flex flex-col gap-4 active:bg-slate-800/50 transition-colors">
-                      <div className="flex justify-between items-start gap-4">
-                        <div className="flex flex-col gap-1.5 flex-1 min-w-0">
-                          <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest tabular-nums">{formatDateUTC(sale.sale_date, true)}</div>
-                          <a
-                            href={`https://www.ebay.com/itm/${sale.item_id}?nord=1`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-sm font-bold text-slate-200 hover:text-emerald-400 leading-snug line-clamp-2"
-                          >
-                            {sale.listing_title}
-                          </a>
-                        </div>
-                        <div className="text-right flex flex-col items-end gap-2">
-                          <div className="text-base font-black text-emerald-400 tabular-nums">{formatCurrency(parseFloat(sale.sale_price.toString()))}</div>
-                          <span className={`px-2.5 py-1 rounded-lg text-[9px] font-black uppercase border tracking-widest whitespace-nowrap ${sale.condition === "Raw" ? "bg-slate-800 text-slate-500 border-slate-700" : "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"}`}>
-                            {sale.condition}
-                          </span>
+                  {displaySales.slice(0, visibleItemsMap[varName] || 50).map((sale, i) => {
+                    const priceStr = sale.sale_price.toString();
+                    const isRaw = sale.condition === "Raw";
+                    return (
+                      <div key={sale.item_id || `${varName}-${i}_mob`} className="p-5 flex flex-col gap-4 active:bg-slate-800/50 transition-colors">
+                        <div className="flex justify-between items-start gap-4">
+                          <div className="flex flex-col gap-1.5 flex-1 min-w-0">
+                            <div className="text-[10px] font-bold text-slate-600 uppercase tracking-widest tabular-nums">{formatDateUTC(sale.sale_date, true)}</div>
+                            <a
+                              href={`https://www.ebay.com/itm/${sale.item_id}?nord=1`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm font-bold text-slate-300 hover:text-emerald-400 leading-snug line-clamp-2"
+                            >
+                              {sale.listing_title}
+                            </a>
+                          </div>
+                          <div className="text-right flex flex-col items-end gap-2">
+                            <div className="text-base font-black text-emerald-500 tabular-nums">{formatCurrency(parseFloat(priceStr))}</div>
+                            <span className={`px-2.5 py-1 rounded-lg text-[9px] font-black uppercase border tracking-widest whitespace-nowrap ${isRaw ? "bg-slate-800/50 text-slate-600 border-slate-800" : "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"}`}>
+                              {sale.condition}
+                            </span>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
 
-                {displaySales.length > (visibleItemsMap[varName] || 50) && (
+                {displaySales.length > (visibleItemsMap[varName] || 50) ? (
                   <button
                     onClick={() => handleLoadMore(varName)}
-                    className="w-full py-4 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 hover:text-emerald-400 hover:bg-emerald-500/5 transition-all duration-200 border-t border-slate-800/50"
+                    className="w-full py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-600 hover:text-emerald-400 hover:bg-emerald-500/5 transition-all duration-200 border-t border-slate-800/50"
                   >
-                    Load More Verified Results (+50)
+                    Load More Records (+50)
                   </button>
-                )}
+                ) : null}
               </div>
             );
           })}
