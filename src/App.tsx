@@ -60,6 +60,7 @@ interface SloanData {
   gradedKpi: KpiMetrics;
   multipliers: Record<string, MultiplierEntry>;
   gradeMultipliers: Record<string, GradeMultiplierEntry>;
+  momentumScore: number;
 }
 
 interface Sale {
@@ -262,18 +263,7 @@ export default function App() {
 
   const currentKpi = viewMode === "Raw" ? baseData.rawKpi : baseData.gradedKpi;
 
-  const breakoutScore = useMemo(() => {
-    const prices = baseData.rawIndexData.map(d => d.indexValue);
-    const recent = prices.slice(-10);
-    const early = prices.slice(0, 10);
-    const avgR = (recent.reduce((a, b) => a + b, 0) / (recent.length || 1)) || 0;
-    const avgE = (early.reduce((a, b) => a + b, 0) / (early.length || 1)) || 0;
-    const momentum = Math.min(((avgR - avgE) / (avgE || 1)) * 100, 60);
-    const volScore = Math.min((baseData.rawKpi.volume30d / 100) * 30, 25);
-    const mults = Object.values(baseData.multipliers);
-    const avgM = (mults.reduce((a, m) => a + m.multiplier, 0) / (mults.length || 1)) || 0;
-    return Math.round(Math.min(momentum + volScore + (avgM * 1.5), 100));
-  }, []);
+  const breakoutScore = baseData.momentumScore;
 
   const sortedMults = useMemo(() =>
     Object.entries(baseData.multipliers)
