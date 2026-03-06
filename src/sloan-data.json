@@ -945,17 +945,23 @@
       "count": 90,
       "limit": 250
     },
+    "Sapphire /199": {
+      "median": 236.2,
+      "multiplier": 4.55,
+      "count": 65,
+      "limit": 199
+    },
     "Aqua Lava /199": {
       "median": 178.33,
       "multiplier": 3.43,
       "count": 66,
       "limit": 199
     },
-    "Sapphire /199": {
-      "median": 236.2,
-      "multiplier": 4.55,
-      "count": 65,
-      "limit": 199
+    "Blue /150": {
+      "median": 235,
+      "multiplier": 4.53,
+      "count": 41,
+      "limit": 150
     },
     "Blue Wave /150": {
       "median": 326.5,
@@ -969,11 +975,11 @@
       "count": 28,
       "limit": 150
     },
-    "Blue /150": {
-      "median": 235,
-      "multiplier": 4.53,
-      "count": 41,
-      "limit": 150
+    "Green /99": {
+      "median": 99.99,
+      "multiplier": 1.93,
+      "count": 28,
+      "limit": 99
     },
     "Green Lava /99": {
       "median": 150.5,
@@ -987,12 +993,6 @@
       "count": 36,
       "limit": 99
     },
-    "Green /99": {
-      "median": 99.99,
-      "multiplier": 1.93,
-      "count": 28,
-      "limit": 99
-    },
     "Yellow /75": {
       "median": 408.33,
       "multiplier": 7.86,
@@ -1004,6 +1004,12 @@
       "multiplier": 7.14,
       "count": 19,
       "limit": 71
+    },
+    "Gold /50": {
+      "median": 1100,
+      "multiplier": 21.18,
+      "count": 10,
+      "limit": 50
     },
     "Gold Shimmer /50": {
       "median": 225,
@@ -1023,11 +1029,11 @@
       "count": 13,
       "limit": 50
     },
-    "Gold /50": {
-      "median": 1100,
-      "multiplier": 21.18,
-      "count": 10,
-      "limit": 50
+    "Orange /25": {
+      "median": 1410.5,
+      "multiplier": 27.16,
+      "count": 12,
+      "limit": 25
     },
     "Orange Wave /25": {
       "median": 570,
@@ -1041,11 +1047,11 @@
       "count": 9,
       "limit": 25
     },
-    "Orange /25": {
-      "median": 1410.5,
-      "multiplier": 27.16,
-      "count": 12,
-      "limit": 25
+    "Black /10": {
+      "median": 325.98,
+      "multiplier": 6.28,
+      "count": 4,
+      "limit": 10
     },
     "Black X-Fractor /10": {
       "median": 1500,
@@ -1053,11 +1059,11 @@
       "count": 7,
       "limit": 10
     },
-    "Black /10": {
-      "median": 325.98,
-      "multiplier": 6.28,
-      "count": 4,
-      "limit": 10
+    "Red /5": {
+      "median": 210,
+      "multiplier": 4.04,
+      "count": 3,
+      "limit": 5
     },
     "Red X-Fractor /5": {
       "median": 1099,
@@ -1075,12 +1081,6 @@
       "median": 550,
       "multiplier": 10.59,
       "count": 4,
-      "limit": 5
-    },
-    "Red /5": {
-      "median": 210,
-      "multiplier": 4.04,
-      "count": 3,
       "limit": 5
     },
     "Printing Plates 1/1": {
