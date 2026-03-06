@@ -287,37 +287,37 @@
     },
     {
       "date": "2026-01-31",
-      "indexValue": 99.78,
-      "volume": 2
+      "indexValue": 99.53,
+      "volume": 1
     },
     {
       "date": "2026-02-01",
-      "indexValue": 94,
+      "indexValue": 93.75,
       "volume": 4
     },
     {
       "date": "2026-02-02",
-      "indexValue": 100.11,
+      "indexValue": 99.86,
       "volume": 2
     },
     {
       "date": "2026-02-03",
-      "indexValue": 98.32,
+      "indexValue": 98.07,
       "volume": 0
     },
     {
       "date": "2026-02-04",
-      "indexValue": 92.82,
+      "indexValue": 92.57,
       "volume": 5
     },
     {
       "date": "2026-02-05",
-      "indexValue": 87.32,
+      "indexValue": 87.07,
       "volume": 0
     },
     {
       "date": "2026-02-06",
-      "indexValue": 94.18,
+      "indexValue": 93.93,
       "volume": 1
     },
     {
@@ -377,47 +377,47 @@
     },
     {
       "date": "2026-02-18",
-      "indexValue": 120.49,
-      "volume": 3
+      "indexValue": 130.14,
+      "volume": 2
     },
     {
       "date": "2026-02-19",
-      "indexValue": 135.58,
+      "indexValue": 154.87,
       "volume": 0
     },
     {
       "date": "2026-02-20",
-      "indexValue": 153.44,
+      "indexValue": 182.37,
       "volume": 0
     },
     {
       "date": "2026-02-21",
-      "indexValue": 231.79,
+      "indexValue": 260.72,
       "volume": 1
     },
     {
       "date": "2026-02-22",
-      "indexValue": 218.68,
+      "indexValue": 247.61,
       "volume": 3
     },
     {
       "date": "2026-02-23",
-      "indexValue": 205.17,
+      "indexValue": 234.1,
       "volume": 1
     },
     {
       "date": "2026-02-24",
-      "indexValue": 190.76,
+      "indexValue": 219.69,
       "volume": 0
     },
     {
       "date": "2026-02-25",
-      "indexValue": 220.19,
+      "indexValue": 239.48,
       "volume": 1
     },
     {
       "date": "2026-02-26",
-      "indexValue": 249.62,
+      "indexValue": 259.26,
       "volume": 0
     },
     {
@@ -744,37 +744,37 @@
     },
     {
       "date": "2026-01-31",
-      "indexValue": 160.19,
-      "volume": 0
+      "indexValue": 153.31,
+      "volume": 1
     },
     {
       "date": "2026-02-01",
-      "indexValue": 161.26,
+      "indexValue": 154.38,
       "volume": 1
     },
     {
       "date": "2026-02-02",
-      "indexValue": 161.62,
+      "indexValue": 154.74,
       "volume": 1
     },
     {
       "date": "2026-02-03",
-      "indexValue": 161.62,
+      "indexValue": 154.73,
       "volume": 0
     },
     {
       "date": "2026-02-04",
-      "indexValue": 161.61,
+      "indexValue": 154.73,
       "volume": 0
     },
     {
       "date": "2026-02-05",
-      "indexValue": 161.61,
+      "indexValue": 154.73,
       "volume": 0
     },
     {
       "date": "2026-02-06",
-      "indexValue": 156.16,
+      "indexValue": 149.28,
       "volume": 0
     },
     {
@@ -834,37 +834,37 @@
     },
     {
       "date": "2026-02-18",
-      "indexValue": 250.28,
-      "volume": 1
+      "indexValue": 240.35,
+      "volume": 2
     },
     {
       "date": "2026-02-19",
-      "indexValue": 265.28,
+      "indexValue": 255.35,
       "volume": 1
     },
     {
       "date": "2026-02-20",
-      "indexValue": 279.21,
+      "indexValue": 269.28,
       "volume": 0
     },
     {
       "date": "2026-02-21",
-      "indexValue": 297.85,
+      "indexValue": 287.93,
       "volume": 0
     },
     {
       "date": "2026-02-22",
-      "indexValue": 326.86,
+      "indexValue": 316.93,
       "volume": 1
     },
     {
       "date": "2026-02-23",
-      "indexValue": 320.57,
+      "indexValue": 310.64,
       "volume": 0
     },
     {
       "date": "2026-02-24",
-      "indexValue": 507.71,
+      "indexValue": 497.78,
       "volume": 1
     },
     {
@@ -1110,6 +1110,16 @@
       "currentTwma": 167.86,
       "multiplier": 3.23,
       "count": 4
+    },
+    "SGC 9.5": {
+      "currentTwma": 75.33,
+      "multiplier": 1.45,
+      "count": 3
+    },
+    "SGC 9": {
+      "currentTwma": 34.99,
+      "multiplier": 0.67,
+      "count": 2
     },
     "BGS 9.5": {
       "currentTwma": 2150,

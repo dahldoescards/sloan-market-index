@@ -308,12 +308,6 @@
         "item_id": "356791474836"
       },
       {
-        "listing_title": "2024 Bowman Draft -Chrome Prospect Ryan Sloan Auto Purple /250 #CPA-RS SGC 9.5",
-        "sale_price": 46,
-        "sale_date": "2025-04-13",
-        "item_id": "256881293827"
-      },
-      {
         "listing_title": "2024 Bowman Draft Chrome #CPA-RS Ryan Sloan 1st Purple Auto #175/250 RG1",
         "sale_price": 45,
         "sale_date": "2025-04-11",
@@ -544,6 +538,14 @@
         "sale_price": 104.19,
         "sale_date": "2025-07-12",
         "item_id": "127210840316"
+      }
+    ],
+    "SGC 9.5": [
+      {
+        "listing_title": "2024 Bowman Draft -Chrome Prospect Ryan Sloan Auto Purple /250 #CPA-RS SGC 9.5",
+        "sale_price": 46,
+        "sale_date": "2025-04-13",
+        "item_id": "256881293827"
       }
     ]
   },
@@ -3910,12 +3912,6 @@
         "item_id": "147167165775"
       },
       {
-        "listing_title": "Ryan Sloan 2025 Bowman Chrome Baseball Factory All America Game Auto /199- SGC 9",
-        "sale_price": 29.99,
-        "sale_date": "2026-02-18",
-        "item_id": "168157714205"
-      },
-      {
         "listing_title": "2024 Bowman Chrome Ryan Sloan 1st Aqua Lava Refractor Auto /199 Mariners SSP",
         "sale_price": 210,
         "sale_date": "2026-02-16",
@@ -4274,6 +4270,14 @@
         "sale_price": 44.95,
         "sale_date": "2024-12-11",
         "item_id": "405410811714"
+      }
+    ],
+    "SGC 9": [
+      {
+        "listing_title": "Ryan Sloan 2025 Bowman Chrome Baseball Factory All America Game Auto /199- SGC 9",
+        "sale_price": 29.99,
+        "sale_date": "2026-02-18",
+        "item_id": "168157714205"
       }
     ],
     "SGC 10": [
@@ -5542,12 +5546,6 @@
         "item_id": "197192928828"
       },
       {
-        "listing_title": "2024 BOWMAN DRAFT SAPPHIRE CHROME PROSPECT AUTO RYAN SLOAN /199 SGC 9.5",
-        "sale_price": 40,
-        "sale_date": "2025-04-12",
-        "item_id": "306221209504"
-      },
-      {
         "listing_title": "2024 Bowman Draft Sapphire Ryan Sloan Chrome 1st Prospect Auto /199 Mariners",
         "sale_price": 42,
         "sale_date": "2025-04-11",
@@ -5756,6 +5754,14 @@
         "sale_price": 105,
         "sale_date": "2025-05-21",
         "item_id": "205487036782"
+      }
+    ],
+    "SGC 9.5": [
+      {
+        "listing_title": "2024 BOWMAN DRAFT SAPPHIRE CHROME PROSPECT AUTO RYAN SLOAN /199 SGC 9.5",
+        "sale_price": 40,
+        "sale_date": "2025-04-12",
+        "item_id": "306221209504"
       }
     ]
   },
@@ -6882,12 +6888,6 @@
         "item_id": "406647873826"
       },
       {
-        "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st Green Sapphire Auto /99 SGC 9.5",
-        "sale_price": 140,
-        "sale_date": "2026-01-31",
-        "item_id": "317818891592"
-      },
-      {
         "listing_title": "2024 Bowman Chrome Draft Sapphire Edition Green 15/99 Ryan Sloan Auto 0xn3",
         "sale_price": 180.5,
         "sale_date": "2026-01-25",
@@ -6964,12 +6964,6 @@
         "sale_price": 80,
         "sale_date": "2025-04-17",
         "item_id": "365459628911"
-      },
-      {
-        "listing_title": "2024 BOWMAN DRAFT SAPPHIRE CHROME PROSPECT GREEN RYAN SLOAN /99 SGC 9 AUTO 10",
-        "sale_price": 40,
-        "sale_date": "2025-04-12",
-        "item_id": "297180806323"
       },
       {
         "listing_title": "2024 Bowman Draft Sapphire Ryan Sloan Chrome Green Refractor Auto /99 Mariners",
@@ -7074,12 +7068,28 @@
         "item_id": "365382516313"
       }
     ],
+    "SGC 9.5": [
+      {
+        "listing_title": "2024 Bowman Chrome Draft Ryan Sloan 1st Green Sapphire Auto /99 SGC 9.5",
+        "sale_price": 140,
+        "sale_date": "2026-01-31",
+        "item_id": "317818891592"
+      }
+    ],
     "PSA 8": [
       {
         "listing_title": "2024 Bowman Draft Sapphire Chrome Green Ryan Sloan 1st AUTO /99 PSA 8",
         "sale_price": 46,
         "sale_date": "2025-06-04",
         "item_id": "376287497099"
+      }
+    ],
+    "SGC 9": [
+      {
+        "listing_title": "2024 BOWMAN DRAFT SAPPHIRE CHROME PROSPECT GREEN RYAN SLOAN /99 SGC 9 AUTO 10",
+        "sale_price": 40,
+        "sale_date": "2025-04-12",
+        "item_id": "297180806323"
       }
     ]
   },

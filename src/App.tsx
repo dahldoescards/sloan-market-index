@@ -146,6 +146,10 @@ const VARIATION_TEXT_CLASSES: Record<string, string> = {
   "Base": "text-slate-400",
 };
 
+const GRADE_SORT_ORDER = [
+  "PSA 10", "BGS 10", "SGC 10", "PSA 9", "BGS 9.5", "SGC 9.5", "PSA 8", "BGS 9", "SGC 9"
+];
+
 /* ───────────────────────── Formatters & Utility Cache ───────────────────────── */
 
 const shortDateFormatter = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' });
@@ -506,7 +510,14 @@ export default function App() {
                 </thead>
                 <tbody>
                   {Object.entries(baseData.gradeMultipliers)
-                    .sort((a, b) => b[1].multiplier - a[1].multiplier)
+                    .sort((a, b) => {
+                      const indexA = GRADE_SORT_ORDER.indexOf(a[0]);
+                      const indexB = GRADE_SORT_ORDER.indexOf(b[0]);
+                      if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+                      if (indexA !== -1) return -1;
+                      if (indexB !== -1) return 1;
+                      return b[1].multiplier - a[1].multiplier;
+                    })
                     .map(([grade, entry]) => (
                       <tr key={grade} className="hover:bg-blue-400/5 transition-colors duration-200">
                         <td className="py-4 border-b border-slate-800/50 px-2">
