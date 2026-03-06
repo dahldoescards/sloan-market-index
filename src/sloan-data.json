@@ -4189,10 +4189,10 @@
     }
   ],
   "rawKpi": {
-    "currentBaseAvg": 52.99,
+    "currentBaseAvg": 51.93,
     "delta30d": 6,
     "volume30d": 21,
-    "totalSales": 1292,
+    "totalSales": 1268,
     "totalRevenue": 58101.03
   },
   "gradedKpi": {
@@ -4203,164 +4203,164 @@
   },
   "multipliers": {
     "Base": {
-      "median": 52.99,
+      "median": 51.93,
       "multiplier": 1,
-      "count": 559,
+      "count": 554,
       "limit": 1000000
     },
     "Refractor /499": {
       "median": 142.99,
-      "multiplier": 2.7,
-      "count": 106,
+      "multiplier": 2.75,
+      "count": 105,
       "limit": 499
     },
     "Purple /250": {
       "median": 213.24,
-      "multiplier": 4.02,
+      "multiplier": 4.11,
       "count": 90,
       "limit": 250
     },
     "Aqua Lava /199": {
-      "median": 158.93,
-      "multiplier": 3,
-      "count": 92,
+      "median": 178.33,
+      "multiplier": 3.43,
+      "count": 79,
       "limit": 199
     },
     "Sapphire /199": {
       "median": 236.2,
-      "multiplier": 4.46,
-      "count": 67,
+      "multiplier": 4.55,
+      "count": 65,
       "limit": 199
     },
     "Blue Wave /150": {
       "median": 326.5,
-      "multiplier": 6.16,
-      "count": 67,
+      "multiplier": 6.29,
+      "count": 65,
       "limit": 150
     },
     "HTA Choice /150": {
       "median": 321.3,
-      "multiplier": 6.06,
+      "multiplier": 6.19,
       "count": 28,
       "limit": 150
     },
     "Blue /150": {
       "median": 235,
-      "multiplier": 4.44,
+      "multiplier": 4.53,
       "count": 41,
       "limit": 150
     },
     "Green Lava /99": {
       "median": 150.5,
-      "multiplier": 2.84,
+      "multiplier": 2.9,
       "count": 20,
       "limit": 99
     },
     "Green Sapphire /99": {
       "median": 181,
-      "multiplier": 3.42,
-      "count": 37,
+      "multiplier": 3.49,
+      "count": 36,
       "limit": 99
     },
     "Green /99": {
       "median": 99.99,
-      "multiplier": 1.89,
+      "multiplier": 1.93,
       "count": 28,
       "limit": 99
     },
     "Yellow /75": {
       "median": 408.33,
-      "multiplier": 7.71,
+      "multiplier": 7.86,
       "count": 22,
       "limit": 75
     },
     "Sparkle /71": {
       "median": 371,
-      "multiplier": 7,
+      "multiplier": 7.14,
       "count": 19,
       "limit": 71
     },
     "Shimmer Gold /50": {
       "median": 225,
-      "multiplier": 4.25,
+      "multiplier": 4.33,
       "count": 17,
       "limit": 50
     },
     "Gold Wave /50": {
       "median": 441.67,
-      "multiplier": 8.34,
+      "multiplier": 8.51,
       "count": 14,
       "limit": 50
     },
     "Gold Sapphire /50": {
       "median": 300,
-      "multiplier": 5.66,
+      "multiplier": 5.78,
       "count": 13,
       "limit": 50
     },
     "Gold /50": {
       "median": 1100,
-      "multiplier": 20.76,
+      "multiplier": 21.18,
       "count": 10,
       "limit": 50
     },
     "Orange Wave /25": {
       "median": 570,
-      "multiplier": 10.76,
+      "multiplier": 10.98,
       "count": 11,
       "limit": 25
     },
     "Orange Sapphire /25": {
       "median": 805.67,
-      "multiplier": 15.21,
+      "multiplier": 15.52,
       "count": 9,
       "limit": 25
     },
     "Orange /25": {
       "median": 1410.5,
-      "multiplier": 26.62,
+      "multiplier": 27.16,
       "count": 12,
       "limit": 25
     },
     "X-Fractor Black /10": {
       "median": 1500,
-      "multiplier": 28.31,
+      "multiplier": 28.89,
       "count": 9,
       "limit": 10
     },
     "Black /10": {
       "median": 325.98,
-      "multiplier": 6.15,
+      "multiplier": 6.28,
       "count": 4,
       "limit": 10
     },
     "X-Fractor Red /5": {
       "median": 1099,
-      "multiplier": 20.74,
+      "multiplier": 21.16,
       "count": 7,
       "limit": 5
     },
     "Red Lava /5": {
       "median": 2150,
-      "multiplier": 40.58,
+      "multiplier": 41.41,
       "count": 1,
       "limit": 5
     },
     "Red Sapphire /5": {
       "median": 550,
-      "multiplier": 10.38,
+      "multiplier": 10.59,
       "count": 4,
       "limit": 5
     },
     "Red /5": {
       "median": 210,
-      "multiplier": 3.96,
+      "multiplier": 4.04,
       "count": 3,
       "limit": 5
     },
     "Printing Plates 1/1": {
       "median": 300,
-      "multiplier": 5.66,
+      "multiplier": 5.78,
       "count": 2,
       "limit": 1
     }
@@ -4368,27 +4368,27 @@
   "gradeMultipliers": {
     "PSA 9": {
       "currentTwma": 123.2,
-      "multiplier": 2.33,
+      "multiplier": 2.37,
       "count": 68
     },
     "PSA 10": {
       "currentTwma": 345.51,
-      "multiplier": 6.52,
+      "multiplier": 6.65,
       "count": 88
     },
     "PSA 8": {
       "currentTwma": 53.72,
-      "multiplier": 1.01,
+      "multiplier": 1.03,
       "count": 8
     },
     "SGC 10": {
       "currentTwma": 167.86,
-      "multiplier": 3.17,
+      "multiplier": 3.23,
       "count": 4
     },
     "BGS 9.5": {
       "currentTwma": 2150,
-      "multiplier": 40.58,
+      "multiplier": 41.41,
       "count": 1
     }
   }
