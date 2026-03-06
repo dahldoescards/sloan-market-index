@@ -12,6 +12,7 @@ import {
 } from "recharts";
 import {
   ChevronUp,
+  ChevronDown,
   Layers,
   TrendingUp,
   LayoutGrid,
@@ -570,9 +571,20 @@ export default function App() {
 
 const SalesLedger = memo(function SalesLedger() {
   const [ledgerMode, setLedgerMode] = useState<"Raw" | "Graded">("Raw");
-  const variations = useMemo(() =>
-    Object.keys(baseData.multipliers).filter(v => granularData[v]),
-    []);
+  const [selectedVariation, setSelectedVariation] = useState<string>("All");
+  const [visibleItemsMap, setVisibleItemsMap] = useState<Record<string, number>>({});
+
+  const variations = useMemo(() => {
+    const keys = Object.keys(baseData.multipliers).filter(v => granularData[v]);
+    return keys;
+  }, []);
+
+  const handleLoadMore = (varName: string) => {
+    setVisibleItemsMap(prev => ({
+      ...prev,
+      [varName]: (prev[varName] || 50) + 50
+    }));
+  };
 
   return (
     <div className="flex flex-col bg-slate-900 md:bg-slate-900/80 backdrop-blur-md border border-slate-800 rounded-2xl overflow-hidden antialiased">
@@ -585,95 +597,124 @@ const SalesLedger = memo(function SalesLedger() {
           <h2 className="text-2xl font-black text-white uppercase">Verified Transaction History</h2>
         </div>
 
-        <div className="flex bg-slate-950 p-1.5 rounded-xl border border-slate-800 transition-all shrink-0 shadow-inner overflow-x-auto max-w-full">
-          <button
-            onClick={() => setLedgerMode("Raw")}
-            className={`flex items-center justify-center px-6 py-2 rounded-lg text-xs font-bold whitespace-nowrap shrink-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 active:scale-95 ${ledgerMode === "Raw" ? "bg-emerald-500 text-slate-950 shadow-md" : "text-slate-400 hover:text-slate-300 hover:bg-slate-800/50"}`}
-          >
-            Raw
-          </button>
-          <button
-            onClick={() => setLedgerMode("Graded")}
-            className={`flex items-center justify-center px-6 py-2 rounded-lg text-xs font-bold whitespace-nowrap shrink-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 active:scale-95 ${ledgerMode === "Graded" ? "bg-emerald-500 text-slate-950 shadow-md" : "text-slate-400 hover:text-slate-300 hover:bg-slate-800/50"}`}
-          >
-            Graded
-          </button>
+        <div className="flex flex-col md:flex-row gap-3 items-center w-full md:w-auto">
+          <div className="relative w-full md:w-64">
+            <select
+              value={selectedVariation}
+              onChange={(e) => setSelectedVariation(e.target.value)}
+              className="w-full bg-slate-950 text-slate-200 text-xs font-bold border border-slate-800 rounded-xl px-4 py-2.5 appearance-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/50 cursor-pointer uppercase tracking-widest"
+            >
+              <option value="All">All Variations</option>
+              {variations.map(v => (
+                <option key={v} value={v}>{v}</option>
+              ))}
+            </select>
+            <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500">
+              <ChevronDown size={14} />
+            </div>
+          </div>
+
+          <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 shrink-0 shadow-inner w-full md:w-auto">
+            <button
+              onClick={() => setLedgerMode("Raw")}
+              className={`flex-1 md:flex-none flex items-center justify-center px-6 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Raw" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
+            >
+              Raw
+            </button>
+            <button
+              onClick={() => setLedgerMode("Graded")}
+              className={`flex-1 md:flex-none flex items-center justify-center px-6 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Graded" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
+            >
+              Graded
+            </button>
+          </div>
         </div>
       </div>
 
       <div className="flex flex-col">
-        {variations.map(varName => {
-          const varData = granularData[varName];
-          let displaySales: (Sale & { condition: string })[] = [];
+        {variations
+          .filter(v => selectedVariation === "All" || v === selectedVariation)
+          .map(varName => {
+            const varData = granularData[varName];
+            let displaySales: (Sale & { condition: string })[] = [];
 
-          if (ledgerMode === "Raw") {
-            if (varData["Raw"]) {
-              displaySales = varData["Raw"].map(s => ({ ...s, condition: "Raw" }));
+            if (ledgerMode === "Raw") {
+              if (varData["Raw"]) {
+                displaySales = varData["Raw"].map(s => ({ ...s, condition: "Raw" }));
+              }
+            } else {
+              displaySales = Object.entries(varData)
+                .filter(([cond]) => cond !== "Raw")
+                .flatMap(([cond, sales]) => sales.map(s => ({ ...s, condition: cond })));
+
+              displaySales.sort((a, b) => new Date(b.sale_date).getTime() - new Date(a.sale_date).getTime());
             }
-          } else {
-            displaySales = Object.entries(varData)
-              .filter(([cond]) => cond !== "Raw")
-              .flatMap(([cond, sales]) => sales.map(s => ({ ...s, condition: cond })));
 
-            displaySales.sort((a, b) => new Date(b.sale_date).getTime() - new Date(a.sale_date).getTime());
-          }
+            if (displaySales.length === 0) return null;
 
-          if (displaySales.length === 0) return null;
-
-          return (
-            <div key={varName} className="flex flex-col border-b border-slate-800 last:border-b-0">
-              <div className="px-6 py-4 bg-slate-800/30 flex items-center justify-between border-b border-slate-800/50">
-                <div className="flex items-center gap-4">
-                  <div className="w-1.5 h-4 rounded-full shrink-0 shadow-[0_0_8px_currentColor]" style={{ background: VARIATION_COLORS[varName] || '#334155', color: VARIATION_COLORS[varName] || '#334155' }} />
-                  <span className={`text-[13px] font-black tracking-widest uppercase truncate ${VARIATION_TEXT_CLASSES[varName] || 'text-slate-200'}`}>{varName}</span>
+            return (
+              <div key={varName} className="flex flex-col border-b border-slate-800 last:border-b-0">
+                <div className="px-6 py-4 bg-slate-800/30 flex items-center justify-between border-b border-slate-800/50">
+                  <div className="flex items-center gap-4">
+                    <div className="w-1.5 h-4 rounded-full shrink-0 shadow-[0_0_8px_currentColor]" style={{ background: VARIATION_COLORS[varName] || '#334155', color: VARIATION_COLORS[varName] || '#334155' }} />
+                    <span className={`text-[13px] font-black tracking-widest uppercase truncate ${VARIATION_TEXT_CLASSES[varName] || 'text-slate-200'}`}>{varName}</span>
+                  </div>
+                  <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest leading-none tabular-nums shrink-0">{displaySales.length} Ledger Items</span>
                 </div>
-                <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest leading-none tabular-nums shrink-0">{displaySales.length} Ledger Items</span>
-              </div>
-              <div className="overflow-x-auto w-full">
-                <table className="w-full text-left border-collapse min-w-[600px]">
-                  <thead>
-                    <tr className="border-b border-slate-800 text-[10px] font-bold text-slate-500 uppercase tracking-widest bg-slate-900/60">
-                      <th className="px-6 py-3 w-32 font-bold">Date</th>
-                      <th className="px-6 py-3 font-bold">Listing Title</th>
-                      <th className="px-6 py-3 text-center w-32 font-bold">Grade</th>
-                      <th className="px-6 py-3 text-right w-40 font-bold">Settle Price</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {displaySales.map((sale, i) => (
-                      <tr key={sale.item_id || i} className="hover:bg-slate-800/40 transition-colors duration-200 border-b border-slate-800/50 last:border-b-0">
-                        <td className="px-6 py-4 text-[11px] font-bold text-slate-400 tabular-nums">
-                          {formatDateUTC(sale.sale_date, true)}
-                        </td>
-                        <td className="px-6 py-4">
-                          <a
-                            href={`https://www.ebay.com/itm/${sale.item_id}?nord=1`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-sm font-bold text-slate-300 hover:text-emerald-400 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded px-1 -mx-1 block max-w-xl truncate"
-                          >
-                            {sale.listing_title}
-                          </a>
-                        </td>
-                        <td className="px-6 py-4 text-center">
-                          <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase whitespace-nowrap shrink-0 inline-block border tracking-wider ${sale.condition === "Raw"
-                            ? "bg-slate-800 text-slate-400 border-slate-700"
-                            : "bg-emerald-500/10 text-emerald-400 border-emerald-500/20 shadow-[0_0_10px_rgba(16,185,129,0.1)]"
-                            }`}>
-                            {sale.condition}
-                          </span>
-                        </td>
-                        <td className="px-6 py-4 text-right font-black text-slate-200 tabular-nums">
-                          {formatCurrency(parseFloat(sale.sale_price.toString()))}
-                        </td>
+                <div className="overflow-x-auto w-full">
+                  <table className="w-full text-left border-collapse min-w-[600px]">
+                    <thead>
+                      <tr className="border-b border-slate-800 text-[10px] font-bold text-slate-500 uppercase tracking-widest bg-slate-900/60">
+                        <th className="px-6 py-3 w-32 font-bold">Date</th>
+                        <th className="px-6 py-3 font-bold">Listing Title</th>
+                        <th className="px-6 py-3 text-center w-32 font-bold">Grade</th>
+                        <th className="px-6 py-3 text-right w-40 font-bold">Settle Price</th>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
+                    </thead>
+                    <tbody>
+                      {displaySales.slice(0, visibleItemsMap[varName] || 50).map((sale, i) => (
+                        <tr key={sale.item_id || `${varName}-${i}`} className="hover:bg-slate-800/40 transition-colors duration-200 border-b border-slate-800/50 last:border-b-0">
+                          <td className="px-6 py-4 text-[11px] font-bold text-slate-400 tabular-nums">
+                            {formatDateUTC(sale.sale_date, true)}
+                          </td>
+                          <td className="px-6 py-4">
+                            <a
+                              href={`https://www.ebay.com/itm/${sale.item_id}?nord=1`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm font-bold text-slate-300 hover:text-emerald-400 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded px-1 -mx-1 block max-w-xl truncate"
+                            >
+                              {sale.listing_title}
+                            </a>
+                          </td>
+                          <td className="px-6 py-4 text-center">
+                            <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase whitespace-nowrap shrink-0 inline-block border tracking-wider ${sale.condition === "Raw"
+                              ? "bg-slate-800 text-slate-400 border-slate-700"
+                              : "bg-emerald-500/10 text-emerald-400 border-emerald-500/20 shadow-[0_0_10px_rgba(16,185,129,0.1)]"
+                              }`}>
+                              {sale.condition}
+                            </span>
+                          </td>
+                          <td className="px-6 py-4 text-right font-black text-slate-200 tabular-nums">
+                            {formatCurrency(parseFloat(sale.sale_price.toString()))}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+
+                {displaySales.length > (visibleItemsMap[varName] || 50) && (
+                  <button
+                    onClick={() => handleLoadMore(varName)}
+                    className="w-full py-4 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 hover:text-emerald-400 hover:bg-emerald-500/5 transition-all duration-200 border-t border-slate-800/50"
+                  >
+                    Load More Verified Results (+50)
+                  </button>
+                )}
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
       </div>
     </div>
   );
