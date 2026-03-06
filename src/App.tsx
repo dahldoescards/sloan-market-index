@@ -450,7 +450,8 @@ export default function App() {
               </div>
             </div>
 
-            <div className="overflow-x-auto">
+            {/* Desktop View */}
+            <div className="hidden md:block overflow-x-auto">
               <table className="w-full text-left border-collapse">
                 <thead>
                   <tr className="border-b border-slate-800">
@@ -487,6 +488,31 @@ export default function App() {
                 </tbody>
               </table>
             </div>
+
+            {/* Mobile View */}
+            <div className="md:hidden flex flex-col gap-3">
+              {sortedMults.map(m => (
+                <div key={m.name} className="flex flex-col p-4 bg-slate-950/50 rounded-xl border border-slate-800/50 gap-3">
+                  <div className="flex justify-between items-center">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full" style={{ background: VARIATION_COLORS[m.name] || '#64748b' }} />
+                      <span className={`text-xs font-black uppercase tracking-widest ${VARIATION_TEXT_CLASSES[m.name] || 'text-slate-200'}`}>{m.name}</span>
+                    </div>
+                    <div className="text-[10px] font-black text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">{parseFloat(m.multiplier.toString()).toFixed(1)}x</div>
+                  </div>
+                  <div className="flex justify-between items-end">
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Volume Count</span>
+                      <span className="text-xs font-bold text-slate-300 tabular-nums">{m.count} Units</span>
+                    </div>
+                    <div className="flex flex-col gap-0.5 text-right">
+                      <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Median Settle</span>
+                      <span className="text-sm font-black text-white tabular-nums">{formatCurrency(parseFloat(m.median.toString()))}</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="flex flex-col p-6 md:p-8 bg-slate-900 rounded-2xl border border-slate-800 gap-4">
@@ -498,7 +524,8 @@ export default function App() {
               </div>
             </div>
 
-            <div className="overflow-x-auto">
+            {/* Desktop View */}
+            <div className="hidden md:block overflow-x-auto">
               <table className="w-full text-left border-collapse">
                 <thead>
                   <tr className="border-b border-slate-800">
@@ -539,6 +566,37 @@ export default function App() {
                 </tbody>
               </table>
             </div>
+
+            {/* Mobile View */}
+            <div className="md:hidden flex flex-col gap-3">
+              {Object.entries(baseData.gradeMultipliers)
+                .sort((a, b) => {
+                  const indexA = GRADE_SORT_ORDER.indexOf(a[0]);
+                  const indexB = GRADE_SORT_ORDER.indexOf(b[0]);
+                  if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+                  if (indexA !== -1) return -1;
+                  if (indexB !== -1) return 1;
+                  return b[1].multiplier - a[1].multiplier;
+                })
+                .map(([grade, entry]) => (
+                  <div key={grade} className="flex flex-col p-4 bg-slate-950/50 rounded-xl border border-slate-800/50 gap-3">
+                    <div className="flex justify-between items-center">
+                      <span className="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest">{grade}</span>
+                      <div className="text-[10px] font-black text-blue-400 tabular-nums bg-blue-500/5 px-2 py-0.5 rounded border border-blue-500/10">{parseFloat(entry.multiplier.toString()).toFixed(2)}x</div>
+                    </div>
+                    <div className="flex justify-between items-end">
+                      <div className="flex flex-col gap-0.5">
+                        <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Graded Units</span>
+                        <span className="text-xs font-bold text-slate-300 tabular-nums">{parseInt(entry.count.toString(), 10)} Comps</span>
+                      </div>
+                      <div className="flex flex-col gap-0.5 text-right">
+                        <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Avg Value</span>
+                        <span className="text-sm font-black text-white tabular-nums">{formatCurrency(parseFloat(entry.currentTwma.toString()), 0)}</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+            </div>
           </div>
         </div>
 
@@ -548,7 +606,7 @@ export default function App() {
             <TrendingUp size={22} className="text-emerald-400" />
             <h2 className="text-2xl font-black uppercase">Price Propagation per Tier</h2>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
             {ACTIVE_VARIATIONS.map(name => (
               <VariationChart key={name} name={name} />
             ))}
