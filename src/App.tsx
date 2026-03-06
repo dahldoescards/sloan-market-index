@@ -81,9 +81,9 @@ const variationSeries = variationRaw as Record<string, { date: string; price: nu
 const granularData = granularDataRaw as GranularData;
 
 const variationOrder = [
-  "Padparadscha Sapphire 1/1", "Superfractor 1/1", "Printing Plates 1/1",
-  "Red Sapphire /5", "X-Fractor Red /5", "Red Lava /5", "Red /5",
-  "Orange Sapphire /25", "X-Fractor Black /10", "Black /10",
+  "Padparadscha Sapphire 1/1", "Superfractor 1/1", "Printing Plate 1/1",
+  "Red Sapphire /5", "Red X-Fractor /5", "Red Lava /5", "Red /5",
+  "Orange Sapphire /25", "Black X-Fractor /10", "Black /10",
   "Orange Wave /25", "Orange /25",
   "Gold Sapphire /50", "Shimmer Gold /50", "Gold Wave /50", "Gold /50",
   "Sparkles /71", "Yellow /75",
@@ -95,11 +95,11 @@ const variationOrder = [
 
 const VARIATION_COLORS: Record<string, string> = {
   "Padparadscha Sapphire 1/1": "#f472b6",
-  "X-Fractor Red /5": "#ef4444",
+  "Red X-Fractor /5": "#ef4444",
   "Red Sapphire /5": "#dc2626",
   "Red /5": "#dc2626",
   "Printing Plates 1/1": "#a3a3a3",
-  "X-Fractor Black /10": "#525252",
+  "Black X-Fractor /10": "#525252",
   "Black /10": "#737373",
   "Orange Sapphire /25": "#f97316",
   "Orange Wave /25": "#f97316",
@@ -125,11 +125,11 @@ const VARIATION_COLORS: Record<string, string> = {
 
 const VARIATION_TEXT_CLASSES: Record<string, string> = {
   "Padparadscha Sapphire 1/1": "text-pink-400",
-  "X-Fractor Red /5": "text-red-500",
+  "Red X-Fractor /5": "text-red-500",
   "Red Sapphire /5": "text-red-600",
   "Red /5": "text-red-600",
   "Printing Plates 1/1": "text-slate-400",
-  "X-Fractor Black /10": "text-slate-400",
+  "Black X-Fractor /10": "text-slate-400",
   "Black /10": "text-slate-400",
   "Orange Sapphire /25": "text-orange-500",
   "Orange Wave /25": "text-orange-500",
