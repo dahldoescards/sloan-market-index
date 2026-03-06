@@ -285,30 +285,30 @@ export default function App() {
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 py-10 md:px-8 md:py-12">
 
         {/* ── Dashboard Header ── */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-6 mb-10">
+        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center w-full gap-8 mb-10">
           <div className="flex flex-col gap-2 relative">
-            <div className="flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-widest text-[10px]">
+            <div className="flex items-center gap-3 text-emerald-400 font-bold uppercase tracking-widest text-[9px] md:text-[10px]">
               <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_12px_rgba(16,185,129,1)]" />
               Institutional Market Data
             </div>
-            <h1 className="text-4xl md:text-5xl font-black text-white flex items-center gap-3">
+            <h1 className="text-3xl md:text-5xl font-black text-white flex flex-wrap items-center gap-x-3 gap-y-1">
               Ryan Sloan <span className="text-slate-600">Index</span>
             </h1>
-            <p className="text-slate-400 text-sm font-medium max-w-2xl leading-relaxed mt-1">
-              Real-time portfolio positioning metrics across <span className="text-slate-300 tabular-nums font-bold text-[13px]">{baseData.rawKpi.totalSales + baseData.gradedKpi.totalSales} records</span> and verified data points. First Bowman CPA.
+            <p className="text-slate-400 text-[13px] md:text-sm font-medium max-w-2xl leading-relaxed mt-1">
+              Real-time portfolio positioning metrics across <span className="text-slate-200 tabular-nums font-bold">{baseData.rawKpi.totalSales + baseData.gradedKpi.totalSales} records</span> and verified data points. First Bowman CPA.
             </p>
           </div>
 
-          <div className="flex bg-slate-900/80 backdrop-blur-md p-1.5 rounded-[14px] border border-slate-800 shadow-xl shrink-0 overflow-x-auto max-w-full">
+          <div className="flex bg-slate-900/80 backdrop-blur-md p-1 rounded-2xl border border-slate-800 shadow-2xl w-full xl:w-auto overflow-hidden">
             <button
               onClick={() => setViewMode("Raw")}
-              className={`flex items-center justify-center gap-2 px-6 py-2.5 rounded-[10px] text-sm font-bold whitespace-nowrap shrink-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 active:scale-95 ${viewMode === "Raw" ? "bg-emerald-500 text-slate-950 shadow-[0_0_20px_rgba(16,185,129,0.3)]" : "text-slate-400 hover:text-slate-200"}`}
+              className={`flex-1 xl:flex-none flex items-center justify-center gap-2 px-8 py-3 rounded-xl text-xs md:text-sm font-bold transition-all duration-300 ${viewMode === "Raw" ? "bg-emerald-500 text-slate-950 shadow-[0_0_20px_rgba(16,185,129,0.3)]" : "text-slate-400 hover:text-slate-200"}`}
             >
               Raw Comps
             </button>
             <button
               onClick={() => setViewMode("Graded")}
-              className={`flex items-center justify-center gap-2 px-6 py-2.5 rounded-[10px] text-sm font-bold whitespace-nowrap shrink-0 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 active:scale-95 ${viewMode === "Graded" ? "bg-emerald-500 text-slate-950 shadow-[0_0_20px_rgba(16,185,129,0.3)]" : "text-slate-400 hover:text-slate-200"}`}
+              className={`flex-1 xl:flex-none flex items-center justify-center gap-2 px-8 py-3 rounded-xl text-xs md:text-sm font-bold transition-all duration-300 ${viewMode === "Graded" ? "bg-emerald-500 text-slate-950 shadow-[0_0_20px_rgba(16,185,129,0.3)]" : "text-slate-400 hover:text-slate-200"}`}
             >
               Graded Index
             </button>
@@ -588,42 +588,42 @@ const SalesLedger = memo(function SalesLedger() {
 
   return (
     <div className="flex flex-col bg-slate-900 md:bg-slate-900/80 backdrop-blur-md border border-slate-800 rounded-2xl overflow-hidden antialiased">
-      <div className="px-6 py-6 md:px-8 border-b border-slate-800 flex flex-col md:flex-row justify-between items-start md:items-center w-full gap-6">
-        <div className="flex flex-col gap-1">
+      <div className="px-5 py-6 md:px-8 border-b border-slate-800 flex flex-col xl:flex-row justify-between items-start xl:items-center w-full gap-6">
+        <div className="flex flex-col gap-1 w-full xl:w-auto">
           <div className="flex items-center gap-2 text-emerald-400">
-            <LayoutGrid size={20} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em]">Asset Ledger</span>
+            <LayoutGrid size={18} className="md:w-5 md:h-5" />
+            <span className="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em]">Asset Ledger</span>
           </div>
-          <h2 className="text-2xl font-black text-white uppercase">Verified Transaction History</h2>
+          <h2 className="text-xl md:text-2xl font-black text-white uppercase leading-tight">Verified Transaction History</h2>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-3 items-center w-full md:w-auto">
-          <div className="relative w-full md:w-64">
+        <div className="flex flex-col sm:flex-row gap-3 items-center w-full xl:w-auto">
+          <div className="relative w-full sm:w-64">
             <select
               value={selectedVariation}
               onChange={(e) => setSelectedVariation(e.target.value)}
-              className="w-full bg-slate-950 text-slate-200 text-xs font-bold border border-slate-800 rounded-xl px-4 py-2.5 appearance-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/50 cursor-pointer uppercase tracking-widest"
+              className="w-full bg-slate-950 text-slate-200 text-[11px] md:text-xs font-bold border border-slate-800 rounded-xl px-4 py-3 appearance-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/50 cursor-pointer uppercase tracking-widest pl-4 pr-10"
             >
               <option value="All">All Variations</option>
               {variations.map(v => (
                 <option key={v} value={v}>{v}</option>
               ))}
             </select>
-            <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500">
+            <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500">
               <ChevronDown size={14} />
             </div>
           </div>
 
-          <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 shrink-0 shadow-inner w-full md:w-auto">
+          <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 shrink-0 shadow-inner w-full sm:w-auto">
             <button
               onClick={() => setLedgerMode("Raw")}
-              className={`flex-1 md:flex-none flex items-center justify-center px-6 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Raw" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
+              className={`flex-1 sm:flex-none flex items-center justify-center px-8 py-2.5 rounded-lg text-[11px] md:text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Raw" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
             >
               Raw
             </button>
             <button
               onClick={() => setLedgerMode("Graded")}
-              className={`flex-1 md:flex-none flex items-center justify-center px-6 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Graded" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
+              className={`flex-1 sm:flex-none flex items-center justify-center px-8 py-2.5 rounded-lg text-[11px] md:text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Graded" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
             >
               Graded
             </button>
@@ -661,20 +661,21 @@ const SalesLedger = memo(function SalesLedger() {
                   </div>
                   <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest leading-none tabular-nums shrink-0">{displaySales.length} Ledger Items</span>
                 </div>
-                <div className="overflow-x-auto w-full">
-                  <table className="w-full text-left border-collapse min-w-[600px]">
+                {/* Desktop Table View */}
+                <div className="hidden md:block overflow-x-auto w-full">
+                  <table className="w-full text-left border-collapse min-w-[700px]">
                     <thead>
-                      <tr className="border-b border-slate-800 text-[10px] font-bold text-slate-500 uppercase tracking-widest bg-slate-900/60">
-                        <th className="px-6 py-3 w-32 font-bold">Date</th>
-                        <th className="px-6 py-3 font-bold">Listing Title</th>
-                        <th className="px-6 py-3 text-center w-32 font-bold">Grade</th>
-                        <th className="px-6 py-3 text-right w-40 font-bold">Settle Price</th>
+                      <tr className="border-b border-slate-800 text-[10px] font-bold text-slate-500 uppercase tracking-widest bg-slate-900/40">
+                        <th className="px-8 py-4 w-36 font-bold">Date</th>
+                        <th className="px-6 py-4 font-bold">Listing Title</th>
+                        <th className="px-6 py-4 text-center w-36 font-bold">Grade</th>
+                        <th className="px-8 py-4 text-right w-44 font-bold">Settle Price</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="divide-y divide-slate-800/40">
                       {displaySales.slice(0, visibleItemsMap[varName] || 50).map((sale, i) => (
-                        <tr key={sale.item_id || `${varName}-${i}`} className="hover:bg-slate-800/40 transition-colors duration-200 border-b border-slate-800/50 last:border-b-0">
-                          <td className="px-6 py-4 text-[11px] font-bold text-slate-400 tabular-nums">
+                        <tr key={sale.item_id || `${varName}-${i}`} className="hover:bg-slate-800/40 transition-colors duration-200">
+                          <td className="px-8 py-4 text-[11px] font-bold text-slate-400 tabular-nums">
                             {formatDateUTC(sale.sale_date, true)}
                           </td>
                           <td className="px-6 py-4">
@@ -682,26 +683,50 @@ const SalesLedger = memo(function SalesLedger() {
                               href={`https://www.ebay.com/itm/${sale.item_id}?nord=1`}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-sm font-bold text-slate-300 hover:text-emerald-400 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded px-1 -mx-1 block max-w-xl truncate"
+                              className="text-[13px] font-bold text-slate-300 hover:text-emerald-400 transition-colors duration-200 block max-w-lg lg:max-w-xl truncate"
                             >
                               {sale.listing_title}
                             </a>
                           </td>
-                          <td className="px-6 py-4 text-center">
-                            <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase whitespace-nowrap shrink-0 inline-block border tracking-wider ${sale.condition === "Raw"
-                              ? "bg-slate-800 text-slate-400 border-slate-700"
-                              : "bg-emerald-500/10 text-emerald-400 border-emerald-500/20 shadow-[0_0_10px_rgba(16,185,129,0.1)]"
-                              }`}>
+                          <td className="px-6 py-4 text-center text-xs">
+                            <span className={`px-3 py-1 rounded-lg text-[10px] font-black uppercase border tracking-wider ${sale.condition === "Raw" ? "bg-slate-800 text-slate-500 border-slate-700" : "bg-emerald-500/10 text-emerald-400 border-emerald-500/20 shadow-[0_4px_12px_rgba(16,185,129,0.05)]"}`}>
                               {sale.condition}
                             </span>
                           </td>
-                          <td className="px-6 py-4 text-right font-black text-slate-200 tabular-nums">
+                          <td className="px-8 py-4 text-right font-black text-slate-100 tabular-nums text-[13px]">
                             {formatCurrency(parseFloat(sale.sale_price.toString()))}
                           </td>
                         </tr>
                       ))}
                     </tbody>
                   </table>
+                </div>
+
+                {/* Mobile Card Layout */}
+                <div className="md:hidden flex flex-col divide-y divide-slate-800/60">
+                  {displaySales.slice(0, visibleItemsMap[varName] || 50).map((sale, i) => (
+                    <div key={sale.item_id || `${varName}-${i}_mob`} className="p-5 flex flex-col gap-4 active:bg-slate-800/50 transition-colors">
+                      <div className="flex justify-between items-start gap-4">
+                        <div className="flex flex-col gap-1.5 flex-1 min-w-0">
+                          <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest tabular-nums">{formatDateUTC(sale.sale_date, true)}</div>
+                          <a
+                            href={`https://www.ebay.com/itm/${sale.item_id}?nord=1`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm font-bold text-slate-200 hover:text-emerald-400 leading-snug line-clamp-2"
+                          >
+                            {sale.listing_title}
+                          </a>
+                        </div>
+                        <div className="text-right flex flex-col items-end gap-2">
+                          <div className="text-base font-black text-emerald-400 tabular-nums">{formatCurrency(parseFloat(sale.sale_price.toString()))}</div>
+                          <span className={`px-2.5 py-1 rounded-lg text-[9px] font-black uppercase border tracking-widest whitespace-nowrap ${sale.condition === "Raw" ? "bg-slate-800 text-slate-500 border-slate-700" : "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"}`}>
+                            {sale.condition}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
                 </div>
 
                 {displaySales.length > (visibleItemsMap[varName] || 50) && (
