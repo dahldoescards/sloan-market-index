@@ -279,35 +279,41 @@ export default function App() {
     <div className="relative min-h-[100dvh] bg-slate-950 text-slate-200 selection:bg-emerald-500/30 antialiased">
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 py-10 md:px-8 md:py-12">
 
-        {/* ── Dashboard Header ── */}
-        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center w-full gap-8 mb-10">
-          <div className="flex flex-col gap-2 relative">
-            <div className="flex items-center gap-3 text-emerald-500 font-bold uppercase tracking-widest text-[9px] md:text-[10px]">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_12px_rgba(16,185,129,0.8)]" />
-              Real-Time Market Tracking
+        {/* ── Dashboard Header (Sticky) ── */}
+        <div className="sticky top-0 z-50 -mx-6 px-6 py-4 md:-mx-8 md:px-8 bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/60 mb-8 transition-all duration-300">
+          <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center w-full gap-4">
+            <div className="flex flex-col gap-0.5 relative">
+              <div className="flex items-center gap-2 text-emerald-500 font-bold uppercase tracking-widest text-[8px] md:text-[9px]">
+                <div className="w-1 h-1 rounded-full bg-emerald-500 animate-pulse" />
+                Live Market Analytics
+              </div>
+              <h1 className="text-xl md:text-2xl font-black text-white flex items-center gap-2">
+                Ryan Sloan <span className="text-slate-600">Analytics</span>
+              </h1>
             </div>
-            <h1 className="text-3xl md:text-5xl font-black text-white flex flex-wrap items-center gap-x-3 gap-y-1">
-              Ryan Sloan <span className="text-slate-700">Analytics</span>
-            </h1>
-            <p className="text-slate-400 text-[13px] md:text-sm font-medium max-w-2xl leading-relaxed mt-1">
-              Real-time portfolio positioning metrics across <span className="text-slate-200 tabular-nums font-bold">{baseData.rawKpi.totalSales + baseData.gradedKpi.totalSales} records</span> and verified data points. First Bowman CPA.
-            </p>
-          </div>
 
-          <div className="flex bg-slate-900/80 backdrop-blur-md p-1 rounded-2xl border border-slate-800 shadow-2xl w-full xl:w-auto overflow-hidden">
-            <button
-              onClick={() => setViewMode("Raw")}
-              className={`flex-1 xl:flex-none flex items-center justify-center gap-2 px-8 py-3 rounded-xl text-xs md:text-sm font-bold transition-all duration-300 ${viewMode === "Raw" ? "bg-emerald-500 text-slate-950 shadow-[0_0_20px_rgba(16,185,129,0.3)]" : "text-slate-400 hover:text-slate-200"}`}
-            >
-              Raw Comps
-            </button>
-            <button
-              onClick={() => setViewMode("Graded")}
-              className={`flex-1 xl:flex-none flex items-center justify-center gap-2 px-8 py-3 rounded-xl text-xs md:text-sm font-bold transition-all duration-300 ${viewMode === "Graded" ? "bg-emerald-500 text-slate-950 shadow-[0_0_20px_rgba(16,185,129,0.3)]" : "text-slate-400 hover:text-slate-200"}`}
-            >
-              Graded Index
-            </button>
+            <div className="flex bg-slate-900/40 p-1 rounded-xl border border-slate-800/80 w-full xl:w-auto overflow-hidden">
+              <button
+                onClick={() => setViewMode("Raw")}
+                className={`flex-1 xl:flex-none flex items-center justify-center gap-2 px-6 py-2 rounded-lg text-[10px] md:text-xs font-black uppercase tracking-tight transition-all duration-300 ${viewMode === "Raw" ? "bg-emerald-500 text-slate-950 shadow-lg shadow-emerald-500/10" : "text-slate-500 hover:text-slate-300"}`}
+              >
+                Raw Comps
+              </button>
+              <button
+                onClick={() => setViewMode("Graded")}
+                className={`flex-1 xl:flex-none flex items-center justify-center gap-2 px-6 py-2 rounded-lg text-[10px] md:text-xs font-black uppercase tracking-tight transition-all duration-300 ${viewMode === "Graded" ? "bg-emerald-500 text-slate-950 shadow-lg shadow-emerald-500/10" : "text-slate-500 hover:text-slate-300"}`}
+              >
+                Graded Index
+              </button>
+            </div>
           </div>
+        </div>
+
+        {/* ── Sub-header context (Non-sticky) ── */}
+        <div className="flex flex-col gap-2 mb-10">
+          <p className="text-slate-400 text-xs md:text-sm font-medium max-w-2xl leading-relaxed">
+            Institutional portfolio positioning across <span className="text-slate-200 tabular-nums font-bold">{baseData.rawKpi.totalSales + baseData.gradedKpi.totalSales} records</span> and verified first bowman CPA entry points.
+          </p>
         </div>
 
         {/* ── Key Performance Indicators ── */}
@@ -615,7 +621,7 @@ export default function App() {
         </div>
 
         {/* ── Transaction Ledger ── */}
-        <SalesLedger />
+        <SalesLedger mode={viewMode} />
 
         {/* ── Footer ── */}
         <footer className="pt-20 pb-10 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-600 text-[11px] font-bold uppercase tracking-[0.2em] relative z-10">
@@ -628,9 +634,11 @@ export default function App() {
 }
 
 /* ───────────────────────── Sales Ledger component ───────────────────────── */
+interface LedgerProps {
+  mode: "Raw" | "Graded";
+}
 
-const SalesLedger = memo(function SalesLedger() {
-  const [ledgerMode, setLedgerMode] = useState<"Raw" | "Graded">("Raw");
+const SalesLedger = memo(function SalesLedger({ mode }: LedgerProps) {
   const [selectedVariation, setSelectedVariation] = useState<string>("All");
   const [visibleItemsMap, setVisibleItemsMap] = useState<Record<string, number>>({});
 
@@ -658,7 +666,7 @@ const SalesLedger = memo(function SalesLedger() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 items-center w-full xl:w-auto">
-          <div className="relative w-full sm:w-64">
+          <div className="relative w-full sm:w-80">
             <select
               value={selectedVariation}
               onChange={(e) => setSelectedVariation(e.target.value)}
@@ -673,21 +681,6 @@ const SalesLedger = memo(function SalesLedger() {
               <ChevronDown size={14} />
             </div>
           </div>
-
-          <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 shrink-0 shadow-inner w-full sm:w-auto">
-            <button
-              onClick={() => setLedgerMode("Raw")}
-              className={`flex-1 sm:flex-none flex items-center justify-center px-8 py-2.5 rounded-lg text-[11px] md:text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Raw" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
-            >
-              Raw
-            </button>
-            <button
-              onClick={() => setLedgerMode("Graded")}
-              className={`flex-1 sm:flex-none flex items-center justify-center px-8 py-2.5 rounded-lg text-[11px] md:text-xs font-bold whitespace-nowrap transition-all duration-300 ${ledgerMode === "Graded" ? "bg-emerald-500 text-slate-950" : "text-slate-400 hover:text-slate-200"}`}
-            >
-              Graded
-            </button>
-          </div>
         </div>
       </div>
 
@@ -698,7 +691,7 @@ const SalesLedger = memo(function SalesLedger() {
             const varData = granularData[varName];
             let displaySales: (Sale & { condition: string })[] = [];
 
-            if (ledgerMode === "Raw") {
+            if (mode === "Raw") {
               if (varData["Raw"]) {
                 displaySales = varData["Raw"].map(s => ({ ...s, condition: "Raw" }));
               }
