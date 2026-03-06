@@ -916,14 +916,14 @@
   "rawKpi": {
     "currentBaseAvg": 51.93,
     "delta30d": 6,
-    "volume30d": 21,
-    "totalSales": 1253,
+    "volume30d": 74,
+    "totalSales": 1079,
     "totalRevenue": 58101.03
   },
   "gradedKpi": {
     "currentAvg": 151.88,
-    "volume30d": 32,
-    "totalSales": 52,
+    "volume30d": 34,
+    "totalSales": 174,
     "totalRevenue": 7898
   },
   "multipliers": {
