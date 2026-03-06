@@ -7,19 +7,66 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Testing
+coverage/
+
+# Production
+dist/
+build/
+
+# Misc
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-\n# Environment Variables\n.env\n.env.local\n.env.development\n.env.test\n.env.production\n\n# IDE / Editor Files\n.vscode/\n.idea/\n*.DS_Store\n\n# Agent Logs\n.agents/\n.agent/\n
+*.pem
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Agent/AI Tool Metadata (Excluded from Repo)
+.adal/
+.agent/
+.agents/
+.augment/
+.claude/
+.codebuddy/
+.continue/
+.cortex/
+.crush/
+.factory/
+.goose/
+.iflow/
+.junie/
+.kilocode/
+.kiro/
+.kode/
+.mcpjam/
+.mux/
+.neovate/
+.openhands/
+.pi/
+.pochi/
+.qoder/
+.qwen/
+.roo/
+.trae/
+.vibe/
+.windsurf/
+.zencoder/
+skills/
+skills-lock.json
+.commandcode/
