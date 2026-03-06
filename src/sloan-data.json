@@ -1,0 +1,4368 @@
+{
+  "rawIndexData": [
+    {
+      "date": "2024-12-06",
+      "indexValue": 24.25,
+      "volume": 3
+    },
+    {
+      "date": "2024-12-07",
+      "indexValue": 24.13,
+      "volume": 0
+    },
+    {
+      "date": "2024-12-08",
+      "indexValue": 24.22,
+      "volume": 3
+    },
+    {
+      "date": "2024-12-09",
+      "indexValue": 24.1,
+      "volume": 0
+    },
+    {
+      "date": "2024-12-10",
+      "indexValue": 23.51,
+      "volume": 2
+    },
+    {
+      "date": "2024-12-11",
+      "indexValue": 20.76,
+      "volume": 1
+    },
+    {
+      "date": "2024-12-12",
+      "indexValue": 19.9,
+      "volume": 3
+    },
+    {
+      "date": "2024-12-13",
+      "indexValue": 18.86,
+      "volume": 1
+    },
+    {
+      "date": "2024-12-14",
+      "indexValue": 17.87,
+      "volume": 4
+    },
+    {
+      "date": "2024-12-15",
+      "indexValue": 18.76,
+      "volume": 4
+    },
+    {
+      "date": "2024-12-16",
+      "indexValue": 17.44,
+      "volume": 2
+    },
+    {
+      "date": "2024-12-17",
+      "indexValue": 16.14,
+      "volume": 2
+    },
+    {
+      "date": "2024-12-18",
+      "indexValue": 15.48,
+      "volume": 1
+    },
+    {
+      "date": "2024-12-19",
+      "indexValue": 15.41,
+      "volume": 0
+    },
+    {
+      "date": "2024-12-20",
+      "indexValue": 17.03,
+      "volume": 5
+    },
+    {
+      "date": "2024-12-21",
+      "indexValue": 16.21,
+      "volume": 2
+    },
+    {
+      "date": "2024-12-22",
+      "indexValue": 14.47,
+      "volume": 2
+    },
+    {
+      "date": "2024-12-23",
+      "indexValue": 14.35,
+      "volume": 1
+    },
+    {
+      "date": "2024-12-24",
+      "indexValue": 13.52,
+      "volume": 1
+    },
+    {
+      "date": "2024-12-25",
+      "indexValue": 12.89,
+      "volume": 2
+    },
+    {
+      "date": "2024-12-26",
+      "indexValue": 14.67,
+      "volume": 1
+    },
+    {
+      "date": "2024-12-27",
+      "indexValue": 14.25,
+      "volume": 2
+    },
+    {
+      "date": "2024-12-28",
+      "indexValue": 13.9,
+      "volume": 5
+    },
+    {
+      "date": "2024-12-29",
+      "indexValue": 13.43,
+      "volume": 5
+    },
+    {
+      "date": "2024-12-30",
+      "indexValue": 12.36,
+      "volume": 3
+    },
+    {
+      "date": "2024-12-31",
+      "indexValue": 12.46,
+      "volume": 3
+    },
+    {
+      "date": "2025-01-01",
+      "indexValue": 12.45,
+      "volume": 7
+    },
+    {
+      "date": "2025-01-02",
+      "indexValue": 12.09,
+      "volume": 2
+    },
+    {
+      "date": "2025-01-03",
+      "indexValue": 12.13,
+      "volume": 2
+    },
+    {
+      "date": "2025-01-04",
+      "indexValue": 11.6,
+      "volume": 3
+    },
+    {
+      "date": "2025-01-05",
+      "indexValue": 14.12,
+      "volume": 2
+    },
+    {
+      "date": "2025-01-06",
+      "indexValue": 15.79,
+      "volume": 2
+    },
+    {
+      "date": "2025-01-07",
+      "indexValue": 15.97,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-08",
+      "indexValue": 14.16,
+      "volume": 2
+    },
+    {
+      "date": "2025-01-09",
+      "indexValue": 13.25,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-10",
+      "indexValue": 12.31,
+      "volume": 2
+    },
+    {
+      "date": "2025-01-11",
+      "indexValue": 11.89,
+      "volume": 3
+    },
+    {
+      "date": "2025-01-12",
+      "indexValue": 11.22,
+      "volume": 5
+    },
+    {
+      "date": "2025-01-13",
+      "indexValue": 11.91,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-14",
+      "indexValue": 11.81,
+      "volume": 3
+    },
+    {
+      "date": "2025-01-15",
+      "indexValue": 11.99,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-16",
+      "indexValue": 11.78,
+      "volume": 3
+    },
+    {
+      "date": "2025-01-17",
+      "indexValue": 11.21,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-18",
+      "indexValue": 11.15,
+      "volume": 0
+    },
+    {
+      "date": "2025-01-19",
+      "indexValue": 11.07,
+      "volume": 3
+    },
+    {
+      "date": "2025-01-20",
+      "indexValue": 10.56,
+      "volume": 2
+    },
+    {
+      "date": "2025-01-21",
+      "indexValue": 10.32,
+      "volume": 5
+    },
+    {
+      "date": "2025-01-22",
+      "indexValue": 10.68,
+      "volume": 3
+    },
+    {
+      "date": "2025-01-23",
+      "indexValue": 10.86,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-24",
+      "indexValue": 8.83,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-25",
+      "indexValue": 8.78,
+      "volume": 0
+    },
+    {
+      "date": "2025-01-26",
+      "indexValue": 10.81,
+      "volume": 5
+    },
+    {
+      "date": "2025-01-27",
+      "indexValue": 10.23,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-28",
+      "indexValue": 11.42,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-29",
+      "indexValue": 11.07,
+      "volume": 1
+    },
+    {
+      "date": "2025-01-30",
+      "indexValue": 11.01,
+      "volume": 0
+    },
+    {
+      "date": "2025-01-31",
+      "indexValue": 11.13,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-01",
+      "indexValue": 11.08,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-02",
+      "indexValue": 11.45,
+      "volume": 6
+    },
+    {
+      "date": "2025-02-03",
+      "indexValue": 11.56,
+      "volume": 7
+    },
+    {
+      "date": "2025-02-04",
+      "indexValue": 13.67,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-05",
+      "indexValue": 13.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-06",
+      "indexValue": 18.2,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-07",
+      "indexValue": 18.03,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-08",
+      "indexValue": 17.21,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-09",
+      "indexValue": 16.03,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-10",
+      "indexValue": 15.75,
+      "volume": 4
+    },
+    {
+      "date": "2025-02-11",
+      "indexValue": 18.84,
+      "volume": 4
+    },
+    {
+      "date": "2025-02-12",
+      "indexValue": 17.56,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-13",
+      "indexValue": 15.79,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-14",
+      "indexValue": 16.84,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-15",
+      "indexValue": 15.76,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-16",
+      "indexValue": 14.58,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-17",
+      "indexValue": 13.76,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-18",
+      "indexValue": 12.96,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-19",
+      "indexValue": 12.35,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-20",
+      "indexValue": 13.12,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-21",
+      "indexValue": 13.06,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-22",
+      "indexValue": 11.92,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-23",
+      "indexValue": 10.95,
+      "volume": 3
+    },
+    {
+      "date": "2025-02-24",
+      "indexValue": 11.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-25",
+      "indexValue": 11.9,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-26",
+      "indexValue": 11.17,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-27",
+      "indexValue": 11.88,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-28",
+      "indexValue": 11.82,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-01",
+      "indexValue": 11.76,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-02",
+      "indexValue": 11.7,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-03",
+      "indexValue": 11.04,
+      "volume": 4
+    },
+    {
+      "date": "2025-03-04",
+      "indexValue": 10.26,
+      "volume": 3
+    },
+    {
+      "date": "2025-03-05",
+      "indexValue": 9.57,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-06",
+      "indexValue": 10.3,
+      "volume": 2
+    },
+    {
+      "date": "2025-03-07",
+      "indexValue": 11.73,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-08",
+      "indexValue": 11.67,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-09",
+      "indexValue": 11.61,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-10",
+      "indexValue": 11.15,
+      "volume": 3
+    },
+    {
+      "date": "2025-03-11",
+      "indexValue": 9.99,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-12",
+      "indexValue": 9.61,
+      "volume": 2
+    },
+    {
+      "date": "2025-03-13",
+      "indexValue": 9.57,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-14",
+      "indexValue": 11.05,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-15",
+      "indexValue": 12.79,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-16",
+      "indexValue": 12.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-17",
+      "indexValue": 12.57,
+      "volume": 7
+    },
+    {
+      "date": "2025-03-18",
+      "indexValue": 13.18,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-19",
+      "indexValue": 11.71,
+      "volume": 4
+    },
+    {
+      "date": "2025-03-20",
+      "indexValue": 11.66,
+      "volume": 2
+    },
+    {
+      "date": "2025-03-21",
+      "indexValue": 11.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-22",
+      "indexValue": 11.54,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-23",
+      "indexValue": 11.66,
+      "volume": 2
+    },
+    {
+      "date": "2025-03-24",
+      "indexValue": 12.24,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-25",
+      "indexValue": 11.81,
+      "volume": 4
+    },
+    {
+      "date": "2025-03-26",
+      "indexValue": 13.86,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-27",
+      "indexValue": 14.39,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-28",
+      "indexValue": 14.32,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-29",
+      "indexValue": 13.74,
+      "volume": 2
+    },
+    {
+      "date": "2025-03-30",
+      "indexValue": 13.76,
+      "volume": 5
+    },
+    {
+      "date": "2025-03-31",
+      "indexValue": 13.69,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-01",
+      "indexValue": 14.02,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-02",
+      "indexValue": 12.58,
+      "volume": 3
+    },
+    {
+      "date": "2025-04-03",
+      "indexValue": 12.46,
+      "volume": 6
+    },
+    {
+      "date": "2025-04-04",
+      "indexValue": 13.37,
+      "volume": 5
+    },
+    {
+      "date": "2025-04-05",
+      "indexValue": 13.3,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-06",
+      "indexValue": 12.35,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-07",
+      "indexValue": 11.3,
+      "volume": 5
+    },
+    {
+      "date": "2025-04-08",
+      "indexValue": 11.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-09",
+      "indexValue": 11.19,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-10",
+      "indexValue": 11.23,
+      "volume": 3
+    },
+    {
+      "date": "2025-04-11",
+      "indexValue": 11.67,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-12",
+      "indexValue": 11.0,
+      "volume": 2
+    },
+    {
+      "date": "2025-04-13",
+      "indexValue": 11.18,
+      "volume": 5
+    },
+    {
+      "date": "2025-04-14",
+      "indexValue": 10.51,
+      "volume": 2
+    },
+    {
+      "date": "2025-04-15",
+      "indexValue": 11.26,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-16",
+      "indexValue": 11.33,
+      "volume": 2
+    },
+    {
+      "date": "2025-04-17",
+      "indexValue": 13.44,
+      "volume": 4
+    },
+    {
+      "date": "2025-04-18",
+      "indexValue": 14.08,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-19",
+      "indexValue": 14.01,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-20",
+      "indexValue": 13.57,
+      "volume": 2
+    },
+    {
+      "date": "2025-04-21",
+      "indexValue": 12.98,
+      "volume": 9
+    },
+    {
+      "date": "2025-04-22",
+      "indexValue": 12.98,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-23",
+      "indexValue": 13.48,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-24",
+      "indexValue": 13.42,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-25",
+      "indexValue": 13.81,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-26",
+      "indexValue": 13.45,
+      "volume": 2
+    },
+    {
+      "date": "2025-04-27",
+      "indexValue": 13.39,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-28",
+      "indexValue": 13.5,
+      "volume": 3
+    },
+    {
+      "date": "2025-04-29",
+      "indexValue": 12.5,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-30",
+      "indexValue": 12.14,
+      "volume": 3
+    },
+    {
+      "date": "2025-05-01",
+      "indexValue": 11.67,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-02",
+      "indexValue": 12.0,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-03",
+      "indexValue": 12.5,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-04",
+      "indexValue": 12.88,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-05",
+      "indexValue": 12.09,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-06",
+      "indexValue": 11.32,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-07",
+      "indexValue": 10.97,
+      "volume": 4
+    },
+    {
+      "date": "2025-05-08",
+      "indexValue": 11.73,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-09",
+      "indexValue": 11.67,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-10",
+      "indexValue": 11.61,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-11",
+      "indexValue": 11.55,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-12",
+      "indexValue": 11.41,
+      "volume": 2
+    },
+    {
+      "date": "2025-05-13",
+      "indexValue": 11.9,
+      "volume": 4
+    },
+    {
+      "date": "2025-05-14",
+      "indexValue": 11.84,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-15",
+      "indexValue": 11.78,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-16",
+      "indexValue": 11.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-17",
+      "indexValue": 11.9,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-18",
+      "indexValue": 12.84,
+      "volume": 3
+    },
+    {
+      "date": "2025-05-19",
+      "indexValue": 12.77,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-20",
+      "indexValue": 13.39,
+      "volume": 2
+    },
+    {
+      "date": "2025-05-21",
+      "indexValue": 12.54,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-22",
+      "indexValue": 12.54,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-23",
+      "indexValue": 13.9,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-24",
+      "indexValue": 15.18,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-25",
+      "indexValue": 15.04,
+      "volume": 2
+    },
+    {
+      "date": "2025-05-26",
+      "indexValue": 15.65,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-27",
+      "indexValue": 15.58,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-28",
+      "indexValue": 15.5,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-29",
+      "indexValue": 15.42,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-30",
+      "indexValue": 15.34,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-31",
+      "indexValue": 15.73,
+      "volume": 2
+    },
+    {
+      "date": "2025-06-01",
+      "indexValue": 15.65,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-02",
+      "indexValue": 16.49,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-03",
+      "indexValue": 16.4,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-04",
+      "indexValue": 16.32,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-05",
+      "indexValue": 16.3,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-06",
+      "indexValue": 16.22,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-07",
+      "indexValue": 16.14,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-08",
+      "indexValue": 15.98,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-09",
+      "indexValue": 14.38,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-10",
+      "indexValue": 14.31,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-11",
+      "indexValue": 13.67,
+      "volume": 2
+    },
+    {
+      "date": "2025-06-12",
+      "indexValue": 13.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-13",
+      "indexValue": 13.53,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-14",
+      "indexValue": 13.37,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-15",
+      "indexValue": 14.53,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-16",
+      "indexValue": 14.45,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-17",
+      "indexValue": 14.38,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-18",
+      "indexValue": 14.31,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-19",
+      "indexValue": 14.24,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-20",
+      "indexValue": 14.17,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-21",
+      "indexValue": 13.0,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-22",
+      "indexValue": 12.94,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-23",
+      "indexValue": 12.87,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-24",
+      "indexValue": 12.34,
+      "volume": 2
+    },
+    {
+      "date": "2025-06-25",
+      "indexValue": 11.63,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-26",
+      "indexValue": 13.72,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-27",
+      "indexValue": 14.54,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-28",
+      "indexValue": 14.47,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-29",
+      "indexValue": 14.4,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-30",
+      "indexValue": 15.79,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-01",
+      "indexValue": 16.85,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-02",
+      "indexValue": 17.63,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-03",
+      "indexValue": 18.23,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-04",
+      "indexValue": 18.13,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-05",
+      "indexValue": 18.04,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-06",
+      "indexValue": 17.95,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-07",
+      "indexValue": 17.86,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-08",
+      "indexValue": 17.77,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-09",
+      "indexValue": 18.95,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-10",
+      "indexValue": 18.34,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-11",
+      "indexValue": 18.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-12",
+      "indexValue": 17.69,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-13",
+      "indexValue": 18.58,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-14",
+      "indexValue": 18.17,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-15",
+      "indexValue": 18.5,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-16",
+      "indexValue": 18.41,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-17",
+      "indexValue": 18.32,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-18",
+      "indexValue": 18.24,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-19",
+      "indexValue": 18.68,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-20",
+      "indexValue": 17.76,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-21",
+      "indexValue": 17.67,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-22",
+      "indexValue": 18.07,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-23",
+      "indexValue": 17.98,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-24",
+      "indexValue": 19.61,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-25",
+      "indexValue": 20.45,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-26",
+      "indexValue": 21.09,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-27",
+      "indexValue": 20.98,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-28",
+      "indexValue": 21.24,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-29",
+      "indexValue": 20.43,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-30",
+      "indexValue": 22.07,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-31",
+      "indexValue": 21.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-01",
+      "indexValue": 22.47,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-02",
+      "indexValue": 22.36,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-03",
+      "indexValue": 22.24,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-04",
+      "indexValue": 22.37,
+      "volume": 2
+    },
+    {
+      "date": "2025-08-05",
+      "indexValue": 23.53,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-06",
+      "indexValue": 22.52,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-07",
+      "indexValue": 23.11,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-08",
+      "indexValue": 23.0,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-09",
+      "indexValue": 23.75,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-10",
+      "indexValue": 24.75,
+      "volume": 2
+    },
+    {
+      "date": "2025-08-11",
+      "indexValue": 25.26,
+      "volume": 5
+    },
+    {
+      "date": "2025-08-12",
+      "indexValue": 26.44,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-13",
+      "indexValue": 26.31,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-14",
+      "indexValue": 27.23,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-15",
+      "indexValue": 28.8,
+      "volume": 2
+    },
+    {
+      "date": "2025-08-16",
+      "indexValue": 28.65,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-17",
+      "indexValue": 29.74,
+      "volume": 3
+    },
+    {
+      "date": "2025-08-18",
+      "indexValue": 29.59,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-19",
+      "indexValue": 30.94,
+      "volume": 2
+    },
+    {
+      "date": "2025-08-20",
+      "indexValue": 30.79,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-21",
+      "indexValue": 30.64,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-22",
+      "indexValue": 30.48,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-23",
+      "indexValue": 30.36,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-24",
+      "indexValue": 31.99,
+      "volume": 2
+    },
+    {
+      "date": "2025-08-25",
+      "indexValue": 31.83,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-26",
+      "indexValue": 31.67,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-27",
+      "indexValue": 34.26,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-28",
+      "indexValue": 36.55,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-29",
+      "indexValue": 36.36,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-30",
+      "indexValue": 33.99,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-31",
+      "indexValue": 33.82,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-01",
+      "indexValue": 33.65,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-02",
+      "indexValue": 32.71,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-03",
+      "indexValue": 33.67,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-04",
+      "indexValue": 33.75,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-05",
+      "indexValue": 32.81,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-06",
+      "indexValue": 31.61,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-07",
+      "indexValue": 31.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-08",
+      "indexValue": 31.8,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-09",
+      "indexValue": 30.1,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-10",
+      "indexValue": 28.27,
+      "volume": 2
+    },
+    {
+      "date": "2025-09-11",
+      "indexValue": 28.13,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-12",
+      "indexValue": 28.67,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-13",
+      "indexValue": 28.52,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-14",
+      "indexValue": 28.38,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-15",
+      "indexValue": 28.29,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-16",
+      "indexValue": 28.15,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-17",
+      "indexValue": 26.61,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-18",
+      "indexValue": 27.46,
+      "volume": 2
+    },
+    {
+      "date": "2025-09-19",
+      "indexValue": 27.32,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-20",
+      "indexValue": 27.18,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-21",
+      "indexValue": 26.7,
+      "volume": 2
+    },
+    {
+      "date": "2025-09-22",
+      "indexValue": 26.57,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-23",
+      "indexValue": 26.39,
+      "volume": 2
+    },
+    {
+      "date": "2025-09-24",
+      "indexValue": 26.29,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-25",
+      "indexValue": 26.16,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-26",
+      "indexValue": 26.03,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-27",
+      "indexValue": 25.9,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-28",
+      "indexValue": 25.77,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-29",
+      "indexValue": 25.64,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-30",
+      "indexValue": 25.1,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-01",
+      "indexValue": 25.33,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-02",
+      "indexValue": 28.25,
+      "volume": 2
+    },
+    {
+      "date": "2025-10-03",
+      "indexValue": 30.06,
+      "volume": 2
+    },
+    {
+      "date": "2025-10-04",
+      "indexValue": 29.91,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-05",
+      "indexValue": 29.76,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-06",
+      "indexValue": 29.61,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-07",
+      "indexValue": 29.71,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-08",
+      "indexValue": 29.56,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-09",
+      "indexValue": 29.41,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-10",
+      "indexValue": 29.26,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-11",
+      "indexValue": 29.45,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-12",
+      "indexValue": 29.3,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-13",
+      "indexValue": 26.11,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-14",
+      "indexValue": 25.98,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-15",
+      "indexValue": 26.74,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-16",
+      "indexValue": 26.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-17",
+      "indexValue": 26.47,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-18",
+      "indexValue": 26.34,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-19",
+      "indexValue": 26.07,
+      "volume": 2
+    },
+    {
+      "date": "2025-10-20",
+      "indexValue": 26.05,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-21",
+      "indexValue": 25.92,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-22",
+      "indexValue": 25.79,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-23",
+      "indexValue": 25.66,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-24",
+      "indexValue": 30.21,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-25",
+      "indexValue": 30.05,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-26",
+      "indexValue": 28.85,
+      "volume": 2
+    },
+    {
+      "date": "2025-10-27",
+      "indexValue": 28.71,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-28",
+      "indexValue": 28.57,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-29",
+      "indexValue": 28.92,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-30",
+      "indexValue": 28.78,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-31",
+      "indexValue": 28.63,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-01",
+      "indexValue": 28.49,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-02",
+      "indexValue": 28.35,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-03",
+      "indexValue": 28.21,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-04",
+      "indexValue": 27.9,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-05",
+      "indexValue": 29.68,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-06",
+      "indexValue": 29.53,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-07",
+      "indexValue": 29.38,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-08",
+      "indexValue": 29.54,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-09",
+      "indexValue": 29.39,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-10",
+      "indexValue": 29.24,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-11",
+      "indexValue": 29.1,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-12",
+      "indexValue": 28.95,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-13",
+      "indexValue": 29.21,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-14",
+      "indexValue": 29.07,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-15",
+      "indexValue": 29.3,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-16",
+      "indexValue": 29.15,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-17",
+      "indexValue": 29.01,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-18",
+      "indexValue": 28.86,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-19",
+      "indexValue": 28.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-20",
+      "indexValue": 29.19,
+      "volume": 2
+    },
+    {
+      "date": "2025-11-21",
+      "indexValue": 29.04,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-22",
+      "indexValue": 28.9,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-23",
+      "indexValue": 28.75,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-24",
+      "indexValue": 30.11,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-25",
+      "indexValue": 29.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-26",
+      "indexValue": 29.81,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-27",
+      "indexValue": 29.66,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-28",
+      "indexValue": 29.52,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-29",
+      "indexValue": 31.09,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-30",
+      "indexValue": 30.93,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-01",
+      "indexValue": 26.82,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-02",
+      "indexValue": 26.36,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-03",
+      "indexValue": 26.23,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-04",
+      "indexValue": 26.1,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-05",
+      "indexValue": 25.97,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-06",
+      "indexValue": 25.84,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-07",
+      "indexValue": 25.71,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-08",
+      "indexValue": 25.58,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-09",
+      "indexValue": 25.46,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-10",
+      "indexValue": 25.33,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-11",
+      "indexValue": 25.2,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-12",
+      "indexValue": 25.08,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-13",
+      "indexValue": 24.95,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-14",
+      "indexValue": 25.62,
+      "volume": 2
+    },
+    {
+      "date": "2025-12-15",
+      "indexValue": 25.49,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-16",
+      "indexValue": 26.37,
+      "volume": 2
+    },
+    {
+      "date": "2025-12-17",
+      "indexValue": 26.24,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-18",
+      "indexValue": 26.11,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-19",
+      "indexValue": 25.98,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-20",
+      "indexValue": 26.79,
+      "volume": 4
+    },
+    {
+      "date": "2025-12-21",
+      "indexValue": 26.66,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-22",
+      "indexValue": 26.53,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-23",
+      "indexValue": 26.83,
+      "volume": 3
+    },
+    {
+      "date": "2025-12-24",
+      "indexValue": 26.69,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-25",
+      "indexValue": 29.52,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-26",
+      "indexValue": 29.37,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-27",
+      "indexValue": 29.23,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-28",
+      "indexValue": 29.08,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-29",
+      "indexValue": 28.93,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-30",
+      "indexValue": 28.7,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-31",
+      "indexValue": 28.56,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-01",
+      "indexValue": 28.41,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-02",
+      "indexValue": 29.69,
+      "volume": 2
+    },
+    {
+      "date": "2026-01-03",
+      "indexValue": 29.54,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-04",
+      "indexValue": 29.39,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-05",
+      "indexValue": 29.24,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-06",
+      "indexValue": 31.18,
+      "volume": 2
+    },
+    {
+      "date": "2026-01-07",
+      "indexValue": 33.38,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-08",
+      "indexValue": 35.04,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-09",
+      "indexValue": 35.78,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-10",
+      "indexValue": 35.6,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-11",
+      "indexValue": 35.42,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-12",
+      "indexValue": 37.8,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-13",
+      "indexValue": 37.61,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-14",
+      "indexValue": 39.46,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-15",
+      "indexValue": 39.26,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-16",
+      "indexValue": 39.06,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-17",
+      "indexValue": 38.87,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-18",
+      "indexValue": 39.12,
+      "volume": 2
+    },
+    {
+      "date": "2026-01-19",
+      "indexValue": 36.84,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-20",
+      "indexValue": 37.38,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-21",
+      "indexValue": 37.19,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-22",
+      "indexValue": 39.02,
+      "volume": 2
+    },
+    {
+      "date": "2026-01-23",
+      "indexValue": 38.82,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-24",
+      "indexValue": 41.62,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-25",
+      "indexValue": 41.41,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-26",
+      "indexValue": 41.81,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-27",
+      "indexValue": 42.85,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-28",
+      "indexValue": 42.63,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-29",
+      "indexValue": 42.42,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-30",
+      "indexValue": 42.31,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-31",
+      "indexValue": 42.1,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-01",
+      "indexValue": 41.33,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-02",
+      "indexValue": 41.99,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-03",
+      "indexValue": 41.78,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-04",
+      "indexValue": 40.93,
+      "volume": 4
+    },
+    {
+      "date": "2026-02-05",
+      "indexValue": 40.73,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-06",
+      "indexValue": 40.53,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-07",
+      "indexValue": 39.64,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-08",
+      "indexValue": 39.65,
+      "volume": 3
+    },
+    {
+      "date": "2026-02-09",
+      "indexValue": 39.74,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-10",
+      "indexValue": 39.54,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-11",
+      "indexValue": 40.07,
+      "volume": 3
+    },
+    {
+      "date": "2026-02-12",
+      "indexValue": 39.87,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-13",
+      "indexValue": 39.9,
+      "volume": 2
+    },
+    {
+      "date": "2026-02-14",
+      "indexValue": 41.96,
+      "volume": 2
+    },
+    {
+      "date": "2026-02-15",
+      "indexValue": 41.75,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-16",
+      "indexValue": 42.56,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-17",
+      "indexValue": 44.3,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-18",
+      "indexValue": 43.22,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-19",
+      "indexValue": 43.01,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-20",
+      "indexValue": 42.79,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-21",
+      "indexValue": 42.58,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-22",
+      "indexValue": 42.36,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-23",
+      "indexValue": 44.27,
+      "volume": 1
+    }
+  ],
+  "gradedIndexData": [
+    {
+      "date": "2025-02-05",
+      "indexValue": 50.0,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-06",
+      "indexValue": 49.75,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-07",
+      "indexValue": 49.5,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-08",
+      "indexValue": 49.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-09",
+      "indexValue": 46.94,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-10",
+      "indexValue": 46.71,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-11",
+      "indexValue": 38.34,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-12",
+      "indexValue": 38.15,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-13",
+      "indexValue": 37.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-14",
+      "indexValue": 37.77,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-15",
+      "indexValue": 37.58,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-16",
+      "indexValue": 37.4,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-17",
+      "indexValue": 37.21,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-18",
+      "indexValue": 34.16,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-19",
+      "indexValue": 33.99,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-20",
+      "indexValue": 33.82,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-21",
+      "indexValue": 50.36,
+      "volume": 1
+    },
+    {
+      "date": "2025-02-22",
+      "indexValue": 50.11,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-23",
+      "indexValue": 44.64,
+      "volume": 2
+    },
+    {
+      "date": "2025-02-24",
+      "indexValue": 44.42,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-25",
+      "indexValue": 44.2,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-26",
+      "indexValue": 43.98,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-27",
+      "indexValue": 43.76,
+      "volume": 0
+    },
+    {
+      "date": "2025-02-28",
+      "indexValue": 90.39,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-01",
+      "indexValue": 89.93,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-02",
+      "indexValue": 89.48,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-03",
+      "indexValue": 89.04,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-04",
+      "indexValue": 88.59,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-05",
+      "indexValue": 73.94,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-06",
+      "indexValue": 73.57,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-07",
+      "indexValue": 73.2,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-08",
+      "indexValue": 72.84,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-09",
+      "indexValue": 72.47,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-10",
+      "indexValue": 72.11,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-11",
+      "indexValue": 71.75,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-12",
+      "indexValue": 71.39,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-13",
+      "indexValue": 71.03,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-14",
+      "indexValue": 79.72,
+      "volume": 2
+    },
+    {
+      "date": "2025-03-15",
+      "indexValue": 79.33,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-16",
+      "indexValue": 78.93,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-17",
+      "indexValue": 104.2,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-18",
+      "indexValue": 103.68,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-19",
+      "indexValue": 103.16,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-20",
+      "indexValue": 102.64,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-21",
+      "indexValue": 102.13,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-22",
+      "indexValue": 101.62,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-23",
+      "indexValue": 88.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-24",
+      "indexValue": 88.52,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-25",
+      "indexValue": 88.08,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-26",
+      "indexValue": 87.64,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-27",
+      "indexValue": 87.2,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-28",
+      "indexValue": 86.76,
+      "volume": 0
+    },
+    {
+      "date": "2025-03-29",
+      "indexValue": 115.07,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-30",
+      "indexValue": 108.8,
+      "volume": 1
+    },
+    {
+      "date": "2025-03-31",
+      "indexValue": 108.26,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-01",
+      "indexValue": 107.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-02",
+      "indexValue": 89.12,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-03",
+      "indexValue": 88.67,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-04",
+      "indexValue": 88.23,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-05",
+      "indexValue": 83.67,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-06",
+      "indexValue": 83.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-07",
+      "indexValue": 82.84,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-08",
+      "indexValue": 82.42,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-09",
+      "indexValue": 82.01,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-10",
+      "indexValue": 81.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-11",
+      "indexValue": 81.19,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-12",
+      "indexValue": 76.27,
+      "volume": 3
+    },
+    {
+      "date": "2025-04-13",
+      "indexValue": 67.03,
+      "volume": 3
+    },
+    {
+      "date": "2025-04-14",
+      "indexValue": 66.69,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-15",
+      "indexValue": 66.36,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-16",
+      "indexValue": 66.03,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-17",
+      "indexValue": 65.7,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-18",
+      "indexValue": 65.37,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-19",
+      "indexValue": 65.04,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-20",
+      "indexValue": 64.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-21",
+      "indexValue": 64.39,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-22",
+      "indexValue": 82.04,
+      "volume": 2
+    },
+    {
+      "date": "2025-04-23",
+      "indexValue": 81.63,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-24",
+      "indexValue": 81.23,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-25",
+      "indexValue": 80.82,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-26",
+      "indexValue": 80.42,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-27",
+      "indexValue": 80.01,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-28",
+      "indexValue": 79.61,
+      "volume": 0
+    },
+    {
+      "date": "2025-04-29",
+      "indexValue": 83.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-04-30",
+      "indexValue": 105.84,
+      "volume": 2
+    },
+    {
+      "date": "2025-05-01",
+      "indexValue": 105.31,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-02",
+      "indexValue": 104.79,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-03",
+      "indexValue": 94.12,
+      "volume": 2
+    },
+    {
+      "date": "2025-05-04",
+      "indexValue": 93.64,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-05",
+      "indexValue": 93.18,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-06",
+      "indexValue": 92.71,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-07",
+      "indexValue": 92.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-08",
+      "indexValue": 122.94,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-09",
+      "indexValue": 122.32,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-10",
+      "indexValue": 121.71,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-11",
+      "indexValue": 121.1,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-12",
+      "indexValue": 120.5,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-13",
+      "indexValue": 119.89,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-14",
+      "indexValue": 98.93,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-15",
+      "indexValue": 98.44,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-16",
+      "indexValue": 97.95,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-17",
+      "indexValue": 97.46,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-18",
+      "indexValue": 154.34,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-19",
+      "indexValue": 132.12,
+      "volume": 2
+    },
+    {
+      "date": "2025-05-20",
+      "indexValue": 131.46,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-21",
+      "indexValue": 124.85,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-22",
+      "indexValue": 124.22,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-23",
+      "indexValue": 123.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-24",
+      "indexValue": 96.83,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-25",
+      "indexValue": 96.34,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-26",
+      "indexValue": 95.86,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-27",
+      "indexValue": 95.38,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-28",
+      "indexValue": 95.79,
+      "volume": 1
+    },
+    {
+      "date": "2025-05-29",
+      "indexValue": 95.31,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-30",
+      "indexValue": 94.83,
+      "volume": 0
+    },
+    {
+      "date": "2025-05-31",
+      "indexValue": 94.36,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-01",
+      "indexValue": 93.89,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-02",
+      "indexValue": 93.42,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-03",
+      "indexValue": 92.95,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-04",
+      "indexValue": 81.21,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-05",
+      "indexValue": 80.81,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-06",
+      "indexValue": 80.4,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-07",
+      "indexValue": 80.0,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-08",
+      "indexValue": 79.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-09",
+      "indexValue": 76.95,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-10",
+      "indexValue": 73.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-11",
+      "indexValue": 73.59,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-12",
+      "indexValue": 73.22,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-13",
+      "indexValue": 72.86,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-14",
+      "indexValue": 72.49,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-15",
+      "indexValue": 72.13,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-16",
+      "indexValue": 110.28,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-17",
+      "indexValue": 109.73,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-18",
+      "indexValue": 109.18,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-19",
+      "indexValue": 108.63,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-20",
+      "indexValue": 108.97,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-21",
+      "indexValue": 108.43,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-22",
+      "indexValue": 107.89,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-23",
+      "indexValue": 107.35,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-24",
+      "indexValue": 106.81,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-25",
+      "indexValue": 106.28,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-26",
+      "indexValue": 91.58,
+      "volume": 2
+    },
+    {
+      "date": "2025-06-27",
+      "indexValue": 91.12,
+      "volume": 0
+    },
+    {
+      "date": "2025-06-28",
+      "indexValue": 355.84,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-29",
+      "indexValue": 510.63,
+      "volume": 1
+    },
+    {
+      "date": "2025-06-30",
+      "indexValue": 419.34,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-01",
+      "indexValue": 417.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-02",
+      "indexValue": 415.16,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-03",
+      "indexValue": 318.37,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-04",
+      "indexValue": 316.78,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-05",
+      "indexValue": 315.19,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-06",
+      "indexValue": 313.62,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-07",
+      "indexValue": 263.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-08",
+      "indexValue": 262.64,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-09",
+      "indexValue": 261.33,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-10",
+      "indexValue": 260.02,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-11",
+      "indexValue": 258.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-12",
+      "indexValue": 230.9,
+      "volume": 4
+    },
+    {
+      "date": "2025-07-13",
+      "indexValue": 206.3,
+      "volume": 2
+    },
+    {
+      "date": "2025-07-14",
+      "indexValue": 169.71,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-15",
+      "indexValue": 168.86,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-16",
+      "indexValue": 149.35,
+      "volume": 3
+    },
+    {
+      "date": "2025-07-17",
+      "indexValue": 148.61,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-18",
+      "indexValue": 125.71,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-19",
+      "indexValue": 164.28,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-20",
+      "indexValue": 163.46,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-21",
+      "indexValue": 162.64,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-22",
+      "indexValue": 161.83,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-23",
+      "indexValue": 161.02,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-24",
+      "indexValue": 170.76,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-25",
+      "indexValue": 143.07,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-26",
+      "indexValue": 142.36,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-27",
+      "indexValue": 206.83,
+      "volume": 4
+    },
+    {
+      "date": "2025-07-28",
+      "indexValue": 205.8,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-29",
+      "indexValue": 204.77,
+      "volume": 0
+    },
+    {
+      "date": "2025-07-30",
+      "indexValue": 160.57,
+      "volume": 1
+    },
+    {
+      "date": "2025-07-31",
+      "indexValue": 159.77,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-01",
+      "indexValue": 158.97,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-02",
+      "indexValue": 158.18,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-03",
+      "indexValue": 157.39,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-04",
+      "indexValue": 156.6,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-05",
+      "indexValue": 168.07,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-06",
+      "indexValue": 167.23,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-07",
+      "indexValue": 166.4,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-08",
+      "indexValue": 148.92,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-09",
+      "indexValue": 148.18,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-10",
+      "indexValue": 147.44,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-11",
+      "indexValue": 146.7,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-12",
+      "indexValue": 166.28,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-13",
+      "indexValue": 165.44,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-14",
+      "indexValue": 405.96,
+      "volume": 2
+    },
+    {
+      "date": "2025-08-15",
+      "indexValue": 403.93,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-16",
+      "indexValue": 401.91,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-17",
+      "indexValue": 333.93,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-18",
+      "indexValue": 362.95,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-19",
+      "indexValue": 303.96,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-20",
+      "indexValue": 552.97,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-21",
+      "indexValue": 550.2,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-22",
+      "indexValue": 547.45,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-23",
+      "indexValue": 544.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-24",
+      "indexValue": 461.66,
+      "volume": 2
+    },
+    {
+      "date": "2025-08-25",
+      "indexValue": 459.35,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-26",
+      "indexValue": 409.01,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-27",
+      "indexValue": 781.76,
+      "volume": 1
+    },
+    {
+      "date": "2025-08-28",
+      "indexValue": 777.85,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-29",
+      "indexValue": 773.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-30",
+      "indexValue": 770.09,
+      "volume": 0
+    },
+    {
+      "date": "2025-08-31",
+      "indexValue": 652.57,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-01",
+      "indexValue": 649.31,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-02",
+      "indexValue": 646.06,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-03",
+      "indexValue": 642.83,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-04",
+      "indexValue": 505.87,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-05",
+      "indexValue": 503.34,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-06",
+      "indexValue": 500.83,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-07",
+      "indexValue": 498.32,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-08",
+      "indexValue": 495.83,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-09",
+      "indexValue": 493.35,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-10",
+      "indexValue": 490.88,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-11",
+      "indexValue": 488.43,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-12",
+      "indexValue": 485.99,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-13",
+      "indexValue": 483.56,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-14",
+      "indexValue": 481.14,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-15",
+      "indexValue": 478.73,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-16",
+      "indexValue": 476.34,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-17",
+      "indexValue": 473.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-18",
+      "indexValue": 388.59,
+      "volume": 2
+    },
+    {
+      "date": "2025-09-19",
+      "indexValue": 349.78,
+      "volume": 3
+    },
+    {
+      "date": "2025-09-20",
+      "indexValue": 348.03,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-21",
+      "indexValue": 287.27,
+      "volume": 1
+    },
+    {
+      "date": "2025-09-22",
+      "indexValue": 285.84,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-23",
+      "indexValue": 256.56,
+      "volume": 2
+    },
+    {
+      "date": "2025-09-24",
+      "indexValue": 255.28,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-25",
+      "indexValue": 254.01,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-26",
+      "indexValue": 252.74,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-27",
+      "indexValue": 251.47,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-28",
+      "indexValue": 250.21,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-29",
+      "indexValue": 248.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-09-30",
+      "indexValue": 247.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-01",
+      "indexValue": 210.79,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-02",
+      "indexValue": 218.09,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-03",
+      "indexValue": 217.0,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-04",
+      "indexValue": 215.92,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-05",
+      "indexValue": 187.19,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-06",
+      "indexValue": 186.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-07",
+      "indexValue": 185.32,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-08",
+      "indexValue": 168.36,
+      "volume": 2
+    },
+    {
+      "date": "2025-10-09",
+      "indexValue": 167.52,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-10",
+      "indexValue": 166.69,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-11",
+      "indexValue": 165.85,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-12",
+      "indexValue": 165.02,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-13",
+      "indexValue": 164.2,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-14",
+      "indexValue": 163.38,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-15",
+      "indexValue": 162.56,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-16",
+      "indexValue": 161.75,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-17",
+      "indexValue": 160.94,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-18",
+      "indexValue": 160.13,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-19",
+      "indexValue": 159.33,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-20",
+      "indexValue": 158.54,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-21",
+      "indexValue": 139.28,
+      "volume": 2
+    },
+    {
+      "date": "2025-10-22",
+      "indexValue": 184.21,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-23",
+      "indexValue": 183.29,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-24",
+      "indexValue": 182.37,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-25",
+      "indexValue": 181.46,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-26",
+      "indexValue": 180.55,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-27",
+      "indexValue": 179.65,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-28",
+      "indexValue": 178.75,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-29",
+      "indexValue": 177.86,
+      "volume": 0
+    },
+    {
+      "date": "2025-10-30",
+      "indexValue": 143.39,
+      "volume": 1
+    },
+    {
+      "date": "2025-10-31",
+      "indexValue": 142.68,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-01",
+      "indexValue": 141.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-02",
+      "indexValue": 141.25,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-03",
+      "indexValue": 215.19,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-04",
+      "indexValue": 214.11,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-05",
+      "indexValue": 213.04,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-06",
+      "indexValue": 211.98,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-07",
+      "indexValue": 210.92,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-08",
+      "indexValue": 209.86,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-09",
+      "indexValue": 208.81,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-10",
+      "indexValue": 207.77,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-11",
+      "indexValue": 206.73,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-12",
+      "indexValue": 205.7,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-13",
+      "indexValue": 204.67,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-14",
+      "indexValue": 203.65,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-15",
+      "indexValue": 203.98,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-16",
+      "indexValue": 202.96,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-17",
+      "indexValue": 174.72,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-18",
+      "indexValue": 173.85,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-19",
+      "indexValue": 172.98,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-20",
+      "indexValue": 172.12,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-21",
+      "indexValue": 142.59,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-22",
+      "indexValue": 141.88,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-23",
+      "indexValue": 141.17,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-24",
+      "indexValue": 140.46,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-25",
+      "indexValue": 139.76,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-26",
+      "indexValue": 139.06,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-27",
+      "indexValue": 138.37,
+      "volume": 0
+    },
+    {
+      "date": "2025-11-28",
+      "indexValue": 328.78,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-29",
+      "indexValue": 351.58,
+      "volume": 1
+    },
+    {
+      "date": "2025-11-30",
+      "indexValue": 283.07,
+      "volume": 2
+    },
+    {
+      "date": "2025-12-01",
+      "indexValue": 281.65,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-02",
+      "indexValue": 280.24,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-03",
+      "indexValue": 278.84,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-04",
+      "indexValue": 296.63,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-05",
+      "indexValue": 295.15,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-06",
+      "indexValue": 293.67,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-07",
+      "indexValue": 292.2,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-08",
+      "indexValue": 290.74,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-09",
+      "indexValue": 289.29,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-10",
+      "indexValue": 287.84,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-11",
+      "indexValue": 286.4,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-12",
+      "indexValue": 284.97,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-13",
+      "indexValue": 283.54,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-14",
+      "indexValue": 282.13,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-15",
+      "indexValue": 280.72,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-16",
+      "indexValue": 279.31,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-17",
+      "indexValue": 277.92,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-18",
+      "indexValue": 276.53,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-19",
+      "indexValue": 275.14,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-20",
+      "indexValue": 242.36,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-21",
+      "indexValue": 241.15,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-22",
+      "indexValue": 239.94,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-23",
+      "indexValue": 238.74,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-24",
+      "indexValue": 237.55,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-25",
+      "indexValue": 236.36,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-26",
+      "indexValue": 235.18,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-27",
+      "indexValue": 213.88,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-28",
+      "indexValue": 200.88,
+      "volume": 1
+    },
+    {
+      "date": "2025-12-29",
+      "indexValue": 199.88,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-30",
+      "indexValue": 198.88,
+      "volume": 0
+    },
+    {
+      "date": "2025-12-31",
+      "indexValue": 197.88,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-01",
+      "indexValue": 196.89,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-02",
+      "indexValue": 202.67,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-03",
+      "indexValue": 208.25,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-04",
+      "indexValue": 207.21,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-05",
+      "indexValue": 206.18,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-06",
+      "indexValue": 224.63,
+      "volume": 2
+    },
+    {
+      "date": "2026-01-07",
+      "indexValue": 223.51,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-08",
+      "indexValue": 222.39,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-09",
+      "indexValue": 221.28,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-10",
+      "indexValue": 220.17,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-11",
+      "indexValue": 219.07,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-12",
+      "indexValue": 245.55,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-13",
+      "indexValue": 244.33,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-14",
+      "indexValue": 243.1,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-15",
+      "indexValue": 241.89,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-16",
+      "indexValue": 208.04,
+      "volume": 2
+    },
+    {
+      "date": "2026-01-17",
+      "indexValue": 207.0,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-18",
+      "indexValue": 205.97,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-19",
+      "indexValue": 166.97,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-20",
+      "indexValue": 166.14,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-21",
+      "indexValue": 165.31,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-22",
+      "indexValue": 157.73,
+      "volume": 2
+    },
+    {
+      "date": "2026-01-23",
+      "indexValue": 135.3,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-24",
+      "indexValue": 134.62,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-25",
+      "indexValue": 137.84,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-26",
+      "indexValue": 137.15,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-27",
+      "indexValue": 136.47,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-28",
+      "indexValue": 135.78,
+      "volume": 0
+    },
+    {
+      "date": "2026-01-29",
+      "indexValue": 139.34,
+      "volume": 1
+    },
+    {
+      "date": "2026-01-30",
+      "indexValue": 151.54,
+      "volume": 3
+    },
+    {
+      "date": "2026-01-31",
+      "indexValue": 148.66,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-01",
+      "indexValue": 150.24,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-02",
+      "indexValue": 150.18,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-03",
+      "indexValue": 149.43,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-04",
+      "indexValue": 148.68,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-05",
+      "indexValue": 147.94,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-06",
+      "indexValue": 147.2,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-07",
+      "indexValue": 146.65,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-08",
+      "indexValue": 145.92,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-09",
+      "indexValue": 145.19,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-10",
+      "indexValue": 171.39,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-11",
+      "indexValue": 188.54,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-12",
+      "indexValue": 187.6,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-13",
+      "indexValue": 202.57,
+      "volume": 2
+    },
+    {
+      "date": "2026-02-14",
+      "indexValue": 205.56,
+      "volume": 2
+    },
+    {
+      "date": "2026-02-15",
+      "indexValue": 209.66,
+      "volume": 5
+    },
+    {
+      "date": "2026-02-16",
+      "indexValue": 274.5,
+      "volume": 3
+    },
+    {
+      "date": "2026-02-17",
+      "indexValue": 253.37,
+      "volume": 3
+    },
+    {
+      "date": "2026-02-18",
+      "indexValue": 232.28,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-19",
+      "indexValue": 260.46,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-20",
+      "indexValue": 259.16,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-21",
+      "indexValue": 257.86,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-22",
+      "indexValue": 299.64,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-23",
+      "indexValue": 298.15,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-24",
+      "indexValue": 598.61,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-25",
+      "indexValue": 595.62,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-26",
+      "indexValue": 592.64,
+      "volume": 0
+    },
+    {
+      "date": "2026-02-27",
+      "indexValue": 485.98,
+      "volume": 1
+    },
+    {
+      "date": "2026-02-28",
+      "indexValue": 451.98,
+      "volume": 2
+    },
+    {
+      "date": "2026-03-01",
+      "indexValue": 613.99,
+      "volume": 1
+    },
+    {
+      "date": "2026-03-02",
+      "indexValue": 612.97,
+      "volume": 5
+    },
+    {
+      "date": "2026-03-03",
+      "indexValue": 627.22,
+      "volume": 1
+    }
+  ],
+  "rawKpi": {
+    "currentBaseAvg": 44.27,
+    "delta30d": 6.0,
+    "volume30d": 32,
+    "totalSales": 983,
+    "totalRevenue": 58101.03
+  },
+  "gradedKpi": {
+    "currentAvg": 627.22,
+    "volume30d": 32,
+    "totalSales": 164,
+    "totalRevenue": 39324.06
+  },
+  "multipliers": {
+    "Printing Plates 1/1": {
+      "median": 325.0,
+      "multiplier": 21.68,
+      "count": 2
+    },
+    "Red Sapphire /5": {
+      "median": 625.0,
+      "multiplier": 41.69,
+      "count": 4
+    },
+    "X-Fractors Red /5": {
+      "median": 1637.49,
+      "multiplier": 109.24,
+      "count": 2
+    },
+    "Red /5": {
+      "median": 250.0,
+      "multiplier": 16.68,
+      "count": 3
+    },
+    "Orange Sapphire /25": {
+      "median": 350.0,
+      "multiplier": 23.35,
+      "count": 7
+    },
+    "X-Fractors Black /10": {
+      "median": 450.0,
+      "multiplier": 30.02,
+      "count": 3
+    },
+    "Black /10": {
+      "median": 428.5,
+      "multiplier": 28.59,
+      "count": 4
+    },
+    "Orange Wave /25": {
+      "median": 310.0,
+      "multiplier": 20.68,
+      "count": 6
+    },
+    "Orange /25": {
+      "median": 282.5,
+      "multiplier": 18.85,
+      "count": 6
+    },
+    "Gold Sapphire /50": {
+      "median": 270.0,
+      "multiplier": 18.01,
+      "count": 10
+    },
+    "Shimmer Gold /50": {
+      "median": 130.0,
+      "multiplier": 8.67,
+      "count": 15
+    },
+    "Gold Wave /50": {
+      "median": 132.5,
+      "multiplier": 8.84,
+      "count": 8
+    },
+    "Gold /50": {
+      "median": 120.0,
+      "multiplier": 8.01,
+      "count": 5
+    },
+    "Sparkles /71": {
+      "median": 100.0,
+      "multiplier": 6.67,
+      "count": 9
+    },
+    "Yellow /75": {
+      "median": 70.0,
+      "multiplier": 4.67,
+      "count": 14
+    },
+    "Green Sapphire /99": {
+      "median": 67.5,
+      "multiplier": 4.5,
+      "count": 32
+    },
+    "Green Lava /99": {
+      "median": 50.5,
+      "multiplier": 3.37,
+      "count": 10
+    },
+    "Green /99": {
+      "median": 62.49,
+      "multiplier": 4.17,
+      "count": 24
+    },
+    "Sapphire /199": {
+      "median": 43.0,
+      "multiplier": 2.87,
+      "count": 49
+    },
+    "HTA Choice /150": {
+      "median": 36.0,
+      "multiplier": 2.4,
+      "count": 19
+    },
+    "Blue Wave /150": {
+      "median": 52.98,
+      "multiplier": 3.53,
+      "count": 29
+    },
+    "Blue /150": {
+      "median": 68.49,
+      "multiplier": 4.57,
+      "count": 32
+    },
+    "Aqua Lava /199": {
+      "median": 49.99,
+      "multiplier": 3.33,
+      "count": 43
+    },
+    "Purple /250": {
+      "median": 45.0,
+      "multiplier": 3.0,
+      "count": 74
+    },
+    "Refractors /499": {
+      "median": 32.0,
+      "multiplier": 2.13,
+      "count": 83
+    },
+    "Base": {
+      "median": 14.99,
+      "multiplier": 1.0,
+      "count": 490
+    }
+  },
+  "gradeMultipliers": {
+    "All Graded": {
+      "currentTwma": 627.22,
+      "multiplier": 14.17,
+      "count": 164
+    },
+    "PSA 10": {
+      "currentTwma": 755.76,
+      "multiplier": 17.07,
+      "count": 82
+    },
+    "PSA 9": {
+      "currentTwma": 193.12,
+      "multiplier": 4.36,
+      "count": 64
+    },
+    "BGS 9.5": {
+      "currentTwma": 2150.0,
+      "multiplier": 48.57,
+      "count": 1
+    },
+    "SGC 10": {
+      "currentTwma": 128.32,
+      "multiplier": 2.9,
+      "count": 4
+    },
+    "SGC 9.5": {
+      "currentTwma": 42.2,
+      "multiplier": 0.95,
+      "count": 3
+    }
+  }
+}
